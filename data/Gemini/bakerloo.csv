@@ -1,0 +1,34 @@
+service_pattern_or_line,operating_period,operating_hours_text,frequency_minutes
+Harrow & Wealdstone - Stonebridge Park,Mondays to Fridays,07 00 to 09 30 (SB service),10.0
+Harrow & Wealdstone - Stonebridge Park,Mondays to Fridays,09 30 to 16 30,15.0
+Harrow & Wealdstone - Stonebridge Park,Mondays to Fridays,16 30 to 19 30 (NB service),10.0
+Harrow & Wealdstone - Stonebridge Park,Mondays to Fridays,19 30 to 23 00,15.0
+Stonebridge Park - Queen’s Park,Mondays to Fridays,07 00 to 09 30 (SB service),6.67
+Stonebridge Park - Queen’s Park,Mondays to Fridays,09 30 to 16 30,7.5
+Stonebridge Park - Queen’s Park,Mondays to Fridays,16 30 to 19 30 (NB service),6.67
+Stonebridge Park - Queen’s Park,Mondays to Fridays,19 30 to 23 00,7.5
+Queen’s Park - Elephant & Castle,Mondays to Fridays,07 00 to 09 30 (SB service),3.0
+Queen’s Park - Elephant & Castle,Mondays to Fridays,09 30 to 16 30,3.75
+Queen’s Park - Elephant & Castle,Mondays to Fridays,16 30 to 19 30 (NB service),3.0
+Queen’s Park - Elephant & Castle,Mondays to Fridays,19 30 to 23 00,3.75
+Harrow & Wealdstone - Stonebridge Park,Saturdays,06 30 to 07 45,15.0
+Harrow & Wealdstone - Stonebridge Park,Saturdays,07 45 to 10 00,15.0
+Harrow & Wealdstone - Stonebridge Park,Saturdays,10 00 to 23 00,15.0
+Stonebridge Park - Queen’s Park,Saturdays,06 30 to 07 45,7.5
+Stonebridge Park - Queen’s Park,Saturdays,07 45 to 10 00,7.5
+Stonebridge Park - Queen’s Park,Saturdays,10 00 to 23 00,7.5
+Queen’s Park - Elephant & Castle,Saturdays,06 30 to 07 45,4.62
+Queen’s Park - Elephant & Castle,Saturdays,07 45 to 10 00,3.75
+Queen’s Park - Elephant & Castle,Saturdays,10 00 to 23 00,3.0
+Harrow & Wealdstone - Stonebridge Park,Sundays,08 00 to 09 30,15.0
+Harrow & Wealdstone - Stonebridge Park,Sundays,09 30 to 22 00,15.0
+Harrow & Wealdstone - Stonebridge Park,Sundays,22 00 to 23 00,15.0
+Stonebridge Park - Queen’s Park,Sundays,08 00 to 09 30,7.5
+Stonebridge Park - Queen’s Park,Sundays,09 30 to 22 00,7.5
+Stonebridge Park - Queen’s Park,Sundays,22 00 to 23 00,7.5
+Queen’s Park - Elephant & Castle,Sundays,08 00 to 09 30,5.0
+Queen’s Park - Elephant & Castle,Sundays,09 30 to 22 00,3.75
+Queen’s Park - Elephant & Castle,Sundays,22 00 to 23 00,5.0
+London Overground (Euston - Watford Junction),Throughout the week,Throughout the week,15.0
+London Overground (Euston - Watford Junction),Saturdays,before 06.30,30.0
+London Overground (Euston - Watford Junction),Sundays,before 09.30,30.0

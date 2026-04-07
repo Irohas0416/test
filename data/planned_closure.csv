@@ -1,0 +1,28 @@
+station_name,closure_reason,start_date,end_date
+Acton Main Line,Trains will not stop,2026-04-05,2026-04-05
+Hanwell,Trains will not stop,2026-04-05,2026-04-05
+West Ealing,Trains will not stop,2026-04-05,2026-04-05
+Acton Main Line,Trains will not stop after 22:30,2026-04-06,2026-04-06
+Hanwell,Trains will not stop after 22:30,2026-04-06,2026-04-06
+West Ealing,Trains will not stop after 22:30,2026-04-06,2026-04-06
+Acton Main Line,Trains will not stop after 22:30,2026-04-07,2026-04-08
+Hanwell,Trains will not stop after 22:30,2026-04-07,2026-04-08
+West Ealing,Trains will not stop after 22:30,2026-04-07,2026-04-08
+Acton Main Line,Trains will not stop,2026-04-19,2026-04-19
+Hanwell,Trains will not stop,2026-04-19,2026-04-19
+West Ealing,Trains will not stop,2026-04-19,2026-04-19
+Acton Main Line,Trains will not stop after 22:30,2026-05-04,2026-05-06
+Hanwell,Trains will not stop after 22:30,2026-05-04,2026-05-06
+West Ealing,Trains will not stop after 22:30,2026-05-04,2026-05-06
+Mile End,Trains will not stop,2026-05-16,2026-05-17
+Homerton,Eastbound trains will not stop until 11:00,2026-05-17,2026-05-17
+Acton Main Line,Trains will not stop after 22:30,2026-06-01,2026-06-03
+Hanwell,Trains will not stop after 22:30,2026-06-01,2026-06-03
+West Ealing,Trains will not stop after 22:30,2026-06-01,2026-06-03
+Acton Main Line,Trains will not stop after 22:30,2026-06-29,2026-07-01
+Hanwell,Trains will not stop after 22:30,2026-06-29,2026-07-01
+West Ealing,Trains will not stop after 22:30,2026-06-29,2026-07-01
+Finsbury Park,Trains will not stop including during Friday and Saturday Night Tube,2026-07-18,2026-07-19
+Earl's Court,Trains will not stop between 03:15 and 05:45 during Friday Night Tube,2026-09-11,2026-09-12
+Earl's Court,Trains will not stop between 20:45 and 23:15,2026-09-13,2026-09-13
+Canada Water,"Trains will not stop, including during Friday and Saturday Night Overground services",2026-10-03,2026-10-04

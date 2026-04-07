@@ -1,0 +1,843 @@
+naptan_id,station_name,modes,zone,lat,lon
+0400ZZLUAMS0,Amersham,tube,9,51.674206,-0.607362
+0400ZZLUCAL0,Chalfont & Latimer,tube,8,51.667915,-0.560616
+0400ZZLUCSM0,Chesham,tube,9,51.705227,-0.611113
+2100ZZLUCXY0,Croxley,tube,7,51.647069,-0.441746
+2100ZZLUCYD0,Chorleywood,tube,7,51.654292,-0.518319
+2100ZZLUMPK0,Moor Park,tube,6,51.629693,-0.432704
+2100ZZLURKW0,Rickmansworth,tube,7,51.640385,-0.473654
+2100ZZLUWAF0,Watford,tube,7,51.657531,-0.417157
+4900ZZLUACT1,Acton Town Station,tube,3,51.50301,-0.28042
+4900ZZLUACY1,Archway Station,tube,2,51.56568,-0.13493
+4900ZZLUADE1,Aldgate East Station,tube,1,51.5153,-0.07208
+4900ZZLUAGL1,Angel Station,tube,1,51.53184,-0.10635
+4900ZZLUALD1,Aldgate Station,tube,1,51.51405,-0.07528
+4900ZZLUALP1,Alperton Station,tube,4,51.54063,-0.29913
+4900ZZLUASG1,Arnos Grove Station,tube,4,51.61606,-0.1334
+4900ZZLUASL1,Arsenal,tube,2,51.5584,-0.10568
+4900ZZLUBBB1,Bromley By Bow Station,tube,2,51.52473,-0.01144
+4900ZZLUBBN1,Barbican Station,tube,1,51.52031,-0.09753
+4900ZZLUBDS1,Bounds Green Station,tube,3,51.60693,-0.12456
+4900ZZLUBEC1,Becontree Station,tube,5,51.5404,0.12751
+4900ZZLUBKE1,Barkingside Station,tube,4,51.58582,0.08836
+4900ZZLUBLG1,Bethnal Green Station,tube,2,51.52732,-0.05527
+4900ZZLUBLM1,Balham Station  / Balham Station Road,tube,3,51.44323,-0.15294
+4900ZZLUBLM2,Balham Station,tube,3,51.44328,-0.15307
+4900ZZLUBMY1,Bermondsey Station,tube,2,51.49814,-0.06363
+4900ZZLUBND1,Bond Street Station,"elizabeth-line, tube",1,51.51452,-0.14914
+4900ZZLUBOR1,Borough Station,tube,1,51.50123,-0.0934
+4900ZZLUBOS1,Boston Manor Station,tube,4,51.49585,-0.32446
+4900ZZLUBSC1,Barons Court,tube,2,51.49037,-0.21355
+4900ZZLUBST1,Baker Street Station,tube,1,51.52246,-0.15695
+4900ZZLUBTK1,Burnt Oak Station,tube,4,51.60259,-0.26398
+4900ZZLUBTX1,Brent Cross Station,tube,3,51.57707,-0.21336
+4900ZZLUBWR1,Bow Road Station,tube,2,51.52712,-0.02501
+4900ZZLUBWT1,Bayswater Station,tube,1,51.51239,-0.18769
+4900ZZLUBXN1,Brixton Station,tube,2,51.46265,-0.11496
+4900ZZLUBZP1,Belsize Park Station,tube,2,51.55041,-0.16447
+4900ZZLUCAR1,Caledonian Road Station,tube,2,51.54857,-0.11812
+4900ZZLUCFM1,Chalk Farm Station,tube,2,51.54395,-0.15351
+4900ZZLUCGN1,Covent Garden Station,tube,1,51.51307,-0.12423
+4900ZZLUCHL1,Chancery Lane Station,tube,1,51.51811,-0.1115
+4900ZZLUCHX1,Charing Cross Stn  / Trafalgar Square,tube,1,51.50824,-0.12512
+4900ZZLUCHX2,Charing Cross Station,tube,1,51.50857,-0.12469
+4900ZZLUCKS1,Cockfosters Station,tube,5,51.65186,-0.14975
+4900ZZLUCND1,Colindale Station,tube,4,51.59533,-0.24992
+4900ZZLUCPC1,Clapham Common Station,tube,2,51.46181,-0.13847
+4900ZZLUCPK1,Canons Park Station,tube,5,51.60756,-0.29444
+4900ZZLUCPN1,Clapham North Station,tube,2,51.46518,-0.12955
+4900ZZLUCPS1,Clapham South Station,tube,2,51.4529,-0.14767
+4900ZZLUCSD1,Colliers Wood Station,tube,3,51.41805,-0.17819
+4900ZZLUCST,Cannon Street Station,tube,1,51.51127,-0.09028
+4900ZZLUCTN1,Camden Town Station,tube,2,51.5393,-0.14249
+4900ZZLUCWP1,Chiswick Park,tube,3,51.49436,-0.26739
+4900ZZLUCYF1,Canary Wharf Station,tube,2,51.50352,-0.02
+4900ZZLUDGE1,Dagenham East Station,tube,5,51.54423,0.16601
+4900ZZLUDGY1,Dagenham Heathway Station,tube,5,51.54176,0.14778
+4900ZZLUDOH1,Dollis Hill Station,tube,3,51.5525,-0.23876
+4900ZZLUEAC1,Elephant & Castle Station,tube,1,51.49573,-0.10083
+4900ZZLUEAE1,Eastcote Station,tube,5,51.57645,-0.39725
+4900ZZLUEAN1,East Acton Station,tube,2,51.51659,-0.24749
+4900ZZLUECM1,Ealing Common Station,tube,3,51.51032,-0.28817
+4900ZZLUECT1,Earl's Court Station,tube,1,51.4922,-0.19319
+4900ZZLUECT2,Earls Court Station,tube,1,51.49029,-0.19578
+4900ZZLUEFY1,East Finchley Station,tube,3,51.58704,-0.16428
+4900ZZLUEGW1,Edgware Bus Station,tube,5,51.61366,-0.27582
+4900ZZLUEGW2,Edgware Station,tube,5,51.61343,-0.27582
+4900ZZLUEHM1,East Ham Station,tube,3,51.53929,0.05127
+4900ZZLUEMB1,Embankment Station,tube,1,51.50738,-0.12257
+4900ZZLUEPK1,Elm Park Station,tube,6,51.54992,0.19922
+4900ZZLUEPY1,East Putney Station,tube,2,51.45916,-0.21074
+4900ZZLUERB1,Edgware Road Station  / Bakerloo Line,tube,1,51.52021,-0.17027
+4900ZZLUERC1,Edgware Road Station,tube,1,51.51967,-0.16803
+4900ZZLUESQ1,Euston Square Station,tube,1,51.52581,-0.13575
+4900ZZLUFBY1,Fulham Broadway Station,tube,2,51.4801,-0.19541
+4900ZZLUFCN1,Farringdon Station,"elizabeth-line, tube",1,51.5201,-0.1047
+4900ZZLUFLP1,Fairlop Station,tube,4,51.59557,0.09071
+4900ZZLUFPK1,Finsbury Park Station,tube,2,51.56521,-0.10779
+4900ZZLUFYC1,Finchley Central Station,tube,4,51.60109,-0.19235
+4900ZZLUFYC2,Finchley Central,tube,4,51.60061,-0.19294
+4900ZZLUFYR1,Finchley Road Station,tube,2,51.54688,-0.17976
+4900ZZLUGDG1,Goodge Street Station,tube,1,51.52067,-0.1345
+4900ZZLUGGN1,Golders Green Station,tube,3,51.57253,-0.194
+4900ZZLUGHK1,Goldhawk Road Station,tube,2,51.50193,-0.22731
+4900ZZLUGPK1,Green Park Station,tube,1,51.50673,-0.14274
+4900ZZLUGPS1,Great Portland Street Station,tube,1,51.52388,-0.1439
+4900ZZLUGPS2,Great Portland St Stn  / Euston Rd,tube,1,51.52374,-0.1437
+4900ZZLUGTH1,Gants Hill Station,tube,4,51.57745,0.06561
+4900ZZLUGTR1,Gloucester Road Station,tube,1,51.49433,-0.18258
+4900ZZLUHBN1,Holborn Station,tube,1,51.51736,-0.11999
+4900ZZLUHBT1,High Barnet Station,tube,5,51.65047,-0.19442
+4900ZZLUHCH1,Hornchurch Station,tube,6,51.5541,0.21925
+4900ZZLUHCL1,Hendon Central Station,tube,3,51.58298,-0.22694
+4900ZZLUHGD1,Hillingdon Station,tube,6,51.55372,-0.44813
+4900ZZLUHGR1,Hanger Lane Station,tube,3,51.53013,-0.29275
+4900ZZLUHGT1,Highgate Station,tube,3,51.57781,-0.14553
+4900ZZLUHNX1,Hatton Cross Station,tube,5,51.46653,-0.42297
+4900ZZLUHPC1,Hyde Park Corner,tube,1,51.50493,-0.15203
+4900ZZLUHPC2,Hyde Park Corner Station,tube,1,51.50308,-0.15142
+4900ZZLUHPK1,Holland Park Station,tube,2,51.50742,-0.20564
+4900ZZLUHPK2,Holland Park,tube,2,51.50728,-0.20562
+4900ZZLUHRC1,Heathrow Terminals 2 & 3,tube,6,51.47235,-0.45198
+4900ZZLUHSC1,Hammersmith Stn / H&c and Circle Lines,tube,2,51.49339,-0.22503
+4900ZZLUHSD1,Hammersmith (District and Piccadilly) Station,tube,2,51.4926,-0.22424
+4900ZZLUHSK1,High Street Kensington Station,tube,1,51.50103,-0.19292
+4900ZZLUHTD1,Hampstead Station,tube,2,51.55663,-0.17836
+4900ZZLUHWC1,Hounslow Central Station,tube,4,51.4712,-0.36701
+4900ZZLUHWE1,Hounslow East Station,tube,4,51.47331,-0.3568
+4900ZZLUHWT1,Hounslow West Station,tube,5,51.47305,-0.38564
+4900ZZLUHWY1,Holloway Road Station,tube,2,51.5529,-0.11274
+4900ZZLUICK1,Ickenham Station,tube,6,51.56202,-0.4419
+4900ZZLUKBN1,Kilburn Station,tube,2,51.54693,-0.20409
+4900ZZLUKBY1,Kingsbury Station,tube,4,51.58498,-0.2787
+4900ZZLUKNB1,Knightsbridge Station,tube,1,51.50196,-0.16034
+4900ZZLUKNG1,Kennington Station,tube,1,51.48834,-0.1058
+4900ZZLUKPK1,Kilburn Park Station,tube,2,51.53505,-0.19358
+4900ZZLUKSX1,King's Cross Station,tube,1,51.5302,-0.12385
+4900ZZLULAD1,Ladbroke Grove Station,tube,2,51.51742,-0.21007
+4900ZZLULBN1,Lambeth North Station,tube,1,51.49885,-0.11221
+4900ZZLULGT1,Lancaster Gate Station,tube,1,51.51168,-0.17542
+4900ZZLULRD1,Latimer Road Station,tube,2,51.5137,-0.21763
+4900ZZLULSQ1,Leicester Square Station,tube,1,51.51128,-0.12823
+4900ZZLULVT3,Primrose Street,tube,1,51.51714,-0.08276
+4900ZZLULVT4,Liverpool Street Station,"elizabeth-line, national-rail, overground, tube",1,51.5178,-0.08156
+4900ZZLULYN1,Leyton Station,tube,3,51.55649,-0.00582
+4900ZZLULYS1,Leytonstone Station,tube,3,51.56836,0.00719
+4900ZZLUMBA1,Marble Arch Station,tube,1,51.51352,-0.16078
+4900ZZLUMDN1,Morden Station,tube,4,51.40203,-0.19469
+4900ZZLUMED1,Mile End Station,tube,2,51.52525,-0.0334
+4900ZZLUMHL1,Mill Hill East Station,tube,4,51.60827,-0.20977
+4900ZZLUMMT1,Monument Station,tube,1,51.51051,-0.08596
+4900ZZLUMRH1,Manor House Station,tube,2,51.57108,-0.09631
+4900ZZLUMSH1,Mansion House Station,tube,1,51.51216,-0.09389
+4900ZZLUMTC1,Mornington Crescent Station,tube,2,51.53413,-0.13913
+4900ZZLUMVL1,Maida Vale Station,tube,2,51.52981,-0.18587
+4900ZZLUNAN1,North Acton Station,tube,2,51.52346,-0.25976
+4900ZZLUNBP1,Newbury Park Station,tube,4,51.57556,0.09065
+4900ZZLUNDN1,Neasden Station,tube,3,51.55402,-0.24976
+4900ZZLUNEN1,North Ealing Station,tube,3,51.51755,-0.28915
+4900ZZLUNFD1,Northfields Station,tube,3,51.49927,-0.31455
+4900ZZLUNGW1,North Greenwich,tube,2,51.50026,0.00462
+4900ZZLUNHA1,North Harrow Station,tube,5,51.58492,-0.36202
+4900ZZLUNHG1,Notting Hill Gate Station,tube,1,51.50912,-0.19664
+4900ZZLUNHT1,Northolt Station,tube,5,51.54819,-0.36807
+4900ZZLUNKP1,Northwick Park Station,tube,4,51.57871,-0.31818
+4900ZZLUNOW1,Northwood Station,tube,6,51.61116,-0.4237
+4900ZZLUNWH1,Northwood Hills Station,tube,6,51.60078,-0.40947
+4900ZZLUOAK1,Oakwood Station,tube,5,51.64763,-0.13208
+4900ZZLUOSY1,Osterley Station,tube,4,51.48089,-0.35162
+4900ZZLUOVL1,Oval Station,tube,2,51.48193,-0.11249
+4900ZZLUOXC1,Oxford Circus Station,tube,1,51.51537,-0.14217
+4900ZZLUPAC1,Paddington,"elizabeth-line, tube",1,51.51549,-0.1757
+4900ZZLUPAH1,Paddington (H&C Line),tube,1,51.51687,-0.17722
+4900ZZLUPCC1,Piccadilly Circus,tube,1,51.51023,-0.1352
+4900ZZLUPCO1,Pimlico Station,tube,1,51.48896,-0.13372
+4900ZZLUPKR1,Park Royal Station,tube,3,51.52707,-0.28417
+4900ZZLUPLW1,Plaistow Station,tube,3,51.53128,0.01804
+4900ZZLUPNR1,Pinner Station,tube,5,51.59301,-0.3811
+4900ZZLUPRD1,Preston Road Station,tube,4,51.57178,-0.29487
+4900ZZLUPSG1,Parsons Green,tube,2,51.47546,-0.20121
+4900ZZLUPVL1,Perivale Station,tube,4,51.53677,-0.32401
+4900ZZLUPYB1,Putney Bridge Station,tube,2,51.46794,-0.20916
+4900ZZLUQBY1,Queensbury Station,tube,4,51.5941,-0.28552
+4900ZZLUQWY1,Queensway Station,tube,1,51.51062,-0.18717
+4900ZZLURBG1,Redbridge Station,tube,4,51.57628,0.04556
+4900ZZLURGP1,Regent's Park Station,tube,1,51.52359,-0.14671
+4900ZZLURSG1,Ruislip Gardens Station,tube,5,51.5606,-0.4111
+4900ZZLURSM1,Ruislip Manor Station,tube,6,51.57315,-0.41292
+4900ZZLURSP1,Ruislip Station,tube,6,51.57158,-0.42133
+4900ZZLURSQ1,Russell Square Station,tube,1,51.52318,-0.12435
+4900ZZLURVP1,Ravenscourt Park Station,tube,2,51.49406,-0.23656
+4900ZZLURVY1,Roding Valley,tube,4,51.61734,0.04355
+4900ZZLURYL1,Rayners Lane Station,tube,5,51.57495,-0.37076
+4900ZZLURYO1,Royal Oak,tube,2,51.51911,-0.18878
+4900ZZLUSBC1,Shepherd's Bush Station,tube,2,51.50462,-0.21814
+4900ZZLUSBM1,Shepherd's Bush Market,tube,2,51.5057,-0.22627
+4900ZZLUSEA1,South Ealing Station,tube,3,51.50138,-0.30685
+4900ZZLUSFB1,Stamford Brook Station,tube,2,51.49499,-0.24678
+4900ZZLUSFS1,Southfields Station,tube,3,51.44486,-0.20654
+4900ZZLUSGN1,Stepney Green Station,tube,2,51.5218,-0.04661
+4900ZZLUSGT1,Southgate Station,tube,4,51.63232,-0.12806
+4900ZZLUSHH1,South Harrow Station,tube,5,51.56491,-0.35259
+4900ZZLUSJP1,St James's Park Station,tube,1,51.49962,-0.13313
+4900ZZLUSJW1,St John's Wood Station,tube,2,51.53454,-0.17415
+4900ZZLUSKS1,South Kensington Station,tube,1,51.49384,-0.17304
+4900ZZLUSKW1,Stockwell Station,tube,2,51.47225,-0.12266
+4900ZZLUSNB1,Snaresbrook Station,tube,4,51.58103,0.02143
+4900ZZLUSPU1,St Paul's Station,tube,1,51.51512,-0.09713
+4900ZZLUSSQ1,Sloane Square Station,tube,1,51.49249,-0.15663
+4900ZZLUSTM1,Stanmore Station,tube,5,51.61973,-0.30317
+4900ZZLUSUH1,Sudbury Hill,tube,4,51.55623,-0.33626
+4900ZZLUSUT1,Sudbury Town Station,tube,4,51.55037,-0.31592
+4900ZZLUSWC1,Swiss Cottage Station,tube,2,51.5436,-0.17511
+4900ZZLUSWF1,South Woodford Station,tube,4,51.59193,0.02769
+4900ZZLUSWK1,Southwark Station,tube,1,51.50375,-0.10469
+4900ZZLUSWN1,South Wimbledon Station,tube,3,51.41527,-0.19251
+4900ZZLUTAW1,Totteridge & Whetstone Station,tube,4,51.63018,-0.17928
+4900ZZLUTBC1,Tooting Bec Station,tube,3,51.43549,-0.15946
+4900ZZLUTBY1,Tooting Broadway Station,tube,3,51.42793,-0.16809
+4900ZZLUTCR3,Tottenham Court Road Station,"elizabeth-line, tube",1,51.51625,-0.13062
+4900ZZLUTFP1,Tufnell Park Station,tube,2,51.55672,-0.13816
+4900ZZLUTMP1,Temple Station,tube,1,51.51101,-0.11397
+4900ZZLUTNG1,Turnham Green Station,tube,2,51.49538,-0.25521
+4900ZZLUTPN1,Turnpike Lane Station,tube,3,51.59048,-0.1029
+4900ZZLUTWH1,Tower Hill,tube,1,51.5102,-0.07681
+4900ZZLUUPB1,Upminster Bridge Station,tube,6,51.55901,0.23587
+4900ZZLUUPK1,Upton Park Station,tube,3,51.53548,0.03521
+4900ZZLUUPY1,Upney Station,tube,4,51.53849,0.10156
+4900ZZLUUXB1,Uxbridge Station,tube,6,51.54605,-0.47922
+4900ZZLUVIC6,Victoria Station,tube,1,51.49555,-0.14197
+4900ZZLUVXL1,Vauxhall,tube,1,51.48631,-0.12458
+4900ZZLUWCY1,White City Station,tube,2,51.51196,-0.22474
+4900ZZLUWFN1,West Finchley Station,tube,4,51.60958,-0.18863
+4900ZZLUWHP1,West Hampstead Station,tube,2,51.54677,-0.19102
+4900ZZLUWHW1,West Harrow Station,tube,5,51.58015,-0.35312
+4900ZZLUWIG1,Willesden Green Station,tube,2,51.54924,-0.22094
+4900ZZLUWIP1,Wimbledon Park,tube,3,51.43462,-0.19962
+4900ZZLUWKA1,Warwick Avenue Station,tube,2,51.52336,-0.18366
+4900ZZLUWKN1,West Kensington Station,tube,2,51.4907,-0.20686
+4900ZZLUWLA1,Wood Lane,tube,2,51.50967,-0.2245
+4900ZZLUWOF1,Woodford Station,tube,4,51.60744,0.03359
+4900ZZLUWOG1,Wood Green Station,tube,3,51.5973,-0.10997
+4900ZZLUWOP1,Woodside Park Station,tube,4,51.61795,-0.18516
+4900ZZLUWRR1,Warren Street Station,tube,1,51.52457,-0.13799
+4900ZZLUWSD1,Wanstead Station,tube,4,51.57559,0.02832
+4900ZZLUWSM1,Westminster Station,tube,1,51.50125,-0.12377
+4900ZZLUWSP1,Westbourne Park Station,tube,2,51.5209,-0.20067
+4900ZZLUWTA1,West Acton Station,tube,3,51.51789,-0.28108
+4900ZZLUWYP1,Wembley Park Station,tube,4,51.56326,-0.2792
+9400ZZBPSUST,Battersea Power Station,tube,1,51.479932,-0.142142
+9400ZZLUACT,Acton Town,tube,3,51.503057,-0.280462
+9400ZZLUACY,Archway,tube,2,51.565478,-0.134819
+9400ZZLUADE,Aldgate East,tube,1,51.515037,-0.072384
+9400ZZLUAGL,Angel,tube,1,51.532624,-0.105898
+9400ZZLUALD,Aldgate,tube,1,51.514246,-0.075689
+9400ZZLUALP,Alperton,tube,4,51.540627,-0.29961
+9400ZZLUASG,Arnos Grove,tube,4,51.616446,-0.133062
+9400ZZLUBBB,Bromley-by-Bow,tube,2,51.524839,-0.011538
+9400ZZLUBBN,Barbican,tube,1,51.520275,-0.097993
+9400ZZLUBDS,Bounds Green,tube,3,51.607034,-0.124235
+9400ZZLUBEC,Becontree,tube,5,51.540331,0.127016
+9400ZZLUBKE,Barkingside,tube,4,51.585689,0.088585
+9400ZZLUBKF,Blackfriars,tube,1,51.511581,-0.103659
+9400ZZLUBKG,Barking,tube,4,51.539321,0.081053
+9400ZZLUBKH,Buckhurst Hill,"bus, tube",5,51.626605,0.046757
+9400ZZLUBLG,Bethnal Green,tube,2,51.527222,-0.055506
+9400ZZLUBLM,Balham,tube,3,51.443288,-0.152997
+9400ZZLUBLR,Blackhorse Road,tube,3,51.586919,-0.04115
+9400ZZLUBLR2,Blackhorse Road Station,"overground, tube",3,51.586828,-0.041645
+9400ZZLUBMY,Bermondsey,tube,2,51.497953,-0.063769
+9400ZZLUBND,Bond Street,"elizabeth-line, tube",1,51.514304,-0.149723
+9400ZZLUBNK,Bank,"dlr, tube",1,51.51342,-0.088954
+9400ZZLUBOR,Borough,tube,1,51.501199,-0.09337
+9400ZZLUBOS,Boston Manor,tube,4,51.495635,-0.324939
+9400ZZLUBST,Baker Street,tube,1,51.522883,-0.15713
+9400ZZLUBTK,Burnt Oak,tube,4,51.602774,-0.264048
+9400ZZLUBTX,Brent Cross,tube,3,51.57665,-0.213622
+9400ZZLUBWR,Bow Road,tube,2,51.52694,-0.025128
+9400ZZLUBWT,Bayswater,tube,1,51.512284,-0.187938
+9400ZZLUBXN,Brixton,tube,2,51.462618,-0.114888
+9400ZZLUBZP,Belsize Park,tube,2,51.550311,-0.164648
+9400ZZLUCAR,Caledonian Road,tube,2,51.548519,-0.118493
+9400ZZLUCFM,Chalk Farm,tube,2,51.544118,-0.153388
+9400ZZLUCGN,Covent Garden,tube,1,51.513093,-0.124436
+9400ZZLUCGT,Canning Town,tube,2,51.513584,0.008322
+9400ZZLUCHL,Chancery Lane,tube,1,51.518247,-0.111583
+9400ZZLUCHX,Charing Cross,tube,1,51.50741,-0.127277
+9400ZZLUCKS,Cockfosters,tube,5,51.65152,-0.149171
+9400ZZLUCND,Colindale,tube,4,51.595424,-0.249919
+9400ZZLUCPC,Clapham Common,tube,2,51.461742,-0.138317
+9400ZZLUCPK,Canons Park,tube,5,51.607701,-0.294693
+9400ZZLUCPN,Clapham North,tube,2,51.465135,-0.130016
+9400ZZLUCPS,Clapham South,tube,2,51.452654,-0.147582
+9400ZZLUCSD,Colliers Wood,tube,3,51.41816,-0.178086
+9400ZZLUCST,Cannon Street,tube,1,51.51151,-0.090432
+9400ZZLUCTN,Camden Town,tube,2,51.539292,-0.14274
+9400ZZLUCWL,Chigwell,"bus, tube",4,51.617916,0.075041
+9400ZZLUCWR,Canada Water,tube,2,51.497945,-0.049722
+9400ZZLUCYF,Canary Wharf,"elizabeth-line, tube",2,51.503488,-0.018246
+9400ZZLUDBN,Debden,tube,6,51.645386,0.083782
+9400ZZLUDGE,Dagenham East,tube,5,51.544096,0.166017
+9400ZZLUDGY,Dagenham Heathway,tube,5,51.541639,0.147527
+9400ZZLUDOH,Dollis Hill,tube,3,51.551955,-0.239068
+9400ZZLUEAC,Elephant & Castle,tube,1,51.494536,-0.100606
+9400ZZLUEAE,Eastcote,tube,5,51.576506,-0.397373
+9400ZZLUEAN,East Acton,tube,2,51.516612,-0.247248
+9400ZZLUEBY,Ealing Broadway,tube,3,51.515017,-0.301457
+9400ZZLUECM,Ealing Common,tube,3,51.51014,-0.288265
+9400ZZLUECT,Earl's Court,tube,1,51.492063,-0.193378
+9400ZZLUEFY,East Finchley,tube,3,51.587131,-0.165012
+9400ZZLUEGW,Edgware,tube,5,51.613653,-0.274928
+9400ZZLUEHM,East Ham,tube,3,51.538948,0.051186
+9400ZZLUEMB,Embankment,tube,1,51.507058,-0.122666
+9400ZZLUEPG,Epping,tube,6,51.69368,0.113767
+9400ZZLUEPK,Elm Park,tube,6,51.549775,0.19864
+9400ZZLUEPY,East Putney,tube,2,51.459205,-0.211
+9400ZZLUERB,Edgware Road (Bakerloo),tube,1,51.520299,-0.17015
+9400ZZLUERC,Edgware Road (Circle Line),tube,1,51.519858,-0.167832
+9400ZZLUESQ,Euston Square,tube,1,51.525604,-0.135829
+9400ZZLUEUS,Euston,tube,1,51.527999,-0.133785
+9400ZZLUFBY,Fulham Broadway,tube,2,51.480081,-0.195422
+9400ZZLUFCN,Farringdon,"elizabeth-line, tube",1,51.520252,-0.104913
+9400ZZLUFLP,Fairlop,tube,4,51.595618,0.091004
+9400ZZLUFPK,Finsbury Park,tube,2,51.564158,-0.106825
+9400ZZLUFYR,Finchley Road,tube,2,51.546825,-0.179845
+9400ZZLUGBY,Gunnersbury,tube,3,51.491803,-0.275267
+9400ZZLUGBY2,Gunnersbury Station,"overground, tube",3,51.491481,-0.275395
+9400ZZLUGDG,Goodge Street,tube,1,51.520599,-0.134361
+9400ZZLUGFD,Greenford,tube,4,51.542424,-0.34605
+9400ZZLUGGH,Grange Hill,"bus, tube",4,51.613378,0.092066
+9400ZZLUGGN,Golders Green,tube,3,51.572259,-0.194039
+9400ZZLUGHK,Goldhawk Road,tube,2,51.502005,-0.226715
+9400ZZLUGPK,Green Park,tube,1,51.506947,-0.142787
+9400ZZLUGPS,Great Portland Street,tube,1,51.52384,-0.144262
+9400ZZLUGTH,Gants Hill,tube,4,51.576544,0.066185
+9400ZZLUGTR,Gloucester Road,tube,1,51.494316,-0.182658
+9400ZZLUHAI,Highbury & Islington,tube,2,51.54635,-0.103324
+9400ZZLUHAW,Harrow & Wealdstone,tube,5,51.592268,-0.335217
+9400ZZLUHBN,Holborn,tube,1,51.51758,-0.120475
+9400ZZLUHBT,High Barnet,tube,5,51.650541,-0.194298
+9400ZZLUHCH,Hornchurch,tube,6,51.554093,0.219116
+9400ZZLUHCL,Hendon Central,tube,3,51.583301,-0.226424
+9400ZZLUHGD,Hillingdon,tube,6,51.553715,-0.449828
+9400ZZLUHGR,Hanger Lane,tube,3,51.530177,-0.292704
+9400ZZLUHGT,Highgate,tube,3,51.577532,-0.145857
+9400ZZLUHLT,Hainault,tube,4,51.603659,0.093482
+9400ZZLUHNX,Hatton Cross,tube,5,51.466747,-0.423191
+9400ZZLUHOH,Harrow-on-the-Hill,tube,5,51.579195,-0.337225
+9400ZZLUHR4,Heathrow Terminal 4,"elizabeth-line, tube",6,51.458524,-0.445771
+9400ZZLUHR5,Heathrow Terminal 5,"elizabeth-line, national-rail, tube",6,51.470052,-0.49056
+9400ZZLUHRC2,Heathrow Terminals 1-2-3,tube,6,51.471352,-0.45229
+9400ZZLUHSC,Hammersmith (H&C Line),tube,2,51.493535,-0.225013
+9400ZZLUHSD,Hammersmith (Dist&Picc Line),tube,2,51.4923,-0.22362
+9400ZZLUHSK,High Street Kensington,tube,1,51.501055,-0.192792
+9400ZZLUHSN,Harlesden,tube,3,51.53631,-0.257883
+9400ZZLUHTD,Hampstead,tube,2,51.556632,-0.178487
+9400ZZLUHWC,Hounslow Central,tube,4,51.471295,-0.366578
+9400ZZLUHWE,Hounslow East,tube,4,51.473213,-0.356474
+9400ZZLUHWT,Hounslow West,tube,5,51.473469,-0.386544
+9400ZZLUHWY,Holloway Road,tube,2,51.552697,-0.113244
+9400ZZLUICK,Ickenham,tube,6,51.561992,-0.442001
+9400ZZLUKBN,Kilburn,tube,2,51.546803,-0.204105
+9400ZZLUKBY,Kingsbury,tube,4,51.584845,-0.27879
+9400ZZLUKEN,Kenton,tube,4,51.581756,-0.31691
+9400ZZLUKNB,Knightsbridge,"bus, tube",1,51.501669,-0.160508
+9400ZZLUKNG,Kennington,tube,1,51.488337,-0.105963
+9400ZZLUKOY,Kensington (Olympia),tube,2,51.497624,-0.210015
+9400ZZLUKPK,Kilburn Park,tube,2,51.534979,-0.194232
+9400ZZLUKSH,Kentish Town,tube,2,51.550312,-0.140733
+9400ZZLUKSL,Kensal Green,tube,2,51.530539,-0.225016
+9400ZZLUKSX,King's Cross St. Pancras,tube,1,51.530663,-0.123194
+9400ZZLUKWG,Kew Gardens,tube,3,51.477058,-0.285241
+9400ZZLULAD,Ladbroke Grove,tube,2,51.517449,-0.210391
+9400ZZLULBN,Lambeth North,tube,1,51.498808,-0.112315
+9400ZZLULGN,Loughton,"bus, tube",6,51.641443,0.055476
+9400ZZLULGT,Lancaster Gate,tube,1,51.511723,-0.175494
+9400ZZLULNB,London Bridge,tube,1,51.505721,-0.088873
+9400ZZLULNB3,London Bridge Station,tube,1,51.505021,-0.08955
+9400ZZLULRD,Latimer Road,tube,2,51.513389,-0.217799
+9400ZZLULSQ,Leicester Square,tube,1,51.511386,-0.128426
+9400ZZLULVT,Liverpool Street,"elizabeth-line, tube",1,51.517372,-0.083182
+9400ZZLULYN,Leyton,tube,3,51.556589,-0.005523
+9400ZZLULYS,Leytonstone,tube,3,51.568324,0.008194
+9400ZZLUMBA,Marble Arch,tube,1,51.513424,-0.158953
+9400ZZLUMDN,Morden,tube,4,51.402142,-0.194839
+9400ZZLUMED,Mile End,tube,2,51.525122,-0.03364
+9400ZZLUMGT,Moorgate,tube,1,51.518176,-0.088322
+9400ZZLUMHL,Mill Hill East,tube,4,51.608229,-0.209986
+9400ZZLUMMT,Monument,tube,1,51.5107,-0.085969
+9400ZZLUMRH,Manor House,tube,2,51.570738,-0.096118
+9400ZZLUMSH,Mansion House,tube,1,51.512117,-0.094009
+9400ZZLUMTC,Mornington Crescent,tube,2,51.534679,-0.138789
+9400ZZLUMVL,Maida Vale,tube,2,51.529777,-0.185758
+9400ZZLUMYB,Marylebone,tube,1,51.522322,-0.163207
+9400ZZLUNAN,North Acton,tube,2,51.523524,-0.259755
+9400ZZLUNBP,Newbury Park,tube,4,51.575726,0.090004
+9400ZZLUNDN,Neasden,tube,3,51.553986,-0.249837
+9400ZZLUNEN,North Ealing,tube,3,51.517505,-0.288868
+9400ZZLUNFD,Northfields,tube,3,51.499319,-0.314719
+9400ZZLUNHA,North Harrow,tube,5,51.584872,-0.362408
+9400ZZLUNHG,Notting Hill Gate,tube,1,51.509128,-0.196104
+9400ZZLUNHT,Northolt,tube,5,51.548236,-0.368699
+9400ZZLUNKP,Northwick Park,tube,4,51.578481,-0.318056
+9400ZZLUNOW,Northwood,tube,6,51.611053,-0.423829
+9400ZZLUNWH,Northwood Hills,tube,6,51.600572,-0.409464
+9400ZZLUNWY,North Wembley,tube,4,51.562551,-0.304
+9400ZZLUOAK,Oakwood,tube,5,51.647725,-0.132168
+9400ZZLUODS,Old Street,tube,1,51.525864,-0.08777
+9400ZZLUODS2,Old Street Station,tube,1,51.525456,-0.087527
+9400ZZLUOSY,Osterley,tube,4,51.481274,-0.352224
+9400ZZLUOVL,Oval,tube,2,51.48185,-0.112439
+9400ZZLUOXC,Oxford Circus,tube,1,51.515224,-0.141903
+9400ZZLUPAH,Paddington (H&C Line)-Underground,tube,1,51.518187,-0.178306
+9400ZZLUPCO,Pimlico,tube,1,51.489097,-0.133761
+9400ZZLUPKR,Park Royal,tube,3,51.527123,-0.284341
+9400ZZLUPLW,Plaistow,tube,3,51.531341,0.017451
+9400ZZLUPNR,Pinner,tube,5,51.592901,-0.381161
+9400ZZLUPRD,Preston Road,tube,4,51.571972,-0.295107
+9400ZZLUPVL,Perivale,tube,4,51.536717,-0.323446
+9400ZZLUPYB,Putney Bridge,tube,2,51.468262,-0.208731
+9400ZZLUQBY,Queensbury,tube,4,51.594188,-0.286219
+9400ZZLUQPS,Queen's Park,tube,2,51.534158,-0.204574
+9400ZZLUQWY,Queensway,tube,1,51.510312,-0.187152
+9400ZZLURBG,Redbridge,tube,4,51.576243,0.04536
+9400ZZLURGP,Regent's Park,tube,1,51.523344,-0.146444
+9400ZZLURMD,Richmond,tube,4,51.463237,-0.301336
+9400ZZLURSG,Ruislip Gardens,tube,5,51.560736,-0.41071
+9400ZZLURSM,Ruislip Manor,tube,6,51.573202,-0.412973
+9400ZZLURSP,Ruislip,tube,6,51.571354,-0.421898
+9400ZZLURSQ,Russell Square,tube,1,51.523073,-0.124285
+9400ZZLURVP,Ravenscourt Park,tube,2,51.494122,-0.235881
+9400ZZLURYL,Rayners Lane,tube,5,51.575147,-0.371127
+9400ZZLUSBC,Shepherd's Bush (Central),tube,2,51.504376,-0.218813
+9400ZZLUSBC2,Shepherd's Bush (Central Line),tube,2,51.504363,-0.217964
+9400ZZLUSEA,South Ealing,tube,3,51.501003,-0.307424
+9400ZZLUSFB,Stamford Brook,tube,2,51.494917,-0.245704
+9400ZZLUSFS,Southfields,tube,3,51.445073,-0.206602
+9400ZZLUSGN,Stepney Green,tube,2,51.521858,-0.046596
+9400ZZLUSGP,Stonebridge Park,tube,3,51.543959,-0.275892
+9400ZZLUSGT,Southgate,tube,4,51.632315,-0.127816
+9400ZZLUSHH,South Harrow,tube,5,51.564888,-0.352492
+9400ZZLUSJP,St. James's Park,tube,1,51.499544,-0.133608
+9400ZZLUSJW,St. John's Wood,tube,2,51.534521,-0.173948
+9400ZZLUSKS,South Kensington,tube,1,51.494094,-0.174138
+9400ZZLUSKT,South Kenton,tube,4,51.570232,-0.308433
+9400ZZLUSKT2,South Kenton Station,"overground, tube",4,51.570367,-0.308486
+9400ZZLUSKW,Stockwell,tube,2,51.472184,-0.122644
+9400ZZLUSNB,Snaresbrook,tube,4,51.580678,0.02144
+9400ZZLUSPU,St. Paul's,tube,1,51.514936,-0.097567
+9400ZZLUSRP,South Ruislip,tube,5,51.556853,-0.398915
+9400ZZLUSRP2,South Ruislip Station,tube,5,51.556958,-0.399373
+9400ZZLUSSQ,Sloane Square,tube,1,51.49227,-0.156377
+9400ZZLUSTD,Stratford,tube,2,51.541806,-0.003458
+9400ZZLUSTM,Stanmore,tube,5,51.619839,-0.303266
+9400ZZLUSUT,Sudbury Town,tube,4,51.550815,-0.315745
+9400ZZLUSVS,Seven Sisters,tube,3,51.58333,-0.072584
+9400ZZLUSWC,Swiss Cottage,tube,2,51.543681,-0.174894
+9400ZZLUSWF,South Woodford,tube,4,51.591907,0.027338
+9400ZZLUSWK,Southwark,tube,1,51.503976,-0.10494
+9400ZZLUSWN,South Wimbledon,tube,3,51.415309,-0.192005
+9400ZZLUTAW,Totteridge & Whetstone,tube,4,51.630597,-0.17921
+9400ZZLUTBC,Tooting Bec,tube,3,51.435678,-0.159736
+9400ZZLUTBY,Tooting Broadway,tube,3,51.42763,-0.168374
+9400ZZLUTCR,Tottenham Court Road,"elizabeth-line, tube",1,51.516426,-0.13041
+9400ZZLUTFP,Tufnell Park,tube,2,51.556822,-0.138433
+9400ZZLUTHB,Theydon Bois,tube,6,51.671759,0.103085
+9400ZZLUTMH,Tottenham Hale,tube,3,51.588108,-0.060241
+9400ZZLUTMP,Temple,tube,1,51.511006,-0.11426
+9400ZZLUTNG,Turnham Green,tube,2,51.495148,-0.254555
+9400ZZLUTPN,Turnpike Lane,tube,3,51.590272,-0.102953
+9400ZZLUUPB,Upminster Bridge,tube,6,51.55856,0.235809
+9400ZZLUUPK,Upton Park,tube,3,51.53534,0.035263
+9400ZZLUUPM,Upminster,tube,6,51.559063,0.250882
+9400ZZLUUPY,Upney,tube,4,51.538372,0.10153
+9400ZZLUUXB,Uxbridge,tube,6,51.546565,-0.477949
+9400ZZLUVIC,Victoria,tube,1,51.496359,-0.143102
+9400ZZLUWBN,West Brompton,tube,2,51.487268,-0.195599
+9400ZZLUWCY,White City,tube,2,51.511959,-0.224297
+9400ZZLUWFN,West Finchley,tube,4,51.609426,-0.188362
+9400ZZLUWHM,West Ham,tube,2,51.528136,0.005055
+9400ZZLUWHP,West Hampstead,tube,2,51.546638,-0.191059
+9400ZZLUWHW,West Harrow,tube,5,51.57971,-0.3534
+9400ZZLUWIG,Willesden Green,tube,2,51.549146,-0.221537
+9400ZZLUWIM,Wimbledon,tube,3,51.421207,-0.206573
+9400ZZLUWJN,Willesden Junction,tube,2,51.532259,-0.244283
+9400ZZLUWKA,Warwick Avenue,tube,2,51.523263,-0.183783
+9400ZZLUWKN,West Kensington,tube,2,51.490459,-0.206636
+9400ZZLUWLO,Waterloo,tube,1,51.503299,-0.11478
+9400ZZLUWLO7,Waterloo Station,tube,1,51.50286,-0.113819
+9400ZZLUWOF,Woodford,tube,4,51.606899,0.03397
+9400ZZLUWOG,Wood Green,tube,3,51.597479,-0.109886
+9400ZZLUWOP,Woodside Park,tube,4,51.618014,-0.18542
+9400ZZLUWPL,Whitechapel,"elizabeth-line, tube",2,51.519518,-0.059971
+9400ZZLUWRP,West Ruislip,tube,6,51.569688,-0.437886
+9400ZZLUWRR,Warren Street,tube,1,51.524951,-0.138321
+9400ZZLUWSD,Wanstead,tube,4,51.575501,0.028527
+9400ZZLUWSM,Westminster,tube,1,51.50132,-0.124861
+9400ZZLUWSP,Westbourne Park,tube,2,51.52111,-0.201065
+9400ZZLUWTA,West Acton,tube,3,51.518001,-0.28098
+9400ZZLUWWL,Walthamstow Central,tube,3,51.582965,-0.019885
+9400ZZLUWYC,Wembley Central,tube,4,51.552304,-0.296852
+9400ZZLUWYP,Wembley Park,tube,4,51.563198,-0.279262
+9400ZZNEUGST,Nine Elms,tube,6,51.479912,-0.128476
+2100BUSHEY0,Bushey Rail Station,"national-rail, overground",0,51.645628,-0.3856
+2100CHESHNT0,Cheshunt Rail Station,"national-rail, overground",8,51.702949,-0.024101
+2100CRPNDPK0,Carpenders Park Rail Station,overground,7,51.628564,-0.385874
+2100THBLDSG0,Theobalds Grove Rail Station,"national-rail, overground",7,51.692273,-0.034709
+2100WATFDHS0,Watford High Street Rail Station,overground,8,51.652671,-0.391667
+2100WATFDJ0,Watford Junction Rail Station,"national-rail, overground",0,51.663767,-0.396913
+4900ACTNCTL1,Acton Central Station,overground,3,51.50862,-0.26351
+4900ANERLEY1,Anerley Station,"national-rail, overground",4,51.41221,-0.06544
+4900BARKING1,Barking Station,"national-rail, overground",4,51.53944,0.08143
+4900BHILLPK1,Bush Hill Park Station,"bus, overground",5,51.64162,-0.069
+4900BKRVS1,Barking Riverside Station,overground,4,51.51935,0.11663
+4900BLCHSRD1,Blackhorse Rd Stn   / Blackhorse Lane,overground,3,51.58699,-0.04058
+4900BRBY1,Brondesbury Station,overground,2,51.54525,-0.20193
+4900BRBYPK1,Brondesbury Park Station,overground,2,51.54093,-0.2099
+4900BROCKLY1,Brockley Station,"national-rail, overground",2,51.46446,-0.03752
+4900BRUCGRV1,Bruce Grove Station,"national-rail, overground",3,51.59411,-0.06983
+4900BTHNLGR1,Bethnal Green Rail Station,"national-rail, overground",2,51.52389,-0.05948
+4900CAMHTH1,Cambridge Heath Station,"national-rail, overground",2,51.53238,-0.05723
+4900CHINGFD1,Chingford Station,overground,5,51.63349,0.0101
+4900CLAPTON1,Clapton Station,"national-rail, overground",2,51.56145,-0.05721
+4900CLDNNRB1,Caledonian Road & Barnsbury Station,overground,2,51.54317,-0.11563
+4900CLPHHS1,Clapham High Street,overground,2,51.46508,-0.13199
+4900CLPHMJC1,Clapham Junction Station,"national-rail, overground",2,51.4636,-0.17001
+4900CMDNRD1,Camden Road Station,overground,2,51.54169,-0.1386
+4900CNDAW1,Canada Water Station,overground,2,51.49806,-0.0499
+4900CNNB1,Canonbury Station,"bus, overground",2,51.54872,-0.09195
+4900CROUCHH1,Crouch Hill Station,overground,3,51.57116,-0.11714
+4900CRYSTLP1,Crystal Palace Station,overground,3,51.41803,-0.07307
+4900CSEAH1,Imperial Wharf Stn  / Chelsea Harbour,overground,2,51.47481,-0.18274
+4900DALS1,Dalston Junction Station,"bus, overground",2,51.54618,-0.07526
+4900DALSKLD1,Dalston Kingsland Station,overground,2,51.54822,-0.0757
+4900DENMRKH1,Denmark Hill Station,"national-rail, overground",2,51.46817,-0.08985
+4900EDMNGRN1,Edmonton Green Station,"national-rail, overground",4,51.62492,-0.06087
+4900EMRSPKH1,Emerson Park Station,overground,6,51.56904,0.2197
+4900ENFLDTN1,Enfield Town Station,overground,5,51.65213,-0.07963
+4900EUSTON0,Euston Station,"national-rail, overground",1,51.52761,-0.1336
+4900FNCHLYR1,Finchley Road & Frognal Station,overground,2,51.5502,-0.1828
+4900FORESTH1,Forest Hill Station,"national-rail, overground",3,51.43938,-0.05435
+4900GOSPLOK1,Gospel Oak Station,overground,2,51.55511,-0.151
+4900HACKNYC1,Hackney Central Station,overground,2,51.54728,-0.05542
+4900HACKNYW1,Hackney Wick Station,overground,2,51.54317,-0.02542
+4900HAGGERS1,Haggerston Station,overground,2,51.53847,-0.07559
+4900HAKNYNM1,Hackney Downs Station,"national-rail, overground",2,51.54894,-0.06132
+4900HARLSDN1,Harlesden Station,overground,3,51.53613,-0.25721
+4900HEDSTNL1,Headstone Lane Station,overground,5,51.60231,-0.35652
+4900HGHI,Highbury & Islington Station,overground,2,51.54622,-0.1035
+4900HGHMSPK1,Highams Park Station,overground,4,51.60835,-0.00021
+4900HMPSTDH1,Hampstead Heath Station,overground,2,51.55541,-0.16573
+4900HOMRTON1,Homerton Station,overground,2,51.54697,-0.04235
+4900HONROPK1,Honor Oak Park Station,"national-rail, overground",3,51.44993,-0.04587
+4900HOXTON1,Hoxton Station,overground,1,51.53103,-0.07589
+4900HRGYGL1,Harringay Green Lanes Station,overground,3,51.57702,-0.0988
+4900HROW1,Harrow & Wealdstone Station,overground,5,51.59245,-0.3343
+4900HTCHEND1,Hatch End Station,overground,6,51.6093,-0.36885
+4900KENOLYM1,Kensington Olympia,overground,2,51.49776,-0.2105
+4900KENOLYM2,Kensington Olympia Station,overground,2,51.4982,-0.2095
+4900KENR1,Kensal Rise Station,overground,2,51.53437,-0.21995
+4900KENSLG1,Kensal Green Station,overground,2,51.53017,-0.2248
+4900KEWGRDN1,Kew Gardens Station,overground,3,51.47712,-0.28563
+4900KLBRNHR1,Kilburn High Rd Stn  / Cambridge Avenue,overground,2,51.53739,-0.19262
+4900KNTSHTW1,Kentish Town West Station,overground,2,51.54643,-0.14652
+4900KTON1,Kenton Station,overground,4,51.58202,-0.31707
+4900LEYTNMR1,Leyton Midland Road Station,overground,3,51.56982,-0.0079
+4900LONFLDS1,London Fields Station,"national-rail, overground",2,51.54103,-0.05779
+4900LYTNSHR1,Leytonstone High Road Station,overground,3,51.56333,0.00857
+4900NEWXGTE1,New Cross Gate Station,"national-rail, overground",2,51.47509,-0.04041
+4900NORWDJ1,Norwood Junction Station,"national-rail, overground",4,51.39725,-0.07416
+4900NWCRELL1,New Cross Station,overground,2,51.47651,-0.03219
+4900NWEMBLY1,North Wembley Station,overground,4,51.56283,-0.30399
+4900PCKHMQD1,Queen's Road Peckham Station,overground,2,51.47382,-0.05739
+4900PCKHMRY1,Peckham Rye Station,"national-rail, overground",2,51.47011,-0.0694
+4900PENEW1,Penge West Station,"national-rail, overground",4,51.41767,-0.06112
+4900QPRK,Queen's Park Station,overground,2,51.53407,-0.20449
+4900RCTRYRD1,Rectory Road Station,"national-rail, overground",2,51.55857,-0.06857
+4900RICHMND1,Richmond Station,overground,4,51.46326,-0.302
+4900ROMFORD1,Romford Station,"elizabeth-line, national-rail, overground",6,51.57491,0.18314
+4900RTHERHI1,Rotherhithe Station,overground,2,51.50075,-0.05209
+4900SACTON1,South Acton Station,overground,3,51.49923,-0.27035
+4900SBURY1,Southbury Station,"national-rail, overground",5,51.64887,-0.05263
+4900SEVNSIS,Seven Sisters Station,"national-rail, overground",3,51.58201,-0.07531
+4900SHADWEL1,Shadwell Rail Station,overground,2,51.51141,-0.05671
+4900SHMPSTD1,South Hampstead Station,overground,2,51.54147,-0.17937
+4900SHPDSB1,Shepherd's Bush Rail Station,"national-rail, overground",2,51.50514,-0.21801
+4900SHRDHST1,Shoreditch High Street Station,overground,1,51.52348,-0.07543
+4900SIVRST1,Silver Street Station,"national-rail, overground",4,51.61474,-0.06719
+4900STFD1,Stratford Station,"elizabeth-line, national-rail, overground",2,51.54163,-0.00244
+4900STJMSST1,St James's Street Station,overground,3,51.58106,-0.03316
+4900STKNWNG1,Stoke Newington Station,"national-rail, overground",2,51.56532,-0.07311
+4900STMFDHL1,Stamford Hill Station,"national-rail, overground",3,51.57444,-0.07673
+4900STNBGPK1,Stonebridge Park Station,overground,3,51.54357,-0.27523
+4900STOTNHM1,South Tottenham Station,overground,3,51.58044,-0.07272
+4900SURREYQ1,Surrey Quays Station,overground,2,51.49354,-0.04795
+4900SYDENHM1,Sydenham Station,"national-rail, overground",3,51.42751,-0.05471
+4900TURKYST1,Turkey Street Station,"national-rail, overground",6,51.6726,-0.04707
+4900UPMNSTR1,Upminster Station,overground,6,51.5591,0.25049
+4900UPRHLWY1,Upper Holloway Station,overground,2,51.56393,-0.1297
+4900WAPPING1,Wapping Station,overground,2,51.50438,-0.05599
+4900WBRMPTN,West Brompton Station,"national-rail, overground",2,51.48738,-0.19564
+4900WCHAPEL1,Whitechapel Station,"elizabeth-line, overground",2,51.5192,-0.05961
+4900WCROYDN1,West Croydon Station,"national-rail, overground",5,51.37809,-0.10277
+4900WDGRNPK1,Woodgrange Park Station,overground,3,51.5494,0.044
+4900WDST1,Wood Street Station,overground,4,51.58645,-0.00261
+4900WHHRTLA1,White Hart Lane Station,"national-rail, overground",3,51.60533,-0.071
+4900WHMDSTD0,West Hampstead Overground Station,overground,2,51.54747,-0.19116
+4900WLSDJHL1,Willesden Junction Station,overground,2,51.53222,-0.24524
+4900WLTHQRD1,Walthamstow Queens Road Station,overground,3,51.58148,-0.02411
+4900WLTWCEN1,Walthamstow Central Station,overground,3,51.58317,-0.02001
+4900WMBY1,Wembley Central Station,overground,4,51.55239,-0.29682
+4900WNDSWRD1,Pensbury Street,overground,2,51.47043,-0.13841
+4900WNSTDPK1,Wanstead Park Station,overground,3,51.55191,0.02523
+9100CLPHMJ1,Clapham Junction Rail Station,"national-rail, overground",0,51.464187,-0.170221
+9100CSEAH0,Imperial Wharf Station,"national-rail, overground",2,51.475658,-0.183299
+9100HTCHEND0,Hatch End,overground,6,51.609737,-0.368344
+9100KENOLYM0,Kensington (Olympia) Station,"national-rail, overground",2,51.49788,-0.210293
+9100KLBRNHR1,Kilburn High Road Station,overground,2,51.537688,-0.191457
+9100PCKHMQD0,Queens Road Peckham Station,"national-rail, overground",2,51.473801,-0.057361
+9100QPRK1,Queen's Park Station (London),overground,2,51.53397,-0.205259
+9100STJMSST0,St James Street Station,overground,3,51.581229,-0.032186
+9100WNDSWRD1,Wandsworth Road Station,overground,2,51.469826,-0.138276
+910GACTNCTL,Acton Central Rail Station,overground,3,51.508716,-0.262971
+910GANERLEY,Anerley Rail Station,"national-rail, overground",4,51.412153,-0.065886
+910GBARKING,Barking Rail Station,"national-rail, overground",4,51.539495,0.080903
+910GBARKRIV,Barking Riverside,overground,4,51.51953,0.11596
+910GBHILLPK,Bush Hill Park Rail Station,"bus, overground",5,51.641519,-0.069221
+910GBLCHSRD,Blackhorse Road Rail Station,overground,3,51.586605,-0.041236
+910GBRBY,Brondesbury Rail Station,overground,2,51.545166,-0.202309
+910GBRBYPK,Brondesbury Park Rail Station,overground,2,51.540699,-0.210128
+910GBROCKLY,Brockley Rail Station,"national-rail, overground",2,51.464649,-0.037537
+910GBRUCGRV,Bruce Grove Rail Station,"national-rail, overground",3,51.593959,-0.069867
+910GCAMHTH,Cambridge Heath (London) Rail Station,"national-rail, overground",2,51.531973,-0.057279
+910GCHINGFD,Chingford Rail Station,overground,5,51.633087,0.009897
+910GCLAPTON,Clapton Rail Station,"national-rail, overground",2,51.561644,-0.057025
+910GCLDNNRB,Caledonian Road & Barnsbury Rail Station,overground,2,51.543041,-0.116729
+910GCLPHHS,Clapham High Street Rail Station,overground,2,51.465481,-0.132522
+910GCMDNRD,Camden Road Rail Station,overground,2,51.541791,-0.138701
+910GCNDAW,Canada Water Rail Station,overground,2,51.49799,-0.04972
+910GCNNB,Canonbury Rail Station,"bus, overground",2,51.548732,-0.092191
+910GCROUCHH,Crouch Hill Rail Station,overground,3,51.571302,-0.117149
+910GCRYSTLP,Crystal Palace Rail Station,"national-rail, overground",3,51.418109,-0.07261
+910GCSEAH,Imperial Wharf Rail Station,"national-rail, overground",2,51.474949,-0.182823
+910GDALS,Dalston Junction Rail Station,"bus, overground",2,51.546116,-0.075137
+910GDALSKLD,Dalston Kingsland Rail Station,overground,2,51.548148,-0.075701
+910GDENMRKH,Denmark Hill Rail Station,"national-rail, overground",2,51.468203,-0.089361
+910GEDMNGRN,Edmonton Green Rail Station,"national-rail, overground",4,51.624929,-0.061112
+910GEMRSPKH,Emerson Park Rail Station,overground,6,51.568642,0.220113
+910GENFLDTN,Enfield Town Rail Station,overground,5,51.652026,-0.079328
+910GEUSTON,London Euston Rail Station,"national-rail, overground",1,51.528136,-0.133924
+910GFNCHLYR,Finchley Road & Frognal Rail Station,overground,2,51.550266,-0.183141
+910GFORESTH,Forest Hill Rail Station,"national-rail, overground",3,51.43928,-0.053157
+910GGNRSBRY,Gunnersbury Rail Station,overground,3,51.491678,-0.275286
+910GGOSPLOK,Gospel Oak Rail Station,overground,2,51.555335,-0.15077
+910GHACKNYC,Hackney Central Rail Station,overground,2,51.547105,-0.056058
+910GHACKNYW,Hackney Wick Rail Station,overground,2,51.54341,-0.02492
+910GHAGGERS,Haggerston Rail Station,overground,2,51.538705,-0.075666
+910GHAKNYNM,Hackney Downs Rail Station,"national-rail, overground",2,51.548757,-0.060819
+910GHARLSDN,Harlesden Rail Station,overground,3,51.536289,-0.257667
+910GHEDSTNL,Headstone Lane Rail Station,overground,5,51.602649,-0.35722
+910GHGHI,Highbury & Islington Rail Station,"national-rail, overground",2,51.546177,-0.103764
+910GHGHMSPK,Highams Park Rail Station,overground,4,51.60835,-0.000222
+910GHMPSTDH,Hampstead Heath Rail Station,overground,2,51.55521,-0.165705
+910GHOMRTON,Homerton Rail Station,overground,2,51.547012,-0.04236
+910GHONROPK,Honor Oak Park Rail Station,"national-rail, overground",3,51.449989,-0.045505
+910GHOXTON,Hoxton Rail Station,overground,1,51.531512,-0.075681
+910GHRGYGL,Harringay Green Lanes Rail Station,overground,3,51.577182,-0.098144
+910GHROW,Harrow & Wealdstone Rail Station,"national-rail, overground",5,51.592169,-0.334571
+910GHTCHEND,Hatch End Rail Station,overground,6,51.609417,-0.368601
+910GKENOLYM,Kensington (Olympia) Rail Station,"national-rail, overground",2,51.497899,-0.210364
+910GKENR,Kensal Rise Rail Station,overground,2,51.534554,-0.219957
+910GKENSLG,Kensal Green Rail Station,overground,2,51.53054,-0.225088
+910GKEWGRDN,Kew Gardens Rail Station,overground,3,51.477073,-0.285054
+910GKLBRNHR,Kilburn High Road Rail Station,overground,2,51.537277,-0.192237
+910GKNTSHTW,Kentish Town West Rail Station,overground,2,51.546548,-0.146655
+910GKTON,Kenton Rail Station,overground,4,51.581802,-0.316981
+910GLEYTNMR,Leyton Midland Road Rail Station,overground,3,51.569725,-0.008051
+910GLIVST,London Liverpool Street Rail Station,"elizabeth-line, national-rail, overground",1,51.517991,-0.081426
+910GLONFLDS,London Fields Rail Station,"national-rail, overground",2,51.541153,-0.057753
+910GLYTNSHR,Leytonstone High Road Rail Station,overground,3,51.563554,0.008416
+910GNEWXGTE,New Cross Gate Rail Station,"national-rail, overground",2,51.475128,-0.040399
+910GNORWDJ,Norwood Junction Rail Station,"national-rail, overground",4,51.397019,-0.075221
+910GNWCRELL,New Cross ELL Rail Station,"national-rail, overground",2,51.476344,-0.032441
+910GNWEMBLY,North Wembley Rail Station,overground,4,51.562596,-0.303984
+910GPCKHMQD,Queens Road Peckham Rail Station,"national-rail, overground",2,51.473566,-0.057313
+910GPCKHMRY,Peckham Rye Rail Station,"national-rail, overground",2,51.470034,-0.069414
+910GPENEW,Penge West Rail Station,"national-rail, overground",4,51.417555,-0.06084
+910GQPRK,Queens Park (London) Rail Station,overground,2,51.533966,-0.204985
+910GRCTRYRD,Rectory Road Rail Station,"national-rail, overground",2,51.558502,-0.068267
+910GRICHMND,Richmond (London) Rail Station,"national-rail, overground",4,51.463061,-0.301558
+910GROMFORD,Romford Rail Station,"elizabeth-line, national-rail, overground",6,51.574829,0.183237
+910GRTHERHI,Rotherhithe Rail Station,overground,2,51.500817,-0.052048
+910GSACTON,South Acton Rail Station,overground,3,51.499695,-0.270157
+910GSBURY,Southbury Rail Station,"national-rail, overground",5,51.648705,-0.052437
+910GSEVNSIS,Seven Sisters Rail Station,"national-rail, overground",3,51.582268,-0.07527
+910GSHMPSTD,South Hampstead Rail Station,overground,2,51.541432,-0.178878
+910GSHPDSB,Shepherds Bush Rail Station,"national-rail, overground",2,51.505285,-0.217654
+910GSHRDHST,Shoreditch High Street Rail Station,overground,1,51.523375,-0.075246
+910GSIVRST,Silver Street Rail Station,"national-rail, overground",4,51.614688,-0.06724
+910GSKENTON,South Kenton Rail Station,overground,4,51.570214,-0.308462
+910GSTFD,Stratford (London) Rail Station,"elizabeth-line, national-rail, overground",2,51.541895,-0.003397
+910GSTJMSST,St James Street (London) Rail Station,overground,3,51.580981,-0.032918
+910GSTKNWNG,Stoke Newington Rail Station,"national-rail, overground",2,51.565233,-0.072887
+910GSTMFDHL,Stamford Hill Rail Station,"national-rail, overground",3,51.574467,-0.076682
+910GSTNBGPK,Stonebridge Park Rail Station,overground,3,51.544111,-0.275828
+910GSTOTNHM,South Tottenham Rail Station,overground,3,51.580372,-0.072103
+910GSURREYQ,Surrey Quays Rail Station,overground,2,51.493196,-0.047519
+910GSYDENHM,Sydenham Rail Station,"national-rail, overground",3,51.427248,-0.054244
+910GTURKYST,Turkey Street Rail Station,"national-rail, overground",6,51.672628,-0.047217
+910GUPMNSTR,Upminster Rail Station,"national-rail, overground",6,51.559018,0.25088
+910GUPRHLWY,Upper Holloway Rail Station,overground,2,51.563631,-0.129513
+910GWAPPING,Wapping Rail Station,overground,2,51.504388,-0.055931
+910GWBRMPTN,West Brompton Rail Station,"national-rail, overground",2,51.487061,-0.195593
+910GWCHAPEL,Whitechapel Rail Station,overground,2,51.519469,-0.059757
+910GWCROYDN,West Croydon Rail Station,"national-rail, overground",5,51.378428,-0.102585
+910GWDGRNPK,Woodgrange Park Rail Station,overground,3,51.549264,0.044423
+910GWDST,Wood Street Rail Station,overground,4,51.58658,-0.002405
+910GWHHRTLA,White Hart Lane Rail Station,"national-rail, overground",3,51.605037,-0.070914
+910GWHMDSTD,West Hampstead Rail Station,overground,2,51.547468,-0.191185
+910GWLSDJHL,Willesden Junction Rail Station,overground,2,51.532497,-0.244548
+910GWLTHQRD,Walthamstow Queens Road Rail Station,overground,3,51.581503,-0.023846
+910GWLTWCEN,Walthamstow Central Rail Station,overground,3,51.582919,-0.019815
+910GWMBY,Wembley Central Rail Station,"national-rail, overground",4,51.552325,-0.296433
+910GWNDSWRD,Wandsworth Road Rail Station,overground,2,51.470216,-0.13852
+910GWNSTDPK,Wanstead Park Rail Station,overground,3,51.551693,0.026213
+4900ZZDLABR0,Abbey Road DLR Station,dlr,2,51.53209,0.00383
+4900ZZDLALL1,All Saints,dlr,2,51.51113,-0.01291
+4900ZZDLBA2,Blackwall Station,dlr,2,51.50812,-0.00656
+4900ZZDLBEC1,Beckton Station,dlr,3,51.51432,0.06064
+4900ZZDLBOW1,Bow Church Station,dlr,2,51.52781,-0.02094
+4900ZZDLBPK1,Beckton Park Station,dlr,3,51.50927,0.05485
+4900ZZDLCAN1,Canary Wharf DLR Station,dlr,2,51.50542,-0.02073
+4900ZZDLCGT2,Canning Town Bus Station,dlr,2,51.51458,0.00814
+4900ZZDLCLA1,Crossharbour Station,dlr,2,51.49603,-0.0142
+4900ZZDLCUS1,Custom House Station,"dlr, elizabeth-line",3,51.50994,0.02691
+4900ZZDLCUT1,Greenwich Town Ctr / Cutty Sark Stn,dlr,2,51.48151,-0.0108
+4900ZZDLCYP1,Cyprus Station,dlr,3,51.50882,0.06357
+4900ZZDLDEP1,Deptford Bridge,dlr,2,51.47445,-0.02246
+4900ZZDLDEV1,Devons Road Station,dlr,2,51.52268,-0.01748
+4900ZZDLEIN1,East India Station,"bus, dlr",2,51.50944,-0.00263
+4900ZZDLELV1,Elverson Road,dlr,2,51.46895,-0.01668
+4900ZZDLGAL1,Gallions Reach Station,dlr,3,51.50875,0.07196
+4900ZZDLGRE1,Greenwich Station,dlr,2,51.47792,-0.01322
+4900ZZDLHEQ1,Heron Quays,dlr,2,51.50317,-0.02134
+4900ZZDLISL2,Island Gardens Station,dlr,2,51.48782,-0.01001
+4900ZZDLKGV1,King George V.,dlr,3,51.50194,0.06177
+4900ZZDLLCA1,London City Airport,dlr,3,51.50329,0.0498
+4900ZZDLLEW1,Lewisham Station,dlr,2,51.46459,-0.01281
+4900ZZDLMUD1,Mudchute Station,dlr,2,51.49118,-0.01469
+4900ZZDLPOP1,Poplar,dlr,2,51.508,-0.01773
+4900ZZDLPRE1,Prince Regent,dlr,3,51.50957,0.0342
+4900ZZDLPUD1,Pudding Mill Lane,dlr,2,51.53401,-0.0131
+4900ZZDLRAL1,Royal Albert Dlr Station,dlr,3,51.50809,0.04572
+4900ZZDLRVC1,Royal Victoria Station,dlr,3,51.50946,0.01852
+4900ZZDLSHA3,Shadwell Station,dlr,2,51.51146,-0.05642
+4900ZZDLSHS0,Stratford High Street,dlr,2,51.53843,-0.00091
+4900ZZDLSIT0,Stratford International DLR,dlr,2,51.5456,-0.00841
+4900ZZDLSOQ1,South Quay,dlr,2,51.50013,-0.01658
+4900ZZDLSTL0,Star Lane Station,"bus, dlr",2,51.52085,0.00376
+4900ZZDLTWG1,Tower Gateway Station,dlr,1,51.5103,-0.07482
+4900ZZDLWFE1,Westferry Station,dlr,2,51.50942,-0.02661
+4900ZZDLWIQ1,West India Quay,dlr,2,51.50744,-0.02051
+4900ZZDLWLA1,Woolwich Arsenal DLR,dlr,4,51.49079,0.06854
+4900ZZDLWSV1,West Silvertown Station,dlr,3,51.50285,0.02275
+9400ZZDLALL,All Saints DLR Station,dlr,2,51.511,-0.013135
+9400ZZDLBEC,Beckton DLR Station,dlr,3,51.514362,0.061453
+9400ZZDLBLA,Blackwall DLR Station,dlr,2,51.507991,-0.006969
+9400ZZDLBNK,Bank DLR Station,dlr,1,51.513233,-0.088515
+9400ZZDLBOW,Bow Church DLR Station,dlr,2,51.527858,-0.020936
+9400ZZDLBPK,Beckton Park DLR Station,dlr,3,51.508793,0.054932
+9400ZZDLCGT,Canning Town DLR Station,dlr,2,51.514127,0.008101
+9400ZZDLCLA,Crossharbour DLR Station,dlr,2,51.495728,-0.014606
+9400ZZDLCUS,Custom House (for ExCel) DLR Station,dlr,3,51.509716,0.026699
+9400ZZDLCUT,Cutty Sark (for Maritime Greenwich) DLR Station,dlr,2,51.481671,-0.01081
+9400ZZDLCUT2,Cutty Sark for Maritime Greenwich,dlr,2,51.481777,-0.01069
+9400ZZDLCYP,Cyprus DLR Station,dlr,3,51.508473,0.063925
+9400ZZDLDEP,Deptford Bridge DLR Station,dlr,2,51.474215,-0.022438
+9400ZZDLDEV,Devons Road DLR Station,dlr,2,51.522667,-0.017615
+9400ZZDLEIN,East India DLR Station,"bus, dlr",2,51.509359,-0.002326
+9400ZZDLELV,Elverson Road DLR Station,dlr,2,51.469074,-0.016728
+9400ZZDLGAL,Gallions Reach DLR Station,dlr,3,51.508941,0.071555
+9400ZZDLGRE,Greenwich DLR Station,dlr,2,51.478087,-0.013673
+9400ZZDLHEQ,Heron Quays DLR Station,dlr,2,51.503379,-0.021421
+9400ZZDLISL,Island Gardens DLR Station,dlr,2,51.487811,-0.010139
+9400ZZDLISL2,Island Gardens,dlr,2,51.488048,-0.010359
+9400ZZDLKGV,King George V DLR Station,dlr,3,51.502003,0.062624
+9400ZZDLLCA,London City Airport DLR Station,dlr,3,51.503416,0.048739
+9400ZZDLLDP,Langdon Park DLR Station,dlr,2,51.515172,-0.01415
+9400ZZDLLEW,Lewisham DLR Station,dlr,2,51.464665,-0.012874
+9400ZZDLLIM,Limehouse DLR Station,dlr,2,51.512393,-0.039809
+9400ZZDLMUD,Mudchute DLR Station,dlr,2,51.490704,-0.014738
+9400ZZDLPDK,Pontoon Dock DLR Station,"bus, dlr",3,51.502212,0.032115
+9400ZZDLPOP,Poplar DLR Station,dlr,2,51.507744,-0.017384
+9400ZZDLPRE,Prince Regent DLR Station,dlr,3,51.509263,0.034158
+9400ZZDLPUD,Pudding Mill Lane DLR Station,dlr,2,51.534302,-0.012755
+9400ZZDLRAL,Royal Albert DLR Station,dlr,3,51.508357,0.045935
+9400ZZDLRVC,Royal Victoria DLR Station,dlr,3,51.509336,0.018497
+9400ZZDLSHA,Shadwell DLR Station,dlr,2,51.511693,-0.056643
+9400ZZDLSHA2,Shadwell DLR,dlr,2,51.511707,-0.055893
+9400ZZDLSHS,Stratford High Street DLR Station,dlr,2,51.538196,-0.001078
+9400ZZDLSIT,Stratford International DLR Station,dlr,2,51.545265,-0.009638
+9400ZZDLSOQ,South Quay DLR Station,dlr,2,51.500053,-0.016133
+9400ZZDLSTD,Stratford DLR Station,dlr,2,51.541758,-0.003287
+9400ZZDLSTL,Star Lane DLR Station,"bus, dlr",2,51.520786,0.004156
+9400ZZDLTWG,Tower Gateway DLR Station,dlr,1,51.510617,-0.074818
+9400ZZDLTWG2,Tower Gateway Station DLR,dlr,1,51.510645,-0.07437
+9400ZZDLWFE,Westferry DLR Station,dlr,2,51.509431,-0.02675
+9400ZZDLWHM,West Ham DLR Station,dlr,2,51.527894,0.004482
+9400ZZDLWIQ,West India Quay DLR Station,dlr,2,51.50703,-0.020311
+9400ZZDLWLA,Woolwich Arsenal DLR Station,dlr,4,51.490009,0.069127
+9400ZZDLWSV,West Silvertown DLR Station,dlr,3,51.502838,0.02246
+9100ABWDXR0,Abbey Wood Station,elizabeth-line,4,51.491284,0.121087
+9100ACTONML0,Acton Main Line Station,"elizabeth-line, national-rail",3,51.516747,-0.269684
+9100BNHAM0,Burnham (Berks) Rail Station,"elizabeth-line, national-rail",0,51.523506,-0.646374
+9100BRTWOOD1,Brentwood Rail Station,elizabeth-line,9,51.613567,0.300147
+9100CANWHRF0,Canary Wharf Rail Station,elizabeth-line,2,51.506321,-0.018815
+9100CHDWLHT1,Chadwell Heath Station,elizabeth-line,5,51.568094,0.129394
+9100EALINGB0,Ealing Broadway Station,"elizabeth-line, national-rail",3,51.514643,-0.30173
+9100FRSTGT0,Forest Gate Station,elizabeth-line,3,51.549297,0.023842
+9100GIDEAPK1,Gidea Park Station,elizabeth-line,6,51.582217,0.206081
+9100GODMAYS1,Goodmayes Station,elizabeth-line,4,51.565748,0.111392
+9100HANWELL0,Hanwell Station,elizabeth-line,4,51.511888,-0.338524
+9100HAYESAH0,Hayes & Harlington Station,"elizabeth-line, national-rail",5,51.502935,-0.420113
+9100HRLDWOD2,Harold Wood Station,elizabeth-line,6,51.593319,0.233834
+9100HTRWAPT0,Heathrow Terminals 2 & 3 Rail Station,"elizabeth-line, national-rail",6,51.471987,-0.454788
+9100ILFORD2,Ilford Station,elizabeth-line,4,51.559063,0.068682
+9100IVER1,Iver Rail Station,"elizabeth-line, national-rail",0,51.508503,-0.506726
+9100LANGLEY0,Langley (Berks) Rail Station,"elizabeth-line, national-rail",0,51.507712,-0.541104
+9100MANRPK0,Manor Park Station,elizabeth-line,3,51.552291,0.045107
+9100MDNHEAD0,Maidenhead Rail Station,"elizabeth-line, national-rail",0,51.518305,-0.722253
+9100MRYLAND0,Maryland Station,elizabeth-line,3,51.545937,0.005852
+9100PADTLL0,Paddington Station,"elizabeth-line, national-rail",1,51.516995,-0.177388
+9100RDNGSTN0,Reading Rail Station,"elizabeth-line, national-rail",0,51.458786,-0.971849
+9100SHENFLD2,Shenfield Rail Station,"elizabeth-line, national-rail",0,51.630646,0.329724
+9100SLOUGH0,Slough Rail Station,"elizabeth-line, national-rail",0,51.51202,-0.591924
+9100STHALL0,Southall Station,"elizabeth-line, national-rail",4,51.505987,-0.377543
+9100SVNKNGS0,Seven Kings Station,"elizabeth-line, national-rail",4,51.563916,0.096215
+9100TAPLOW0,Taplow Rail Station,"elizabeth-line, national-rail",0,51.523402,-0.681505
+9100TWYFORD0,Twyford Rail Station,"elizabeth-line, national-rail",0,51.475534,-0.863293
+9100WDRYTON1,West Drayton Station,"elizabeth-line, national-rail",6,51.509829,-0.47217
+9100WEALING0,West Ealing Station,"elizabeth-line, national-rail",3,51.513411,-0.322313
+9100WOLWXR0,Woolwich Station,elizabeth-line,4,51.492168,0.070593
+910GABWDXR,Abbey Wood,elizabeth-line,4,51.491241,0.121374
+910GACTONML,Acton Main Line Rail Station,"elizabeth-line, national-rail",3,51.51718,-0.266756
+910GCHDWLHT,Chadwell Heath Rail Station,elizabeth-line,5,51.568039,0.128958
+910GCUSTMHS,Custom House Rail Station,elizabeth-line,3,51.509769,0.02673
+910GEALINGB,Ealing Broadway Rail Station,"elizabeth-line, national-rail",3,51.514841,-0.301752
+910GFRSTGT,Forest Gate Rail Station,elizabeth-line,3,51.549432,0.024353
+910GGIDEAPK,Gidea Park Rail Station,"elizabeth-line, national-rail",6,51.581904,0.205964
+910GGODMAYS,Goodmayes Rail Station,elizabeth-line,4,51.565579,0.110807
+910GHANWELL,Hanwell Rail Station,elizabeth-line,4,51.511835,-0.338583
+910GHAYESAH,Hayes & Harlington Rail Station,"elizabeth-line, national-rail",5,51.503096,-0.420683
+910GHRLDWOD,Harold Wood Rail Station,elizabeth-line,6,51.592766,0.233129
+910GHTRWTM4,Heathrow Terminal 4 Rail Station,elizabeth-line,6,51.458268,-0.445463
+910GHTRWTM5,Heathrow Terminal 5 Rail Station,"elizabeth-line, national-rail",6,51.470053,-0.490589
+910GILFORD,Ilford Rail Station,"elizabeth-line, national-rail",4,51.559118,0.06968
+910GMANRPK,Manor Park Rail Station,elizabeth-line,3,51.552477,0.046342
+910GMRYLAND,Maryland Rail Station,elizabeth-line,3,51.546081,0.005815
+910GPADTON,London Paddington Rail Station,"elizabeth-line, national-rail",1,51.515996,-0.176174
+910GSTHALL,Southall Rail Station,"elizabeth-line, national-rail",4,51.505957,-0.37861
+910GSVNKNGS,Seven Kings Rail Station,"elizabeth-line, national-rail",4,51.564026,0.0971
+910GWDRYTON,West Drayton Rail Station,"elizabeth-line, national-rail",6,51.510055,-0.472234
+910GWEALING,West Ealing Rail Station,"elizabeth-line, national-rail",3,51.513506,-0.320133
+910GWOLWXR,Woolwich,"bus, elizabeth-line",4,51.492168,0.070593

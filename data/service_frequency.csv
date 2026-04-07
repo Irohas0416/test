@@ -1,0 +1,566 @@
+service_pattern_or_line,operating_period,operating_hours_text,frequency_minutes
+Harrow & Wealdstone - Stonebridge Park,Mondays to Fridays,07 00 to 09 30 (SB service),10.0
+Harrow & Wealdstone - Stonebridge Park,Mondays to Fridays,09 30 to 16 30,15.0
+Harrow & Wealdstone - Stonebridge Park,Mondays to Fridays,16 30 to 19 30 (NB service),10.0
+Harrow & Wealdstone - Stonebridge Park,Mondays to Fridays,19 30 to 23 00,15.0
+Stonebridge Park - Queen’s Park,Mondays to Fridays,07 00 to 09 30 (SB service),6.67
+Stonebridge Park - Queen’s Park,Mondays to Fridays,09 30 to 16 30,7.5
+Stonebridge Park - Queen’s Park,Mondays to Fridays,16 30 to 19 30 (NB service),6.67
+Stonebridge Park - Queen’s Park,Mondays to Fridays,19 30 to 23 00,7.5
+Queen’s Park - Elephant & Castle,Mondays to Fridays,07 00 to 09 30 (SB service),3.0
+Queen’s Park - Elephant & Castle,Mondays to Fridays,09 30 to 16 30,3.75
+Queen’s Park - Elephant & Castle,Mondays to Fridays,16 30 to 19 30 (NB service),3.0
+Queen’s Park - Elephant & Castle,Mondays to Fridays,19 30 to 23 00,3.75
+Harrow & Wealdstone - Stonebridge Park,Saturdays,06 30 to 07 45,15.0
+Harrow & Wealdstone - Stonebridge Park,Saturdays,07 45 to 10 00,15.0
+Harrow & Wealdstone - Stonebridge Park,Saturdays,10 00 to 23 00,15.0
+Stonebridge Park - Queen’s Park,Saturdays,06 30 to 07 45,7.5
+Stonebridge Park - Queen’s Park,Saturdays,07 45 to 10 00,7.5
+Stonebridge Park - Queen’s Park,Saturdays,10 00 to 23 00,7.5
+Queen’s Park - Elephant & Castle,Saturdays,06 30 to 07 45,4.62
+Queen’s Park - Elephant & Castle,Saturdays,07 45 to 10 00,3.75
+Queen’s Park - Elephant & Castle,Saturdays,10 00 to 23 00,3.0
+Harrow & Wealdstone - Stonebridge Park,Sundays,08 00 to 09 30,15.0
+Harrow & Wealdstone - Stonebridge Park,Sundays,09 30 to 22 00,15.0
+Harrow & Wealdstone - Stonebridge Park,Sundays,22 00 to 23 00,15.0
+Stonebridge Park - Queen’s Park,Sundays,08 00 to 09 30,7.5
+Stonebridge Park - Queen’s Park,Sundays,09 30 to 22 00,7.5
+Stonebridge Park - Queen’s Park,Sundays,22 00 to 23 00,7.5
+Queen’s Park - Elephant & Castle,Sundays,08 00 to 09 30,5.0
+Queen’s Park - Elephant & Castle,Sundays,09 30 to 22 00,3.75
+Queen’s Park - Elephant & Castle,Sundays,22 00 to 23 00,5.0
+London Overground (Euston - Watford Junction),Throughout the week,Throughout the week,15.0
+London Overground (Euston - Watford Junction),Saturdays,before 06.30,30.0
+London Overground (Euston - Watford Junction),Sundays,before 09.30,30.0
+Northolt - North Acton,Mondays to Fridays Midday Off-Peak,Midday Off-Peak,5.0
+White City - Leytonstone,Mondays to Fridays Midday Off-Peak,Midday Off-Peak,2.5
+Leytonstone - Newbury Park,Mondays to Fridays Midday Off-Peak,Midday Off-Peak,5.0
+Woodford - Hainault,Mondays to Fridays Midday Off-Peak,Midday Off-Peak,20.0
+White City - Leytonstone,Mondays to Fridays Evening Peak WB,Evening Peak WB,2.0
+White City - Leytonstone,Mondays to Fridays 20 15 to 23 00,20:15 - 23:00,2.5
+Leytonstone - Newbury Park,Mondays to Fridays 20 15 to 23 00,20:15 - 23:00,5.0
+Woodford - Hainault,Mondays to Fridays 20 15 to 23 00,20:15 - 23:00,20.0
+West Ruislip - Northolt,Mondays to Fridays After 23 00,After 23:00,10.0
+Northolt - North Acton,Mondays to Fridays After 23 00,After 23:00,10.0
+Ealing Bdy - North Acton,Mondays to Fridays After 23 00,After 23:00,10.0
+Woodford - Hainault,Mondays to Fridays After 23 00,After 23:00,20.0
+Ealing Bdy - North Acton,Saturdays 00 30 to 06 00,00:30 - 06:00,20.0
+North Acton - White City,Saturdays 00 30 to 06 00,00:30 - 06:00,20.0
+White City - Leytonstone,Saturdays 00 30 to 06 00,00:30 - 06:00,10.0
+Leytonstone - Newbury Park,Saturdays 00 30 to 06 00,00:30 - 06:00,20.0
+Newbury Park - Hainault,Saturdays 00 30 to 06 00,00:30 - 06:00,20.0
+Leytonstone - Woodford,Saturdays 00 30 to 06 00,00:30 - 06:00,20.0
+Woodford - Loughton,Saturdays 00 30 to 06 00,00:30 - 06:00,20.0
+White City - Leytonstone,Saturdays 08 00 to 12 30,08:00 - 12:30,2.5
+Leytonstone - Newbury Park,Saturdays 08 00 to 12 30,08:00 - 12:30,5.0
+Woodford - Hainault,Saturdays 08 00 to 12 30,08:00 - 12:30,20.0
+White City - Leytonstone,Saturdays 12 30 to 18 30,12:30 - 18:30,2.25
+White City - Leytonstone,Saturdays 18 30 to 23 00,18:30 - 23:00,2.5
+Leytonstone - Newbury Park,Saturdays 18 30 to 23 00,18:30 - 23:00,5.0
+Woodford - Hainault,Saturdays 18 30 to 23 00,18:30 - 23:00,20.0
+West Ruislip - Northolt,Saturdays After 23 00,After 23:00,10.0
+Northolt - North Acton,Saturdays After 23 00,After 23:00,10.0
+Ealing Bdy - North Acton,Saturdays After 23 00,After 23:00,10.0
+Woodford - Hainault,Saturdays After 23 00,After 23:00,20.0
+Ealing Bdy - North Acton,Sundays 00 30 to 07 30,00:30 - 07:30,20.0
+North Acton - White City,Sundays 00 30 to 07 30,00:30 - 07:30,20.0
+White City - Leytonstone,Sundays 00 30 to 07 30,00:30 - 07:30,10.0
+Leytonstone - Newbury Park,Sundays 00 30 to 07 30,00:30 - 07:30,20.0
+Newbury Park - Hainault,Sundays 00 30 to 07 30,00:30 - 07:30,20.0
+Leytonstone - Woodford,Sundays 00 30 to 07 30,00:30 - 07:30,20.0
+Woodford - Loughton,Sundays 00 30 to 07 30,00:30 - 07:30,20.0
+West Ruislip - Northolt,Sundays 07 30 to 10 30,07:30 - 10:30,10.0
+Northolt - North Acton,Sundays 07 30 to 10 30,07:30 - 10:30,10.0
+Ealing Bdy - North Acton,Sundays 07 30 to 10 30,07:30 - 10:30,10.0
+White City - Leytonstone,Sundays 10 30 to 16 30,10:30 - 16:30,2.75
+Leytonstone - Newbury Park,Sundays 10 30 to 16 30,10:30 - 16:30,5.5
+Leytonstone - Woodford,Sundays 10 30 to 16 30,10:30 - 16:30,5.5
+Woodford - Loughton,Sundays 10 30 to 16 30,10:30 - 16:30,5.5
+Woodford - Hainault,Sundays 10 30 to 16 30,10:30 - 16:30,22.0
+White City - Leytonstone,Sundays 16 30 to 18 00,16:30 - 18:00,2.5
+Leytonstone - Newbury Park,Sundays 16 30 to 18 00,16:30 - 18:00,5.0
+West Ruislip - Northolt,Sundays 18 00 to Finish,18:00 - Finish,10.0
+Northolt - North Acton,Sundays 18 00 to Finish,18:00 - Finish,10.0
+Ealing Bdy - North Acton,Sundays 18 00 to Finish,18:00 - Finish,10.0
+Woodford - Hainault,Sundays 18 00 to Finish,18:00 - Finish,20.0
+Central Line (Eastbound),Morning Peak,08:30 - 09:00,2.0
+Central Line (Westbound),Evening Peak,17:00 - 17:30,2.0
+Central Area,Late Evening (Mon-Fri),22:00 - 23:00,2.5
+Central Area,Late Evening (Sat),22:00 - 23:00,2.5
+Central Area,Sunday Afternoon,16:30 - 18:00,2.5
+Circle,Mondays to Fridays,Morning Peak,10.0
+Circle,Mondays to Fridays,Midday Off-Peak,10.0
+Circle,Mondays to Fridays,Evening Peak,10.0
+Circle,Mondays to Fridays,Evening Off-Peak,10.0
+Circle,Saturdays,All Day,10.0
+Circle,Sundays,All Day,10.0
+Hammersmith - Barking,Mondays to Fridays,Morning Peak,10.125
+Hammersmith - Barking,Mondays to Fridays,Midday Off-Peak,10.0
+Hammersmith - Barking,Mondays to Fridays,Evening Peak,9.5
+Hammersmith - Barking,Mondays to Fridays,Evening Off-Peak,10.0
+Hammersmith - Barking,Saturdays,All Day,10.0
+Hammersmith - Barking,Sundays,All Day,10.0
+Combined Circle/District service - High Street Kensington and Edgware Road,Mondays to Fridays,Morning Peak,5.0
+Combined Circle/District service - High Street Kensington and Edgware Road,Mondays to Fridays,Midday Off-Peak,5.0
+Combined Circle/District service - High Street Kensington and Edgware Road,Mondays to Fridays,Evening Peak,5.0
+Combined Circle/District service - High Street Kensington and Edgware Road,Mondays to Fridays,Evening Off-Peak,5.0
+Combined Circle/District service - High Street Kensington and Edgware Road,Saturdays,All Day,5.0
+Combined Circle/District service - High Street Kensington and Edgware Road,Sundays,All Day,5.0
+Upminster - Dagenham East,Mondays to Fridays,Morning Peak,4.0
+Upminster - Dagenham East,Mondays to Fridays,Midday Off-Peak,12.0
+Upminster - Dagenham East,Mondays to Fridays,Evening Peak,4.0
+Upminster - Dagenham East,Mondays to Fridays,After 20.00,5.0
+Upminster - Dagenham East,Saturdays,All Day,12.0
+Upminster - Dagenham East,Sundays,All Day,12.0
+Dagenham East - Barking,Mondays to Fridays,Morning Peak,3.33
+Dagenham East - Barking,Mondays to Fridays,Midday Off-Peak,12.0
+Dagenham East - Barking,Mondays to Fridays,Evening Peak,3.33
+Dagenham East - Barking,Mondays to Fridays,After 20.00,5.0
+Dagenham East - Barking,Saturdays,All Day,12.0
+Dagenham East - Barking,Sundays,All Day,12.0
+Barking - Aldgate East,Mondays to Fridays,Morning Peak,2.4
+Barking - Aldgate East,Mondays to Fridays,Midday Off-Peak,2.86
+Barking - Aldgate East,Mondays to Fridays,Evening Peak,2.4
+Barking - Aldgate East,Mondays to Fridays,After 20.00,3.33
+Aldgate East - Tower Hill,Mondays to Fridays,Morning Peak,3.16
+Aldgate East - Tower Hill,Mondays to Fridays,Midday Off-Peak,4.0
+Aldgate East - Tower Hill,Mondays to Fridays,Evening Peak,3.16
+Aldgate East - Tower Hill,Mondays to Fridays,After 20.00,5.0
+Barking - Tower Hill,Saturdays,All Day,2.86
+Barking - Tower Hill,Sundays,All Day,2.86
+Tower Hill - Gloucester Road,Mondays to Fridays,Morning Peak,2.14
+Tower Hill - Gloucester Road,Mondays to Fridays,Midday Off-Peak,2.5
+Tower Hill - Gloucester Road,Mondays to Fridays,Evening Peak,2.14
+Tower Hill - Gloucester Road,Mondays to Fridays,After 20.00,2.5
+Tower Hill - Gloucester Road,Saturdays,All Day,2.22
+Tower Hill - Gloucester Road,Sundays,All Day,2.22
+Gloucester Road - Earl's Court,Mondays to Fridays,Morning Peak,2.73
+Gloucester Road - Earl's Court,Mondays to Fridays,Midday Off-Peak,3.33
+Gloucester Road - Earl's Court,Mondays to Fridays,Evening Peak,2.73
+Gloucester Road - Earl's Court,Mondays to Fridays,After 20.00,3.33
+Gloucester Road - Earl's Court,Saturdays,All Day,2.86
+Gloucester Road - Earl's Court,Sundays,All Day,2.86
+Edgware Road - Earl's Court,Mondays to Fridays,Morning Peak,10.0
+Edgware Road - Earl's Court,Mondays to Fridays,Midday Off-Peak,10.0
+Edgware Road - Earl's Court,Mondays to Fridays,Evening Peak,10.0
+Edgware Road - Earl's Court,Mondays to Fridays,After 20.00,10.0
+Edgware Road - Earl's Court,Saturdays,All Day,10.0
+Edgware Road - Earl's Court,Sundays,All Day,10.0
+Earl's Court - Wimbledon,Mondays to Fridays,Morning Peak,4.0
+Earl's Court - Wimbledon,Mondays to Fridays,Midday Off-Peak,12.0
+Earl's Court - Wimbledon,Mondays to Fridays,Evening Peak,4.0
+Earl's Court - Wimbledon,Mondays to Fridays,After 20.00,5.0
+Earl's Court - Wimbledon,Saturdays,All Day,12.0
+Earl's Court - Wimbledon,Sundays,All Day,12.0
+Earl's Court - Turnham Green,Mondays to Fridays,Morning Peak,4.62
+Earl's Court - Turnham Green,Mondays to Fridays,Midday Off-Peak,12.0
+Earl's Court - Turnham Green,Mondays to Fridays,Evening Peak,4.62
+Earl's Court - Turnham Green,Mondays to Fridays,After 20.00,5.0
+Earl's Court - Turnham Green,Saturdays,All Day,12.0
+Earl's Court - Turnham Green,Sundays,All Day,12.0
+Turnham Green - Richmond,Mondays to Fridays,Morning Peak,8.57
+Turnham Green - Richmond,Mondays to Fridays,Midday Off-Peak,10.0
+Turnham Green - Richmond,Mondays to Fridays,Evening Peak,8.57
+Turnham Green - Richmond,Mondays to Fridays,After 20.00,10.0
+Turnham Green - Richmond,Saturdays,All Day,10.0
+Turnham Green - Richmond,Sundays,All Day,10.0
+Turnham Green - Ealing Broadway,Mondays to Fridays,Morning Peak,10.0
+Turnham Green - Ealing Broadway,Mondays to Fridays,Midday Off-Peak,6.0
+Turnham Green - Ealing Broadway,Mondays to Fridays,Evening Peak,10.0
+Turnham Green - Ealing Broadway,Mondays to Fridays,After 20.00,10.0
+Turnham Green - Ealing Broadway,Saturdays,All Day,10.0
+Turnham Green - Ealing Broadway,Sundays,All Day,10.0
+Olympia service,Saturdays,All Day,20.0
+Olympia service,Sundays,All Day,20.0
+Stratford - West Ham,Mondays to Fridays,Morning Peak,2.0
+Stratford - West Ham,Mondays to Fridays,Midday Off-Peak,2.5
+Stratford - West Ham,Mondays to Fridays,Evening Peak,2.0
+Stratford - West Ham,Mondays to Fridays,Evening Off-Peak,2.5
+Stratford - West Ham,Mondays to Fridays,After 23.00,4.5
+Stratford - West Ham,Saturdays,00 30 to 05 30,10.0
+Stratford - West Ham,Saturdays,05 30 to 08 00,4.25
+Stratford - West Ham,Saturdays,08 00 to 12 30,2.5
+Stratford - West Ham,Saturdays,12 30 to 23 00,2.5
+Stratford - West Ham,Saturdays,23 00 to Close,4.75
+Stratford - West Ham,Sundays,00 30 to 06 45,10.0
+Stratford - West Ham,Sundays,06 45 to 08 00,6.75
+Stratford - West Ham,Sundays,08 00 to 10 00,4.0
+Stratford - West Ham,Sundays,10 00 to 12 30,2.5
+Stratford - West Ham,Sundays,12 30 to 20 00,2.5
+Stratford - West Ham,Sundays,20 00 to 23 00,3.75
+Stratford - West Ham,Sundays,23 00 to Close,3.75
+West Ham - North Greenwich,Mondays to Fridays,Morning Peak,2.0
+West Ham - North Greenwich,Mondays to Fridays,Midday Off-Peak,2.0
+West Ham - North Greenwich,Mondays to Fridays,Evening Peak,2.5
+West Ham - North Greenwich,Mondays to Fridays,Evening Off-Peak,2.0
+West Ham - North Greenwich,Mondays to Fridays,After 23.00,4.5
+West Ham - North Greenwich,Saturdays,00 30 to 05 30,10.0
+West Ham - North Greenwich,Saturdays,05 30 to 08 00,5.1
+West Ham - North Greenwich,Saturdays,08 00 to 12 30,2.5
+West Ham - North Greenwich,Saturdays,12 30 to 23 00,2.5
+West Ham - North Greenwich,Saturdays,23 00 to Close,3.75
+West Ham - North Greenwich,Sundays,00 30 to 06 45,10.0
+West Ham - North Greenwich,Sundays,06 45 to 08 00,7.5
+West Ham - North Greenwich,Sundays,08 00 to 10 00,3.0
+West Ham - North Greenwich,Sundays,10 00 to 12 30,2.5
+West Ham - North Greenwich,Sundays,12 30 to 20 00,2.5
+West Ham - North Greenwich,Sundays,20 00 to 23 00,3.0
+West Ham - North Greenwich,Sundays,23 00 to Close,3.75
+North Greenwich - West Hampstead,Mondays to Fridays,Morning Peak,2.0
+North Greenwich - West Hampstead,Mondays to Fridays,Midday Off-Peak,2.0
+North Greenwich - West Hampstead,Mondays to Fridays,Evening Peak,2.5
+North Greenwich - West Hampstead,Mondays to Fridays,Evening Off-Peak,2.0
+North Greenwich - West Hampstead,Mondays to Fridays,After 23.00,4.5
+North Greenwich - West Hampstead,Saturdays,00 30 to 05 30,10.0
+North Greenwich - West Hampstead,Saturdays,05 30 to 08 00,5.1
+North Greenwich - West Hampstead,Saturdays,08 00 to 12 30,2.5
+North Greenwich - West Hampstead,Saturdays,12 30 to 23 00,2.5
+North Greenwich - West Hampstead,Saturdays,23 00 to Close,3.75
+North Greenwich - West Hampstead,Sundays,00 30 to 06 45,10.0
+North Greenwich - West Hampstead,Sundays,06 45 to 08 00,7.5
+North Greenwich - West Hampstead,Sundays,08 00 to 10 00,3.0
+North Greenwich - West Hampstead,Sundays,10 00 to 12 30,2.5
+North Greenwich - West Hampstead,Sundays,12 30 to 20 00,2.5
+North Greenwich - West Hampstead,Sundays,20 00 to 23 00,3.0
+North Greenwich - West Hampstead,Sundays,23 00 to Close,3.75
+West Hampstead - Willesden Green,Mondays to Fridays,Morning Peak,3.0
+West Hampstead - Willesden Green,Mondays to Fridays,Midday Off-Peak,3.0
+West Hampstead - Willesden Green,Mondays to Fridays,Evening Peak,3.5
+West Hampstead - Willesden Green,Mondays to Fridays,Evening Off-Peak,3.0
+West Hampstead - Willesden Green,Mondays to Fridays,After 23.00,4.5
+West Hampstead - Willesden Green,Saturdays,00 30 to 05 30,10.0
+West Hampstead - Willesden Green,Saturdays,05 30 to 08 00,5.1
+West Hampstead - Willesden Green,Saturdays,08 00 to 12 30,3.75
+West Hampstead - Willesden Green,Saturdays,12 30 to 23 00,2.5
+West Hampstead - Willesden Green,Saturdays,23 00 to Close,3.75
+West Hampstead - Willesden Green,Sundays,00 30 to 06 45,10.0
+West Hampstead - Willesden Green,Sundays,06 45 to 08 00,7.5
+West Hampstead - Willesden Green,Sundays,08 00 to 10 00,3.0
+West Hampstead - Willesden Green,Sundays,10 00 to 12 30,3.75
+West Hampstead - Willesden Green,Sundays,12 30 to 20 00,2.5
+West Hampstead - Willesden Green,Sundays,20 00 to 23 00,3.0
+West Hampstead - Willesden Green,Sundays,23 00 to Close,3.75
+Willesden Green - Wembley Park,Mondays to Fridays,Morning Peak,3.0
+Willesden Green - Wembley Park,Mondays to Fridays,Midday Off-Peak,3.0
+Willesden Green - Wembley Park,Mondays to Fridays,Evening Peak,3.5
+Willesden Green - Wembley Park,Mondays to Fridays,Evening Off-Peak,3.0
+Willesden Green - Wembley Park,Mondays to Fridays,After 23.00,4.5
+Willesden Green - Wembley Park,Saturdays,00 30 to 05 30,10.0
+Willesden Green - Wembley Park,Saturdays,05 30 to 08 00,5.1
+Willesden Green - Wembley Park,Saturdays,08 00 to 12 30,3.75
+Willesden Green - Wembley Park,Saturdays,12 30 to 23 00,2.75
+Willesden Green - Wembley Park,Saturdays,23 00 to Close,4.6
+Willesden Green - Wembley Park,Sundays,00 30 to 06 45,10.0
+Willesden Green - Wembley Park,Sundays,06 45 to 08 00,7.5
+Willesden Green - Wembley Park,Sundays,08 00 to 10 00,4.5
+Willesden Green - Wembley Park,Sundays,10 00 to 12 30,3.75
+Willesden Green - Wembley Park,Sundays,12 30 to 20 00,2.75
+Willesden Green - Wembley Park,Sundays,20 00 to 23 00,4.0
+Willesden Green - Wembley Park,Sundays,23 00 to Close,3.75
+Wembley Park - Stanmore,Mondays to Fridays,Morning Peak,3.5
+Wembley Park - Stanmore,Mondays to Fridays,Midday Off-Peak,3.5
+Wembley Park - Stanmore,Mondays to Fridays,Evening Peak,5.0
+Wembley Park - Stanmore,Mondays to Fridays,Evening Off-Peak,3.5
+Wembley Park - Stanmore,Mondays to Fridays,After 23.00,6.0
+Wembley Park - Stanmore,Saturdays,00 30 to 05 30,10.0
+Wembley Park - Stanmore,Saturdays,05 30 to 08 00,6.5
+Wembley Park - Stanmore,Saturdays,08 00 to 12 30,5.0
+Wembley Park - Stanmore,Saturdays,12 30 to 23 00,3.75
+Wembley Park - Stanmore,Saturdays,23 00 to Close,6.5
+Wembley Park - Stanmore,Sundays,00 30 to 06 45,10.0
+Wembley Park - Stanmore,Sundays,06 45 to 08 00,15.0
+Wembley Park - Stanmore,Sundays,08 00 to 10 00,4.75
+Wembley Park - Stanmore,Sundays,10 00 to 12 30,5.0
+Wembley Park - Stanmore,Sundays,12 30 to 20 00,3.75
+Wembley Park - Stanmore,Sundays,20 00 to 23 00,4.5
+Wembley Park - Stanmore,Sundays,23 00 to Close,5.5
+Amersham Branch,Mondays to Fridays,Morning Peak,15.0
+Amersham Branch,Mondays to Fridays,Midday Off-Peak,30.0
+Amersham Branch,Mondays to Fridays,Evening Peak,15.0
+Amersham Branch,Mondays to Fridays,20.30 to Finish,30.0
+Amersham Branch,Saturdays,All Day,30.0
+Amersham Branch,Sundays,All Day,30.0
+Chesham Branch,Mondays to Fridays,Morning Peak,30.0
+Chesham Branch,Mondays to Fridays,Midday Off-Peak,30.0
+Chesham Branch,Mondays to Fridays,Evening Peak,30.0
+Chesham Branch,Mondays to Fridays,20.30 to Finish,30.0
+Chesham Branch,Saturdays,All Day,30.0
+Chesham Branch,Sundays,All Day,30.0
+Moor Park - Chalfont & Latimer,Mondays to Fridays,Morning Peak,10.9
+Moor Park - Chalfont & Latimer,Mondays to Fridays,Midday Off-Peak,15.0
+Moor Park - Chalfont & Latimer,Mondays to Fridays,Evening Peak,10.9
+Moor Park - Chalfont & Latimer,Mondays to Fridays,20.30 to Finish,15.0
+Moor Park - Chalfont & Latimer,Saturdays,All Day,15.0
+Moor Park - Chalfont & Latimer,Sundays,All Day,15.0
+Moor Park - Watford,Mondays to Fridays,Morning Peak,8.0
+Moor Park - Watford,Mondays to Fridays,Midday Off-Peak,15.0
+Moor Park - Watford,Mondays to Fridays,Evening Peak,8.0
+Moor Park - Watford,Mondays to Fridays,20.30 to Finish,15.0
+Moor Park - Watford,Saturdays,All Day,15.0
+Moor Park - Watford,Sundays,All Day,15.0
+Harrow-on-the-Hill - Moor Park (via slow lines),Mondays to Fridays,Morning Peak,6.32
+Harrow-on-the-Hill - Moor Park (via slow lines),Mondays to Fridays,Midday Off-Peak,7.5
+Harrow-on-the-Hill - Moor Park (via slow lines),Mondays to Fridays,Evening Peak,6.32
+Harrow-on-the-Hill - Moor Park (via slow lines),Mondays to Fridays,20.30 to Finish,7.5
+Harrow-on-the-Hill - Moor Park (via slow lines),Saturdays,All Day,7.5
+Harrow-on-the-Hill - Moor Park (via slow lines),Sundays,All Day,7.5
+Harrow-on-the-Hill - Moor Park (via fast lines),Mondays to Fridays,Morning Peak,15.0
+Harrow-on-the-Hill - Moor Park (via fast lines),Mondays to Fridays,Evening Peak,15.0
+Harrow-on-the-Hill - Uxbridge,Mondays to Fridays,Morning Peak,6.0
+Harrow-on-the-Hill - Uxbridge,Mondays to Fridays,Midday Off-Peak,7.5
+Harrow-on-the-Hill - Uxbridge,Mondays to Fridays,Evening Peak,6.0
+Harrow-on-the-Hill - Uxbridge,Mondays to Fridays,20.30 to Finish,7.5
+Harrow-on-the-Hill - Uxbridge,Saturdays,All Day,7.5
+Harrow-on-the-Hill - Uxbridge,Sundays,All Day,7.5
+Wembley Park - Harrow-on-the-Hill (via slow lines),Mondays to Fridays,Morning Peak,5.22
+Wembley Park - Harrow-on-the-Hill (via slow lines),Mondays to Fridays,Midday Off-Peak,3.75
+Wembley Park - Harrow-on-the-Hill (via slow lines),Mondays to Fridays,Evening Peak,5.22
+Wembley Park - Harrow-on-the-Hill (via slow lines),Mondays to Fridays,20.30 to Finish,3.75
+Wembley Park - Harrow-on-the-Hill (via slow lines),Saturdays,All Day,3.75
+Wembley Park - Harrow-on-the-Hill (via slow lines),Sundays,All Day,3.75
+Wembley Park - Harrow-on-the-Hill (via fast lines),Mondays to Fridays,Morning Peak,5.22
+Wembley Park - Harrow-on-the-Hill (via fast lines),Mondays to Fridays,Evening Peak,5.22
+Baker Street - Wembley Park,Mondays to Fridays,Morning Peak,2.67
+Baker Street - Wembley Park,Mondays to Fridays,Midday Off-Peak,3.75
+Baker Street - Wembley Park,Mondays to Fridays,Evening Peak,2.67
+Baker Street - Wembley Park,Mondays to Fridays,20.30 to Finish,3.75
+Baker Street - Wembley Park,Saturdays,All Day,3.75
+Baker Street - Wembley Park,Sundays,All Day,3.75
+Aldgate - Baker Street,Mondays to Fridays,Morning Peak,3.75
+Aldgate - Baker Street,Mondays to Fridays,Midday Off-Peak,5.0
+Aldgate - Baker Street,Mondays to Fridays,Evening Peak,3.75
+Aldgate - Baker Street,Mondays to Fridays,20.30 to Finish,5.0
+Aldgate - Baker Street,Saturdays,All Day,5.0
+Aldgate - Baker Street,Sundays,All Day,5.0
+Edgware - Camden Town via Charing Cross,Mondays to Fridays,Morning Peak,6.0
+Edgware - Camden Town via Charing Cross,Mondays to Fridays,Midday Off-Peak,6.0
+Edgware - Camden Town via Charing Cross,Mondays to Fridays,Evening Peak,6.0
+Edgware - Camden Town via Charing Cross,Mondays to Fridays,After 20.30,6.0
+Edgware - Camden Town via Charing Cross,Saturdays,All Day,6.0
+Edgware - Camden Town via Charing Cross,Sundays,All Day,6.0
+Edgware - Camden Town via Bank,Mondays to Fridays,Morning Peak,3.75
+Edgware - Camden Town via Bank,Mondays to Fridays,Midday Off-Peak,6.0
+Edgware - Camden Town via Bank,Mondays to Fridays,Evening Peak,5.0
+Edgware - Camden Town via Bank,Mondays to Fridays,After 20.30,6.0
+Edgware - Camden Town via Bank,Saturdays,All Day,6.0
+Edgware - Camden Town via Bank,Sundays,All Day,6.0
+High Barnet - Finchley Central via Charing Cross,Mondays to Fridays,Morning Peak,5.6
+High Barnet - Finchley Central via Charing Cross,Mondays to Fridays,Midday Off-Peak,9.0
+High Barnet - Finchley Central via Charing Cross,Mondays to Fridays,Evening Peak,10.0
+High Barnet - Finchley Central via Charing Cross,Mondays to Fridays,After 20.30,9.0
+High Barnet - Finchley Central via Charing Cross,Saturdays,All Day,9.0
+High Barnet - Finchley Central via Charing Cross,Sundays,All Day,9.0
+High Barnet - Finchley Central via Bank,Mondays to Fridays,Morning Peak,7.5
+High Barnet - Finchley Central via Bank,Mondays to Fridays,Midday Off-Peak,9.0
+High Barnet - Finchley Central via Bank,Mondays to Fridays,Evening Peak,9.0
+High Barnet - Finchley Central via Bank,Mondays to Fridays,After 20.30,9.0
+High Barnet - Finchley Central via Bank,Saturdays,All Day,9.0
+High Barnet - Finchley Central via Bank,Sundays,All Day,9.0
+Mill Hill East - Finchley Central,Mondays to Fridays,Morning Peak,12.0
+Mill Hill East - Finchley Central,Mondays to Fridays,Midday Off-Peak,30.0
+Mill Hill East - Finchley Central,Mondays to Fridays,Evening Peak,18.0
+Mill Hill East - Finchley Central,Mondays to Fridays,After 20.30,30.0
+Mill Hill East - Finchley Central,Saturdays,All Day,30.0
+Mill Hill East - Finchley Central,Sundays,All Day,30.0
+Finchley Central - Camden Town via Charing Cross,Mondays to Fridays,Morning Peak,3.87
+Finchley Central - Camden Town via Charing Cross,Mondays to Fridays,Midday Off-Peak,6.0
+Finchley Central - Camden Town via Charing Cross,Mondays to Fridays,Evening Peak,5.0
+Finchley Central - Camden Town via Charing Cross,Mondays to Fridays,After 20.30,6.0
+Finchley Central - Camden Town via Charing Cross,Saturdays,All Day,6.0
+Finchley Central - Camden Town via Charing Cross,Sundays,All Day,6.0
+Finchley Central - Camden Town via Bank,Mondays to Fridays,Morning Peak,5.0
+Finchley Central - Camden Town via Bank,Mondays to Fridays,Midday Off-Peak,6.0
+Finchley Central - Camden Town via Bank,Mondays to Fridays,Evening Peak,5.0
+Finchley Central - Camden Town via Bank,Mondays to Fridays,After 20.30,6.0
+Finchley Central - Camden Town via Bank,Saturdays,All Day,6.0
+Finchley Central - Camden Town via Bank,Sundays,All Day,6.0
+Camden Town - Kennington via Charing Cross,Mondays to Fridays,Morning Peak,2.5
+Camden Town - Kennington via Charing Cross,Mondays to Fridays,Midday Off-Peak,3.0
+Camden Town - Kennington via Charing Cross,Mondays to Fridays,Evening Peak,2.5
+Camden Town - Kennington via Charing Cross,Mondays to Fridays,After 20.30,3.0
+Camden Town - Kennington via Charing Cross,Saturdays,All Day,3.0
+Camden Town - Kennington via Charing Cross,Sundays,All Day,3.0
+Camden Town - Kennington via Bank,Mondays to Fridays,Morning Peak,2.5
+Camden Town - Kennington via Bank,Mondays to Fridays,Midday Off-Peak,3.0
+Camden Town - Kennington via Bank,Mondays to Fridays,Evening Peak,2.5
+Camden Town - Kennington via Bank,Mondays to Fridays,After 20.30,3.0
+Camden Town - Kennington via Bank,Saturdays,All Day,3.0
+Camden Town - Kennington via Bank,Sundays,All Day,3.0
+Kennington - Battersea Power Station,Mondays to Fridays,Morning Peak,4.25
+Kennington - Battersea Power Station,Mondays to Fridays,Midday Off-Peak,5.5
+Kennington - Battersea Power Station,Mondays to Fridays,Evening Peak,5.0
+Kennington - Battersea Power Station,Mondays to Fridays,After 20.30,5.0
+Kennington - Battersea Power Station,Saturdays,All Day,6.0
+Kennington - Battersea Power Station,Sundays,All Day,6.0
+Kennington - Morden via Bank,Mondays to Fridays,Morning Peak,3.0
+Kennington - Morden via Bank,Mondays to Fridays,Midday Off-Peak,3.0
+Kennington - Morden via Bank,Mondays to Fridays,Evening Peak,3.0
+Kennington - Morden via Bank,Mondays to Fridays,After 20.30,3.0
+Kennington - Morden via Bank,Saturdays,All Day,3.0
+Kennington - Morden via Bank,Sundays,All Day,3.0
+Cockfosters - Arnos Grove,Mondays to Fridays,Morning Peak,3.33
+Cockfosters - Arnos Grove,Mondays to Fridays,10.30-15.45,4.0
+Cockfosters - Arnos Grove,Mondays to Fridays,Evening Peak,3.33
+Cockfosters - Arnos Grove,Mondays to Fridays,20.15-22.30,4.0
+Cockfosters - Arnos Grove,Mondays to Fridays,After 22.30,5.0
+Arnos Grove - Acton Town,Mondays to Fridays,Morning Peak,2.5
+Arnos Grove - Acton Town,Mondays to Fridays,10.30-15.45,2.86
+Arnos Grove - Acton Town,Mondays to Fridays,Evening Peak,2.5
+Arnos Grove - Acton Town,Mondays to Fridays,20.15-22.30,2.86
+Arnos Grove - Acton Town,Mondays to Fridays,After 22.30,3.33
+Acton Town - Northfields,Mondays to Fridays,Morning Peak,4.0
+Acton Town - Northfields,Mondays to Fridays,10.30-15.45,4.0
+Acton Town - Northfields,Mondays to Fridays,Evening Peak,4.0
+Acton Town - Northfields,Mondays to Fridays,20.15-22.30,4.0
+Acton Town - Northfields,Mondays to Fridays,After 22.30,5.0
+Northfields - Hatton Cross,Mondays to Fridays,Morning Peak,5.0
+Northfields - Hatton Cross,Mondays to Fridays,10.30-15.45,5.0
+Northfields - Hatton Cross,Mondays to Fridays,Evening Peak,5.0
+Northfields - Hatton Cross,Mondays to Fridays,20.15-22.30,5.0
+Northfields - Hatton Cross,Mondays to Fridays,After 22.30,5.0
+Hatton Cross - Heathrow T4,Mondays to Fridays,Morning Peak,10.0
+Hatton Cross - Heathrow T4,Mondays to Fridays,10.30-15.45,10.0
+Hatton Cross - Heathrow T4,Mondays to Fridays,Evening Peak,10.0
+Hatton Cross - Heathrow T4,Mondays to Fridays,20.15-22.30,10.0
+Hatton Cross - Heathrow T4,Mondays to Fridays,After 22.30,10.0
+Hatton Cross - Heathrow T1 2 3 & T5,Mondays to Fridays,Morning Peak,10.0
+Hatton Cross - Heathrow T1 2 3 & T5,Mondays to Fridays,10.30-15.45,10.0
+Hatton Cross - Heathrow T1 2 3 & T5,Mondays to Fridays,Evening Peak,10.0
+Hatton Cross - Heathrow T1 2 3 & T5,Mondays to Fridays,20.15-22.30,10.0
+Hatton Cross - Heathrow T1 2 3 & T5,Mondays to Fridays,After 22.30,10.0
+Acton Town - Rayners Lane,Mondays to Fridays,Morning Peak,6.67
+Acton Town - Rayners Lane,Mondays to Fridays,10.30-15.45,10.0
+Acton Town - Rayners Lane,Mondays to Fridays,Evening Peak,6.67
+Acton Town - Rayners Lane,Mondays to Fridays,20.15-22.30,10.0
+Acton Town - Rayners Lane,Mondays to Fridays,After 22.30,10.0
+Rayners Lane - Uxbridge,Mondays to Fridays,Morning Peak,10.0
+Rayners Lane - Uxbridge,Mondays to Fridays,10.30-15.45,20.0
+Rayners Lane - Uxbridge,Mondays to Fridays,Evening Peak,10.0
+Rayners Lane - Uxbridge,Mondays to Fridays,20.15-22.30,20.0
+Rayners Lane - Uxbridge,Mondays to Fridays,After 22.30,20.0
+Cockfosters - Arnos Grove,Saturdays,Friday Night Tube,10.0
+Cockfosters - Arnos Grove,Saturdays,05.45-07.30,5.0
+Cockfosters - Arnos Grove,Saturdays,07.30-11.00 & 19.00-23.00,4.44
+Cockfosters - Arnos Grove,Saturdays,11.00-19.00,3.33
+Cockfosters - Arnos Grove,Saturdays,After 23.00,5.0
+Arnos Grove - Acton Town,Saturdays,Friday Night Tube,10.0
+Arnos Grove - Acton Town,Saturdays,05.45-07.30,5.0
+Arnos Grove - Acton Town,Saturdays,07.30-11.00 & 19.00-23.00,3.07
+Arnos Grove - Acton Town,Saturdays,11.00-19.00,2.5
+Arnos Grove - Acton Town,Saturdays,After 23.00,3.33
+Acton Town - Northfields,Saturdays,Friday Night Tube,10.0
+Acton Town - Northfields,Saturdays,05.45-07.30,5.0
+Acton Town - Northfields,Saturdays,07.30-11.00 & 19.00-23.00,4.44
+Acton Town - Northfields,Saturdays,11.00-19.00,3.33
+Acton Town - Northfields,Saturdays,After 23.00,5.0
+Northfields - Hatton Cross,Saturdays,Friday Night Tube,10.0
+Northfields - Hatton Cross,Saturdays,05.45-07.30,5.0
+Northfields - Hatton Cross,Saturdays,07.30-11.00 & 19.00-23.00,5.0
+Northfields - Hatton Cross,Saturdays,11.00-19.00,5.0
+Northfields - Hatton Cross,Saturdays,After 23.00,5.0
+Hatton Cross - Heathrow T4,Saturdays,05.45-07.30,10.0
+Hatton Cross - Heathrow T4,Saturdays,07.30-11.00 & 19.00-23.00,10.0
+Hatton Cross - Heathrow T4,Saturdays,11.00-19.00,10.0
+Hatton Cross - Heathrow T4,Saturdays,After 23.00,10.0
+Hatton Cross - Heathrow T1 2 3 & T5,Saturdays,Friday Night Tube,10.0
+Hatton Cross - Heathrow T1 2 3 & T5,Saturdays,05.45-07.30,10.0
+Hatton Cross - Heathrow T1 2 3 & T5,Saturdays,07.30-11.00 & 19.00-23.00,10.0
+Hatton Cross - Heathrow T1 2 3 & T5,Saturdays,11.00-19.00,10.0
+Hatton Cross - Heathrow T1 2 3 & T5,Saturdays,After 23.00,10.0
+Acton Town - Rayners Lane,Saturdays,05.45-07.30,10.0
+Acton Town - Rayners Lane,Saturdays,07.30-11.00 & 19.00-23.00,10.0
+Acton Town - Rayners Lane,Saturdays,11.00-19.00,10.0
+Acton Town - Rayners Lane,Saturdays,After 23.00,10.0
+Rayners Lane - Uxbridge,Saturdays,07.30-11.00 & 19.00-23.00,20.0
+Rayners Lane - Uxbridge,Saturdays,11.00-19.00,20.0
+Rayners Lane - Uxbridge,Saturdays,After 23.00,20.0
+Cockfosters - Arnos Grove,Sundays,Saturday Night Tube,10.0
+Cockfosters - Arnos Grove,Sundays,06.45-08.30,5.0
+Cockfosters - Arnos Grove,Sundays,08.30-10.45,5.0
+Cockfosters - Arnos Grove,Sundays,10.45-19.15,4.0
+Cockfosters - Arnos Grove,Sundays,After 19.15,5.0
+Arnos Grove - Acton Town,Sundays,Saturday Night Tube,10.0
+Arnos Grove - Acton Town,Sundays,06.45-08.30,5.0
+Arnos Grove - Acton Town,Sundays,08.30-10.45,3.33
+Arnos Grove - Acton Town,Sundays,10.45-19.15,2.86
+Arnos Grove - Acton Town,Sundays,After 19.15,3.33
+Acton Town - Northfields,Sundays,Saturday Night Tube,10.0
+Acton Town - Northfields,Sundays,06.45-08.30,12.0
+Acton Town - Northfields,Sundays,08.30-10.45,5.0
+Acton Town - Northfields,Sundays,10.45-19.15,4.0
+Acton Town - Northfields,Sundays,After 19.15,5.0
+Northfields - Hatton Cross,Sundays,Saturday Night Tube,10.0
+Northfields - Hatton Cross,Sundays,06.45-08.30,5.0
+Northfields - Hatton Cross,Sundays,08.30-10.45,5.0
+Northfields - Hatton Cross,Sundays,10.45-19.15,5.0
+Northfields - Hatton Cross,Sundays,After 19.15,5.0
+Hatton Cross - Heathrow T4,Sundays,06.45-08.30,10.0
+Hatton Cross - Heathrow T4,Sundays,08.30-10.45,10.0
+Hatton Cross - Heathrow T4,Sundays,10.45-19.15,10.0
+Hatton Cross - Heathrow T4,Sundays,After 19.15,10.0
+Hatton Cross - Heathrow T1 2 3 & T5,Sundays,Saturday Night Tube,10.0
+Hatton Cross - Heathrow T1 2 3 & T5,Sundays,06.45-08.30,10.0
+Hatton Cross - Heathrow T1 2 3 & T5,Sundays,08.30-10.45,10.0
+Hatton Cross - Heathrow T1 2 3 & T5,Sundays,10.45-19.15,10.0
+Hatton Cross - Heathrow T1 2 3 & T5,Sundays,After 19.15,10.0
+Acton Town - Rayners Lane,Sundays,06.45-08.30,10.0
+Acton Town - Rayners Lane,Sundays,08.30-10.45,10.0
+Acton Town - Rayners Lane,Sundays,10.45-19.15,10.0
+Acton Town - Rayners Lane,Sundays,After 19.15,10.0
+Rayners Lane - Uxbridge,Sundays,06.45-08.30,20.0
+Rayners Lane - Uxbridge,Sundays,08.30-10.45,20.0
+Rayners Lane - Uxbridge,Sundays,10.45-19.15,20.0
+Rayners Lane - Uxbridge,Sundays,After 19.15,20.0
+Brixton - Seven Sisters,Mondays to Thursdays,Morning Peak,1.71
+Brixton - Seven Sisters,Mondays to Thursdays,Midday Off-Peak,2.25
+Brixton - Seven Sisters,Mondays to Thursdays,Evening Peak,1.71
+Brixton - Seven Sisters,Mondays to Thursdays,20.00 to Finish,2.25
+Seven Sisters - Walthamstow Central,Mondays to Thursdays,Morning Peak,1.83
+Seven Sisters - Walthamstow Central,Mondays to Thursdays,Midday Off-Peak,2.25
+Seven Sisters - Walthamstow Central,Mondays to Thursdays,Evening Peak,1.83
+Seven Sisters - Walthamstow Central,Mondays to Thursdays,20.00 to Finish,2.25
+Brixton - Seven Sisters,Fridays,Morning Peak,1.71
+Brixton - Seven Sisters,Fridays,Midday Off-Peak,2.25
+Brixton - Seven Sisters,Fridays,Evening Peak,1.71
+Brixton - Seven Sisters,Fridays,20.00 to 22.30,2.25
+Brixton - Seven Sisters,Fridays,22.30 to 23.30,2.38
+Brixton - Seven Sisters,Fridays,23.30 to 01.00 (Night Tube),4.5
+Brixton - Seven Sisters,Fridays,01.00 to 06.00 (Night Tube),10.0
+Seven Sisters - Walthamstow Central,Fridays,Morning Peak,1.83
+Seven Sisters - Walthamstow Central,Fridays,Midday Off-Peak,2.25
+Seven Sisters - Walthamstow Central,Fridays,Evening Peak,1.83
+Seven Sisters - Walthamstow Central,Fridays,20.00 to 22.30,2.25
+Seven Sisters - Walthamstow Central,Fridays,22.30 to 23.30,3.38
+Seven Sisters - Walthamstow Central,Fridays,23.30 to 01.00 (Night Tube),7.0
+Seven Sisters - Walthamstow Central,Fridays,01.00 to 06.00 (Night Tube),10.0
+Brixton - Seven Sisters,Saturdays,06.00 to 07.00,3.25
+Brixton - Seven Sisters,Saturdays,07.00 to 13.00,2.25
+Brixton - Seven Sisters,Saturdays,13.00 to 19.30,2.0
+Brixton - Seven Sisters,Saturdays,19.30 to 22.30,2.25
+Brixton - Seven Sisters,Saturdays,22.30 to 23.30,2.38
+Brixton - Seven Sisters,Saturdays,23.30 to 01.00 (Night Tube),4.5
+Brixton - Seven Sisters,Saturdays,01.00 to 07.00 (Night Tube),10.0
+Seven Sisters - Walthamstow Central,Saturdays,06.00 to 07.00,4.25
+Seven Sisters - Walthamstow Central,Saturdays,07.00 to 13.00,2.25
+Seven Sisters - Walthamstow Central,Saturdays,13.00 to 19.30,2.0
+Seven Sisters - Walthamstow Central,Saturdays,19.30 to 22.30,2.25
+Seven Sisters - Walthamstow Central,Saturdays,22.30 to 23.30,3.38
+Seven Sisters - Walthamstow Central,Saturdays,23.30 to 01.00 (Night Tube),7.0
+Seven Sisters - Walthamstow Central,Saturdays,01.00 to 07.00 (Night Tube),10.0
+Brixton - Seven Sisters,Sundays,07.00 to 08.00,4.25
+Brixton - Seven Sisters,Sundays,08.00 to 10.00,2.5
+Brixton - Seven Sisters,Sundays,10.00 to 21.00,2.25
+Brixton - Seven Sisters,Sundays,21.00 to Finish,2.75
+Seven Sisters - Walthamstow Central,Sundays,07.00 to 08.00,6.0
+Seven Sisters - Walthamstow Central,Sundays,08.00 to 10.00,3.75
+Seven Sisters - Walthamstow Central,Sundays,10.00 to 21.00,2.25
+Seven Sisters - Walthamstow Central,Sundays,21.00 to Finish,2.75
+Waterloo & City,Mondays to Fridays,Morning Peak,2.375
+Waterloo & City,Mondays to Fridays,Midday Off-Peak,5.0
+Waterloo & City,Mondays to Fridays,Evening Peak,2.375
+Waterloo & City,Mondays to Fridays,19.45 to 21.30,3.5
+Waterloo & City,Mondays to Fridays,21.30 to 23.30,6.0
+Waterloo & City,Mondays to Fridays,23.30 to Close,10.0
+Waterloo & City,Saturdays,Start to 18.30,5.0
+Waterloo & City,Saturdays,18.30 to 23.30,6.0
+Waterloo & City,Saturdays,23.30 to Close,10.0

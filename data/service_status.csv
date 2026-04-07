@@ -1,0 +1,21 @@
+affected_entity,status_text,severity_level,closure_reason,start_date,end_date
+Bakerloo,Good Service,10,,,
+Central,Minor Delays,9,Central Line: Minor delays due to train cancellations. ,2026-03-29,2026-03-30
+Circle,Good Service,10,,,
+District,Minor Delays,9,District Line: Minor delays between Barking and Upminster due to train cancellations. ,2026-03-29,2026-03-30
+DLR,Part Closure,5,"DOCKLANDS LIGHT RAILWAY: Saturday 28 and Sunday 29 March, no service between Bank / Tower Gateway and Canning Town / Lewisham, or between Stratford and Canary Wharf. Please use local London Buses and London Underground services. Replacement bus services operate.",2026-03-28,2026-03-30
+Elizabeth line,Part Closure,5,"ELIZABETH LINE: Saturday 28 and Sunday 29 March, no service between Stratford and Shenfield. The limited ELIZABETH LINE services to/from Liverpool Street National Rail station will also not operate. There will also be no GREATER ANGLIA services between Liverpool Street and Ingatestone / Southend Victoria",2026-03-28,2026-03-30
+Hammersmith & City,Good Service,10,,,
+Jubilee,Good Service,10,,,
+Liberty,Planned Closure,4,"LIBERTY LINE: Saturday 28 and Sunday 29 March, no service between Romford and Upminster. Use local London Buses routes 165 248 and 370.",2026-03-28,2026-03-30
+Lioness,Good Service,10,,,
+Metropolitan,Part Closure,5,"METROPOLITAN LINE: Saturday 28 and Sunday 29 March, no service between Wembley Park and Aldgate. There will also be no CHILTERN RAILWAYS services between Marylebone and Amersham. Please use JUBILEE LINE connections between Central London and Wembley Park.",2026-03-28,2026-03-30
+Mildmay,Part Closure,5,"MILDMAY LINE: Sunday 29 March, no service between Willesden Junction and Richmond. Use DISTRICT LINE services between Gunnersbury, Kew Gardens and Richmond. Replacement bus service R operates between Willesden Junction and Gunnersbury via Acton Central (The Vale) and South Acton (Acton Lane)",2026-03-29,2026-03-30
+Northern,Good Service,10,,,
+Piccadilly,Good Service,10,,,
+Suffragette,Good Service,10,,,
+Victoria,Good Service,10,,,
+Waterloo & City,Planned Closure,4,"Waterloo & City line: service operates 06:00 until 00:30, Monday to Friday only. There is no service on Saturdays, Sundays and on bank/public holidays.",2026-03-29,2026-03-29
+Waterloo & City,Service Closed,20,Waterloo and City Line: Service will resume at 06:00 on Monday. ,2026-03-29,2026-03-29
+Weaver,Planned Closure,4,"WEAVER LINE: Saturday 28 and Sunday 29 March, no service between Liverpool Street and Cheshunt / Chingford / Enfield Town. Use VICTORIA LINE connections between Central London and Seven Sisters / Walthamstow Central. GREATER ANGLIA and STANSTED EXPRESS trains will not call at Liverpool Street, Hackney Downs and Seven Sisters, and will be diverted to/from Stratford. Replacement buses operate. If travelling to Tottenham Hotspur Stadium, please use VICTORIA LINE services to/from Seven Sisters or Tottenham Hale.",2026-03-28,2026-03-30
+Windrush,Planned Closure,4,"WINDRUSH LINE: Sunday 29 March, after 1915, no service between Highbury & Islington and Battersea Park / Clapham Junction / Crystal Palace / New Cross / West Croydon. Use MILDMAY LINE services between Highbury & Islington, Canonbury and Dalston Kingsland, and SOUTHERN services between New Cross Gate and Crystal Palace / West Croydon.",2026-03-29,2026-03-30

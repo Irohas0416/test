@@ -1,0 +1,34 @@
+[
+  {
+    "stage": "extract_stations",
+    "start": "2026-04-07T11:50:00.663815",
+    "status": "ok",
+    "input_file": "data/WTT/picadilly.pdf",
+    "output_file": "data/stations.csv",
+    "skipped": true,
+    "cache_hit": true,
+    "skip_reason": "allow_api_false__use_fallback_repo_csv",
+    "output_file_bytes": 53884,
+    "output_rows": 842,
+    "elapsed_sec": 0.002,
+    "py_peak_alloc_mb": 0.06,
+    "py_current_alloc_mb": 0.02,
+    "cpu_time_sec": 0.0
+  },
+  {
+    "stage": "map_to_ttl",
+    "start": "2026-04-07T11:50:00.665822",
+    "status": "ok",
+    "input_file": "data/stations.csv",
+    "output_file": "data/output/knowledge_graph.ttl",
+    "stations_mapped": 842,
+    "triples_before": 778,
+    "triples_after": 6113,
+    "triples_added": 5335,
+    "output_file_bytes": 227205,
+    "elapsed_sec": 0.738,
+    "py_peak_alloc_mb": 8.4,
+    "py_current_alloc_mb": 7.95,
+    "cpu_time_sec": 0.688
+  }
+]

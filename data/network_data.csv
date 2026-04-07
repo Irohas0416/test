@@ -1,0 +1,1326 @@
+station_name,line_name,transport_mode,operator_name,is_step_free_street_to_train,sequence_number,direction_name
+Harrow & Wealdstone Underground Station,Bakerloo,tube,Transport for London,False,1,inbound
+Kenton Underground Station,Bakerloo,tube,Transport for London,False,2,inbound
+South Kenton Underground Station,Bakerloo,tube,Transport for London,False,3,inbound
+North Wembley Underground Station,Bakerloo,tube,Transport for London,False,4,inbound
+Wembley Central Underground Station,Bakerloo,tube,Transport for London,False,5,inbound
+Stonebridge Park Underground Station,Bakerloo,tube,Transport for London,False,6,inbound
+Harlesden Underground Station,Bakerloo,tube,Transport for London,False,7,inbound
+Willesden Junction Underground Station,Bakerloo,tube,Transport for London,False,8,inbound
+Kensal Green Underground Station,Bakerloo,tube,Transport for London,False,9,inbound
+Queen's Park Underground Station,Bakerloo,tube,Transport for London,False,10,inbound
+Kilburn Park Underground Station,Bakerloo,tube,Transport for London,False,11,inbound
+Maida Vale Underground Station,Bakerloo,tube,Transport for London,False,12,inbound
+Warwick Avenue Underground Station,Bakerloo,tube,Transport for London,False,13,inbound
+Paddington Underground Station,Bakerloo,tube,Transport for London,False,14,inbound
+Edgware Road (Bakerloo) Underground Station,Bakerloo,tube,Transport for London,False,15,inbound
+Marylebone Underground Station,Bakerloo,tube,Transport for London,False,16,inbound
+Baker Street Underground Station,Bakerloo,tube,Transport for London,False,17,inbound
+Regent's Park Underground Station,Bakerloo,tube,Transport for London,False,18,inbound
+Oxford Circus Underground Station,Bakerloo,tube,Transport for London,False,19,inbound
+Piccadilly Circus Underground Station,Bakerloo,tube,Transport for London,False,20,inbound
+Charing Cross Underground Station,Bakerloo,tube,Transport for London,False,21,inbound
+Embankment Underground Station,Bakerloo,tube,Transport for London,False,22,inbound
+Waterloo Underground Station,Bakerloo,tube,Transport for London,False,23,inbound
+Lambeth North Underground Station,Bakerloo,tube,Transport for London,False,24,inbound
+Elephant & Castle Underground Station,Bakerloo,tube,Transport for London,False,25,inbound
+Elephant & Castle Underground Station,Bakerloo,tube,Transport for London,False,1,outbound
+Lambeth North Underground Station,Bakerloo,tube,Transport for London,False,2,outbound
+Waterloo Underground Station,Bakerloo,tube,Transport for London,False,3,outbound
+Embankment Underground Station,Bakerloo,tube,Transport for London,False,4,outbound
+Charing Cross Underground Station,Bakerloo,tube,Transport for London,False,5,outbound
+Piccadilly Circus Underground Station,Bakerloo,tube,Transport for London,False,6,outbound
+Oxford Circus Underground Station,Bakerloo,tube,Transport for London,False,7,outbound
+Regent's Park Underground Station,Bakerloo,tube,Transport for London,False,8,outbound
+Baker Street Underground Station,Bakerloo,tube,Transport for London,False,9,outbound
+Marylebone Underground Station,Bakerloo,tube,Transport for London,False,10,outbound
+Edgware Road (Bakerloo) Underground Station,Bakerloo,tube,Transport for London,False,11,outbound
+Paddington Underground Station,Bakerloo,tube,Transport for London,False,12,outbound
+Warwick Avenue Underground Station,Bakerloo,tube,Transport for London,False,13,outbound
+Maida Vale Underground Station,Bakerloo,tube,Transport for London,False,14,outbound
+Kilburn Park Underground Station,Bakerloo,tube,Transport for London,False,15,outbound
+Queen's Park Underground Station,Bakerloo,tube,Transport for London,False,16,outbound
+Kensal Green Underground Station,Bakerloo,tube,Transport for London,False,17,outbound
+Willesden Junction Underground Station,Bakerloo,tube,Transport for London,False,18,outbound
+Harlesden Underground Station,Bakerloo,tube,Transport for London,False,19,outbound
+Stonebridge Park Underground Station,Bakerloo,tube,Transport for London,False,20,outbound
+Wembley Central Underground Station,Bakerloo,tube,Transport for London,False,21,outbound
+North Wembley Underground Station,Bakerloo,tube,Transport for London,False,22,outbound
+South Kenton Underground Station,Bakerloo,tube,Transport for London,False,23,outbound
+Kenton Underground Station,Bakerloo,tube,Transport for London,False,24,outbound
+Harrow & Wealdstone Underground Station,Bakerloo,tube,Transport for London,False,25,outbound
+Epping Underground Station,Central,tube,Transport for London,False,1,inbound
+Theydon Bois Underground Station,Central,tube,Transport for London,False,2,inbound
+Debden Underground Station,Central,tube,Transport for London,False,3,inbound
+Loughton Underground Station,Central,tube,Transport for London,False,4,inbound
+Buckhurst Hill Underground Station,Central,tube,Transport for London,False,5,inbound
+Woodford Underground Station,Central,tube,Transport for London,False,6,inbound
+Woodford Underground Station,Central,tube,Transport for London,False,1,inbound
+South Woodford Underground Station,Central,tube,Transport for London,False,2,inbound
+Snaresbrook Underground Station,Central,tube,Transport for London,False,3,inbound
+Leytonstone Underground Station,Central,tube,Transport for London,False,4,inbound
+Leytonstone Underground Station,Central,tube,Transport for London,False,1,inbound
+Leyton Underground Station,Central,tube,Transport for London,False,2,inbound
+Stratford Underground Station,Central,tube,Transport for London,False,3,inbound
+Mile End Underground Station,Central,tube,Transport for London,False,4,inbound
+Bethnal Green Underground Station,Central,tube,Transport for London,False,5,inbound
+Liverpool Street Underground Station,Central,tube,Transport for London,False,6,inbound
+Bank Underground Station,Central,tube,Transport for London,False,7,inbound
+St. Paul's Underground Station,Central,tube,Transport for London,False,8,inbound
+Chancery Lane Underground Station,Central,tube,Transport for London,False,9,inbound
+Holborn Underground Station,Central,tube,Transport for London,False,10,inbound
+Tottenham Court Road Underground Station,Central,tube,Transport for London,False,11,inbound
+Oxford Circus Underground Station,Central,tube,Transport for London,False,12,inbound
+Bond Street Underground Station,Central,tube,Transport for London,False,13,inbound
+Marble Arch Underground Station,Central,tube,Transport for London,False,14,inbound
+Lancaster Gate Underground Station,Central,tube,Transport for London,False,15,inbound
+Queensway Underground Station,Central,tube,Transport for London,False,16,inbound
+Notting Hill Gate Underground Station,Central,tube,Transport for London,False,17,inbound
+Holland Park Underground Station,Central,tube,Transport for London,False,18,inbound
+Shepherd's Bush (Central) Underground Station,Central,tube,Transport for London,False,19,inbound
+White City Underground Station,Central,tube,Transport for London,False,20,inbound
+East Acton Underground Station,Central,tube,Transport for London,False,21,inbound
+North Acton Underground Station,Central,tube,Transport for London,False,22,inbound
+North Acton Underground Station,Central,tube,Transport for London,False,1,inbound
+Hanger Lane Underground Station,Central,tube,Transport for London,False,2,inbound
+Perivale Underground Station,Central,tube,Transport for London,False,3,inbound
+Greenford Underground Station,Central,tube,Transport for London,False,4,inbound
+Northolt Underground Station,Central,tube,Transport for London,False,5,inbound
+South Ruislip Underground Station,Central,tube,Transport for London,False,6,inbound
+Ruislip Gardens Underground Station,Central,tube,Transport for London,False,7,inbound
+West Ruislip Underground Station,Central,tube,Transport for London,False,8,inbound
+West Ruislip Underground Station,Central,tube,Transport for London,False,1,outbound
+Ruislip Gardens Underground Station,Central,tube,Transport for London,False,2,outbound
+South Ruislip Underground Station,Central,tube,Transport for London,False,3,outbound
+Northolt Underground Station,Central,tube,Transport for London,False,4,outbound
+Greenford Underground Station,Central,tube,Transport for London,False,5,outbound
+Perivale Underground Station,Central,tube,Transport for London,False,6,outbound
+Hanger Lane Underground Station,Central,tube,Transport for London,False,7,outbound
+North Acton Underground Station,Central,tube,Transport for London,False,8,outbound
+North Acton Underground Station,Central,tube,Transport for London,False,1,outbound
+East Acton Underground Station,Central,tube,Transport for London,False,2,outbound
+White City Underground Station,Central,tube,Transport for London,False,3,outbound
+Shepherd's Bush (Central) Underground Station,Central,tube,Transport for London,False,4,outbound
+Holland Park Underground Station,Central,tube,Transport for London,False,5,outbound
+Notting Hill Gate Underground Station,Central,tube,Transport for London,False,6,outbound
+Queensway Underground Station,Central,tube,Transport for London,False,7,outbound
+Lancaster Gate Underground Station,Central,tube,Transport for London,False,8,outbound
+Marble Arch Underground Station,Central,tube,Transport for London,False,9,outbound
+Bond Street Underground Station,Central,tube,Transport for London,False,10,outbound
+Oxford Circus Underground Station,Central,tube,Transport for London,False,11,outbound
+Tottenham Court Road Underground Station,Central,tube,Transport for London,False,12,outbound
+Holborn Underground Station,Central,tube,Transport for London,False,13,outbound
+Chancery Lane Underground Station,Central,tube,Transport for London,False,14,outbound
+St. Paul's Underground Station,Central,tube,Transport for London,False,15,outbound
+Bank Underground Station,Central,tube,Transport for London,False,16,outbound
+Liverpool Street Underground Station,Central,tube,Transport for London,False,17,outbound
+Bethnal Green Underground Station,Central,tube,Transport for London,False,18,outbound
+Mile End Underground Station,Central,tube,Transport for London,False,19,outbound
+Stratford Underground Station,Central,tube,Transport for London,False,20,outbound
+Leyton Underground Station,Central,tube,Transport for London,False,21,outbound
+Leytonstone Underground Station,Central,tube,Transport for London,False,22,outbound
+Leytonstone Underground Station,Central,tube,Transport for London,False,1,outbound
+Snaresbrook Underground Station,Central,tube,Transport for London,False,2,outbound
+South Woodford Underground Station,Central,tube,Transport for London,False,3,outbound
+Woodford Underground Station,Central,tube,Transport for London,False,4,outbound
+Woodford Underground Station,Central,tube,Transport for London,False,1,outbound
+Buckhurst Hill Underground Station,Central,tube,Transport for London,False,2,outbound
+Loughton Underground Station,Central,tube,Transport for London,False,3,outbound
+Debden Underground Station,Central,tube,Transport for London,False,4,outbound
+Theydon Bois Underground Station,Central,tube,Transport for London,False,5,outbound
+Epping Underground Station,Central,tube,Transport for London,False,6,outbound
+Hainault Underground Station,Central,tube,Transport for London,False,1,inbound
+Fairlop Underground Station,Central,tube,Transport for London,False,2,inbound
+Barkingside Underground Station,Central,tube,Transport for London,False,3,inbound
+Newbury Park Underground Station,Central,tube,Transport for London,False,4,inbound
+Gants Hill Underground Station,Central,tube,Transport for London,False,5,inbound
+Redbridge Underground Station,Central,tube,Transport for London,False,6,inbound
+Wanstead Underground Station,Central,tube,Transport for London,False,7,inbound
+Leytonstone Underground Station,Central,tube,Transport for London,False,8,inbound
+Hainault Underground Station,Central,tube,Transport for London,False,1,inbound
+Grange Hill Underground Station,Central,tube,Transport for London,False,2,inbound
+Chigwell Underground Station,Central,tube,Transport for London,False,3,inbound
+Roding Valley Underground Station,Central,tube,Transport for London,False,4,inbound
+Woodford Underground Station,Central,tube,Transport for London,False,5,inbound
+Leytonstone Underground Station,Central,tube,Transport for London,False,1,outbound
+Wanstead Underground Station,Central,tube,Transport for London,False,2,outbound
+Redbridge Underground Station,Central,tube,Transport for London,False,3,outbound
+Gants Hill Underground Station,Central,tube,Transport for London,False,4,outbound
+Newbury Park Underground Station,Central,tube,Transport for London,False,5,outbound
+Barkingside Underground Station,Central,tube,Transport for London,False,6,outbound
+Fairlop Underground Station,Central,tube,Transport for London,False,7,outbound
+Hainault Underground Station,Central,tube,Transport for London,False,8,outbound
+Woodford Underground Station,Central,tube,Transport for London,False,1,outbound
+Roding Valley Underground Station,Central,tube,Transport for London,False,2,outbound
+Chigwell Underground Station,Central,tube,Transport for London,False,3,outbound
+Grange Hill Underground Station,Central,tube,Transport for London,False,4,outbound
+Hainault Underground Station,Central,tube,Transport for London,False,5,outbound
+North Acton Underground Station,Central,tube,Transport for London,False,1,inbound
+West Acton Underground Station,Central,tube,Transport for London,False,2,inbound
+Ealing Broadway Underground Station,Central,tube,Transport for London,False,3,inbound
+Ealing Broadway Underground Station,Central,tube,Transport for London,False,1,outbound
+West Acton Underground Station,Central,tube,Transport for London,False,2,outbound
+North Acton Underground Station,Central,tube,Transport for London,False,3,outbound
+Edgware Road (Circle Line) Underground Station,Circle,tube,Transport for London,False,1,inbound
+Paddington Underground Station,Circle,tube,Transport for London,False,2,inbound
+Bayswater Underground Station,Circle,tube,Transport for London,False,3,inbound
+Notting Hill Gate Underground Station,Circle,tube,Transport for London,False,4,inbound
+High Street Kensington Underground Station,Circle,tube,Transport for London,False,5,inbound
+Gloucester Road Underground Station,Circle,tube,Transport for London,False,6,inbound
+South Kensington Underground Station,Circle,tube,Transport for London,False,7,inbound
+Sloane Square Underground Station,Circle,tube,Transport for London,False,8,inbound
+Victoria Underground Station,Circle,tube,Transport for London,False,9,inbound
+St. James's Park Underground Station,Circle,tube,Transport for London,False,10,inbound
+Westminster Underground Station,Circle,tube,Transport for London,False,11,inbound
+Embankment Underground Station,Circle,tube,Transport for London,False,12,inbound
+Temple Underground Station,Circle,tube,Transport for London,False,13,inbound
+Blackfriars Underground Station,Circle,tube,Transport for London,False,14,inbound
+Mansion House Underground Station,Circle,tube,Transport for London,False,15,inbound
+Cannon Street Underground Station,Circle,tube,Transport for London,False,16,inbound
+Monument Underground Station,Circle,tube,Transport for London,False,17,inbound
+Tower Hill Underground Station,Circle,tube,Transport for London,False,18,inbound
+Aldgate Underground Station,Circle,tube,Transport for London,False,19,inbound
+Liverpool Street Underground Station,Circle,tube,Transport for London,False,20,inbound
+Moorgate Underground Station,Circle,tube,Transport for London,False,21,inbound
+Barbican Underground Station,Circle,tube,Transport for London,False,22,inbound
+Farringdon Underground Station,Circle,tube,Transport for London,False,23,inbound
+King's Cross St. Pancras Underground Station,Circle,tube,Transport for London,False,24,inbound
+Euston Square Underground Station,Circle,tube,Transport for London,False,25,inbound
+Great Portland Street Underground Station,Circle,tube,Transport for London,False,26,inbound
+Baker Street Underground Station,Circle,tube,Transport for London,False,27,inbound
+Edgware Road (Circle Line) Underground Station,Circle,tube,Transport for London,False,28,inbound
+Edgware Road (Circle Line) Underground Station,Circle,tube,Transport for London,False,1,inbound
+Paddington (H&C Line)-Underground,Circle,tube,Transport for London,False,2,inbound
+Royal Oak Underground Station,Circle,tube,Transport for London,False,3,inbound
+Westbourne Park Underground Station,Circle,tube,Transport for London,False,4,inbound
+Ladbroke Grove Underground Station,Circle,tube,Transport for London,False,5,inbound
+Latimer Road Underground Station,Circle,tube,Transport for London,False,6,inbound
+Wood Lane Underground Station,Circle,tube,Transport for London,False,7,inbound
+Shepherd's Bush Market Underground Station,Circle,tube,Transport for London,False,8,inbound
+Goldhawk Road Underground Station,Circle,tube,Transport for London,False,9,inbound
+Hammersmith (H&C Line) Underground Station,Circle,tube,Transport for London,False,10,inbound
+Hammersmith (H&C Line) Underground Station,Circle,tube,Transport for London,False,1,outbound
+Goldhawk Road Underground Station,Circle,tube,Transport for London,False,2,outbound
+Shepherd's Bush Market Underground Station,Circle,tube,Transport for London,False,3,outbound
+Wood Lane Underground Station,Circle,tube,Transport for London,False,4,outbound
+Latimer Road Underground Station,Circle,tube,Transport for London,False,5,outbound
+Ladbroke Grove Underground Station,Circle,tube,Transport for London,False,6,outbound
+Westbourne Park Underground Station,Circle,tube,Transport for London,False,7,outbound
+Royal Oak Underground Station,Circle,tube,Transport for London,False,8,outbound
+Paddington (H&C Line)-Underground,Circle,tube,Transport for London,False,9,outbound
+Edgware Road (Circle Line) Underground Station,Circle,tube,Transport for London,False,10,outbound
+Edgware Road (Circle Line) Underground Station,Circle,tube,Transport for London,False,1,outbound
+Baker Street Underground Station,Circle,tube,Transport for London,False,2,outbound
+Great Portland Street Underground Station,Circle,tube,Transport for London,False,3,outbound
+Euston Square Underground Station,Circle,tube,Transport for London,False,4,outbound
+King's Cross St. Pancras Underground Station,Circle,tube,Transport for London,False,5,outbound
+Farringdon Underground Station,Circle,tube,Transport for London,False,6,outbound
+Barbican Underground Station,Circle,tube,Transport for London,False,7,outbound
+Moorgate Underground Station,Circle,tube,Transport for London,False,8,outbound
+Liverpool Street Underground Station,Circle,tube,Transport for London,False,9,outbound
+Aldgate Underground Station,Circle,tube,Transport for London,False,10,outbound
+Tower Hill Underground Station,Circle,tube,Transport for London,False,11,outbound
+Monument Underground Station,Circle,tube,Transport for London,False,12,outbound
+Cannon Street Underground Station,Circle,tube,Transport for London,False,13,outbound
+Mansion House Underground Station,Circle,tube,Transport for London,False,14,outbound
+Blackfriars Underground Station,Circle,tube,Transport for London,False,15,outbound
+Temple Underground Station,Circle,tube,Transport for London,False,16,outbound
+Embankment Underground Station,Circle,tube,Transport for London,False,17,outbound
+Westminster Underground Station,Circle,tube,Transport for London,False,18,outbound
+St. James's Park Underground Station,Circle,tube,Transport for London,False,19,outbound
+Victoria Underground Station,Circle,tube,Transport for London,False,20,outbound
+Sloane Square Underground Station,Circle,tube,Transport for London,False,21,outbound
+South Kensington Underground Station,Circle,tube,Transport for London,False,22,outbound
+Gloucester Road Underground Station,Circle,tube,Transport for London,False,23,outbound
+High Street Kensington Underground Station,Circle,tube,Transport for London,False,24,outbound
+Notting Hill Gate Underground Station,Circle,tube,Transport for London,False,25,outbound
+Bayswater Underground Station,Circle,tube,Transport for London,False,26,outbound
+Paddington Underground Station,Circle,tube,Transport for London,False,27,outbound
+Edgware Road (Circle Line) Underground Station,Circle,tube,Transport for London,False,28,outbound
+Upminster Underground Station,District,tube,Transport for London,False,1,inbound
+Upminster Bridge Underground Station,District,tube,Transport for London,False,2,inbound
+Hornchurch Underground Station,District,tube,Transport for London,False,3,inbound
+Elm Park Underground Station,District,tube,Transport for London,False,4,inbound
+Dagenham East Underground Station,District,tube,Transport for London,False,5,inbound
+Dagenham Heathway Underground Station,District,tube,Transport for London,False,6,inbound
+Becontree Underground Station,District,tube,Transport for London,False,7,inbound
+Upney Underground Station,District,tube,Transport for London,False,8,inbound
+Barking Underground Station,District,tube,Transport for London,False,9,inbound
+East Ham Underground Station,District,tube,Transport for London,False,10,inbound
+Upton Park Underground Station,District,tube,Transport for London,False,11,inbound
+Plaistow Underground Station,District,tube,Transport for London,False,12,inbound
+West Ham Underground Station,District,tube,Transport for London,False,13,inbound
+Bromley-by-Bow Underground Station,District,tube,Transport for London,False,14,inbound
+Bow Road Underground Station,District,tube,Transport for London,False,15,inbound
+Mile End Underground Station,District,tube,Transport for London,False,16,inbound
+Stepney Green Underground Station,District,tube,Transport for London,False,17,inbound
+Whitechapel Underground Station,District,tube,Transport for London,False,18,inbound
+Aldgate East Underground Station,District,tube,Transport for London,False,19,inbound
+Tower Hill Underground Station,District,tube,Transport for London,False,20,inbound
+Monument Underground Station,District,tube,Transport for London,False,21,inbound
+Cannon Street Underground Station,District,tube,Transport for London,False,22,inbound
+Mansion House Underground Station,District,tube,Transport for London,False,23,inbound
+Blackfriars Underground Station,District,tube,Transport for London,False,24,inbound
+Temple Underground Station,District,tube,Transport for London,False,25,inbound
+Embankment Underground Station,District,tube,Transport for London,False,26,inbound
+Westminster Underground Station,District,tube,Transport for London,False,27,inbound
+St. James's Park Underground Station,District,tube,Transport for London,False,28,inbound
+Victoria Underground Station,District,tube,Transport for London,False,29,inbound
+Sloane Square Underground Station,District,tube,Transport for London,False,30,inbound
+South Kensington Underground Station,District,tube,Transport for London,False,31,inbound
+Gloucester Road Underground Station,District,tube,Transport for London,False,32,inbound
+Earl's Court Underground Station,District,tube,Transport for London,False,33,inbound
+Earl's Court Underground Station,District,tube,Transport for London,False,1,inbound
+West Kensington Underground Station,District,tube,Transport for London,False,2,inbound
+Barons Court Underground Station,District,tube,Transport for London,False,3,inbound
+Hammersmith (Dist&Picc Line) Underground Station,District,tube,Transport for London,False,4,inbound
+Ravenscourt Park Underground Station,District,tube,Transport for London,False,5,inbound
+Stamford Brook Underground Station,District,tube,Transport for London,False,6,inbound
+Turnham Green Underground Station,District,tube,Transport for London,False,7,inbound
+Turnham Green Underground Station,District,tube,Transport for London,False,1,inbound
+Chiswick Park Underground Station,District,tube,Transport for London,False,2,inbound
+Acton Town Underground Station,District,tube,Transport for London,False,3,inbound
+Ealing Common Underground Station,District,tube,Transport for London,False,4,inbound
+Ealing Broadway Underground Station,District,tube,Transport for London,False,5,inbound
+Ealing Broadway Underground Station,District,tube,Transport for London,False,1,outbound
+Ealing Common Underground Station,District,tube,Transport for London,False,2,outbound
+Acton Town Underground Station,District,tube,Transport for London,False,3,outbound
+Chiswick Park Underground Station,District,tube,Transport for London,False,4,outbound
+Turnham Green Underground Station,District,tube,Transport for London,False,5,outbound
+Turnham Green Underground Station,District,tube,Transport for London,False,1,outbound
+Stamford Brook Underground Station,District,tube,Transport for London,False,2,outbound
+Ravenscourt Park Underground Station,District,tube,Transport for London,False,3,outbound
+Hammersmith (Dist&Picc Line) Underground Station,District,tube,Transport for London,False,4,outbound
+Barons Court Underground Station,District,tube,Transport for London,False,5,outbound
+West Kensington Underground Station,District,tube,Transport for London,False,6,outbound
+Earl's Court Underground Station,District,tube,Transport for London,False,7,outbound
+Earl's Court Underground Station,District,tube,Transport for London,False,1,outbound
+Gloucester Road Underground Station,District,tube,Transport for London,False,2,outbound
+South Kensington Underground Station,District,tube,Transport for London,False,3,outbound
+Sloane Square Underground Station,District,tube,Transport for London,False,4,outbound
+Victoria Underground Station,District,tube,Transport for London,False,5,outbound
+St. James's Park Underground Station,District,tube,Transport for London,False,6,outbound
+Westminster Underground Station,District,tube,Transport for London,False,7,outbound
+Embankment Underground Station,District,tube,Transport for London,False,8,outbound
+Temple Underground Station,District,tube,Transport for London,False,9,outbound
+Blackfriars Underground Station,District,tube,Transport for London,False,10,outbound
+Mansion House Underground Station,District,tube,Transport for London,False,11,outbound
+Cannon Street Underground Station,District,tube,Transport for London,False,12,outbound
+Monument Underground Station,District,tube,Transport for London,False,13,outbound
+Tower Hill Underground Station,District,tube,Transport for London,False,14,outbound
+Aldgate East Underground Station,District,tube,Transport for London,False,15,outbound
+Whitechapel Underground Station,District,tube,Transport for London,False,16,outbound
+Stepney Green Underground Station,District,tube,Transport for London,False,17,outbound
+Mile End Underground Station,District,tube,Transport for London,False,18,outbound
+Bow Road Underground Station,District,tube,Transport for London,False,19,outbound
+Bromley-by-Bow Underground Station,District,tube,Transport for London,False,20,outbound
+West Ham Underground Station,District,tube,Transport for London,False,21,outbound
+Plaistow Underground Station,District,tube,Transport for London,False,22,outbound
+Upton Park Underground Station,District,tube,Transport for London,False,23,outbound
+East Ham Underground Station,District,tube,Transport for London,False,24,outbound
+Barking Underground Station,District,tube,Transport for London,False,25,outbound
+Upney Underground Station,District,tube,Transport for London,False,26,outbound
+Becontree Underground Station,District,tube,Transport for London,False,27,outbound
+Dagenham Heathway Underground Station,District,tube,Transport for London,False,28,outbound
+Dagenham East Underground Station,District,tube,Transport for London,False,29,outbound
+Elm Park Underground Station,District,tube,Transport for London,False,30,outbound
+Hornchurch Underground Station,District,tube,Transport for London,False,31,outbound
+Upminster Bridge Underground Station,District,tube,Transport for London,False,32,outbound
+Upminster Underground Station,District,tube,Transport for London,False,33,outbound
+Turnham Green Underground Station,District,tube,Transport for London,False,1,inbound
+Gunnersbury Underground Station,District,tube,Transport for London,False,2,inbound
+Kew Gardens Underground Station,District,tube,Transport for London,False,3,inbound
+Richmond Underground Station,District,tube,Transport for London,False,4,inbound
+Richmond Underground Station,District,tube,Transport for London,False,1,outbound
+Kew Gardens Underground Station,District,tube,Transport for London,False,2,outbound
+Gunnersbury Underground Station,District,tube,Transport for London,False,3,outbound
+Turnham Green Underground Station,District,tube,Transport for London,False,4,outbound
+Earl's Court Underground Station,District,tube,Transport for London,False,1,inbound
+West Brompton Underground Station,District,tube,Transport for London,False,2,inbound
+Fulham Broadway Underground Station,District,tube,Transport for London,False,3,inbound
+Parsons Green Underground Station,District,tube,Transport for London,False,4,inbound
+Putney Bridge Underground Station,District,tube,Transport for London,False,5,inbound
+East Putney Underground Station,District,tube,Transport for London,False,6,inbound
+Southfields Underground Station,District,tube,Transport for London,False,7,inbound
+Wimbledon Park Underground Station,District,tube,Transport for London,False,8,inbound
+Wimbledon Underground Station,District,tube,Transport for London,False,9,inbound
+Wimbledon Underground Station,District,tube,Transport for London,False,1,outbound
+Wimbledon Park Underground Station,District,tube,Transport for London,False,2,outbound
+Southfields Underground Station,District,tube,Transport for London,False,3,outbound
+East Putney Underground Station,District,tube,Transport for London,False,4,outbound
+Putney Bridge Underground Station,District,tube,Transport for London,False,5,outbound
+Parsons Green Underground Station,District,tube,Transport for London,False,6,outbound
+Fulham Broadway Underground Station,District,tube,Transport for London,False,7,outbound
+West Brompton Underground Station,District,tube,Transport for London,False,8,outbound
+Earl's Court Underground Station,District,tube,Transport for London,False,9,outbound
+Edgware Road (Circle Line) Underground Station,District,tube,Transport for London,False,1,inbound
+Paddington Underground Station,District,tube,Transport for London,False,2,inbound
+Bayswater Underground Station,District,tube,Transport for London,False,3,inbound
+Notting Hill Gate Underground Station,District,tube,Transport for London,False,4,inbound
+High Street Kensington Underground Station,District,tube,Transport for London,False,5,inbound
+Earl's Court Underground Station,District,tube,Transport for London,False,6,inbound
+Earl's Court Underground Station,District,tube,Transport for London,False,1,outbound
+High Street Kensington Underground Station,District,tube,Transport for London,False,2,outbound
+Notting Hill Gate Underground Station,District,tube,Transport for London,False,3,outbound
+Bayswater Underground Station,District,tube,Transport for London,False,4,outbound
+Paddington Underground Station,District,tube,Transport for London,False,5,outbound
+Edgware Road (Circle Line) Underground Station,District,tube,Transport for London,False,6,outbound
+Earl's Court Underground Station,District,tube,Transport for London,False,1,inbound
+Kensington (Olympia) Underground Station,District,tube,Transport for London,False,2,inbound
+Kensington (Olympia) Underground Station,District,tube,Transport for London,False,1,outbound
+Earl's Court Underground Station,District,tube,Transport for London,False,2,outbound
+Barking Underground Station,Hammersmith & City,tube,Transport for London,False,1,inbound
+East Ham Underground Station,Hammersmith & City,tube,Transport for London,False,2,inbound
+Upton Park Underground Station,Hammersmith & City,tube,Transport for London,False,3,inbound
+Plaistow Underground Station,Hammersmith & City,tube,Transport for London,False,4,inbound
+West Ham Underground Station,Hammersmith & City,tube,Transport for London,False,5,inbound
+Bromley-by-Bow Underground Station,Hammersmith & City,tube,Transport for London,False,6,inbound
+Bow Road Underground Station,Hammersmith & City,tube,Transport for London,False,7,inbound
+Mile End Underground Station,Hammersmith & City,tube,Transport for London,False,8,inbound
+Stepney Green Underground Station,Hammersmith & City,tube,Transport for London,False,9,inbound
+Whitechapel Underground Station,Hammersmith & City,tube,Transport for London,False,10,inbound
+Aldgate East Underground Station,Hammersmith & City,tube,Transport for London,False,11,inbound
+Liverpool Street Underground Station,Hammersmith & City,tube,Transport for London,False,12,inbound
+Moorgate Underground Station,Hammersmith & City,tube,Transport for London,False,13,inbound
+Barbican Underground Station,Hammersmith & City,tube,Transport for London,False,14,inbound
+Farringdon Underground Station,Hammersmith & City,tube,Transport for London,False,15,inbound
+King's Cross St. Pancras Underground Station,Hammersmith & City,tube,Transport for London,False,16,inbound
+Euston Square Underground Station,Hammersmith & City,tube,Transport for London,False,17,inbound
+Great Portland Street Underground Station,Hammersmith & City,tube,Transport for London,False,18,inbound
+Baker Street Underground Station,Hammersmith & City,tube,Transport for London,False,19,inbound
+Edgware Road (Circle Line) Underground Station,Hammersmith & City,tube,Transport for London,False,20,inbound
+Paddington (H&C Line)-Underground,Hammersmith & City,tube,Transport for London,False,21,inbound
+Royal Oak Underground Station,Hammersmith & City,tube,Transport for London,False,22,inbound
+Westbourne Park Underground Station,Hammersmith & City,tube,Transport for London,False,23,inbound
+Ladbroke Grove Underground Station,Hammersmith & City,tube,Transport for London,False,24,inbound
+Latimer Road Underground Station,Hammersmith & City,tube,Transport for London,False,25,inbound
+Wood Lane Underground Station,Hammersmith & City,tube,Transport for London,False,26,inbound
+Shepherd's Bush Market Underground Station,Hammersmith & City,tube,Transport for London,False,27,inbound
+Goldhawk Road Underground Station,Hammersmith & City,tube,Transport for London,False,28,inbound
+Hammersmith (H&C Line) Underground Station,Hammersmith & City,tube,Transport for London,False,29,inbound
+Hammersmith (H&C Line) Underground Station,Hammersmith & City,tube,Transport for London,False,1,outbound
+Goldhawk Road Underground Station,Hammersmith & City,tube,Transport for London,False,2,outbound
+Shepherd's Bush Market Underground Station,Hammersmith & City,tube,Transport for London,False,3,outbound
+Wood Lane Underground Station,Hammersmith & City,tube,Transport for London,False,4,outbound
+Latimer Road Underground Station,Hammersmith & City,tube,Transport for London,False,5,outbound
+Ladbroke Grove Underground Station,Hammersmith & City,tube,Transport for London,False,6,outbound
+Westbourne Park Underground Station,Hammersmith & City,tube,Transport for London,False,7,outbound
+Royal Oak Underground Station,Hammersmith & City,tube,Transport for London,False,8,outbound
+Paddington (H&C Line)-Underground,Hammersmith & City,tube,Transport for London,False,9,outbound
+Edgware Road (Circle Line) Underground Station,Hammersmith & City,tube,Transport for London,False,10,outbound
+Baker Street Underground Station,Hammersmith & City,tube,Transport for London,False,11,outbound
+Great Portland Street Underground Station,Hammersmith & City,tube,Transport for London,False,12,outbound
+Euston Square Underground Station,Hammersmith & City,tube,Transport for London,False,13,outbound
+King's Cross St. Pancras Underground Station,Hammersmith & City,tube,Transport for London,False,14,outbound
+Farringdon Underground Station,Hammersmith & City,tube,Transport for London,False,15,outbound
+Barbican Underground Station,Hammersmith & City,tube,Transport for London,False,16,outbound
+Moorgate Underground Station,Hammersmith & City,tube,Transport for London,False,17,outbound
+Liverpool Street Underground Station,Hammersmith & City,tube,Transport for London,False,18,outbound
+Aldgate East Underground Station,Hammersmith & City,tube,Transport for London,False,19,outbound
+Whitechapel Underground Station,Hammersmith & City,tube,Transport for London,False,20,outbound
+Stepney Green Underground Station,Hammersmith & City,tube,Transport for London,False,21,outbound
+Mile End Underground Station,Hammersmith & City,tube,Transport for London,False,22,outbound
+Bow Road Underground Station,Hammersmith & City,tube,Transport for London,False,23,outbound
+Bromley-by-Bow Underground Station,Hammersmith & City,tube,Transport for London,False,24,outbound
+West Ham Underground Station,Hammersmith & City,tube,Transport for London,False,25,outbound
+Plaistow Underground Station,Hammersmith & City,tube,Transport for London,False,26,outbound
+Upton Park Underground Station,Hammersmith & City,tube,Transport for London,False,27,outbound
+East Ham Underground Station,Hammersmith & City,tube,Transport for London,False,28,outbound
+Barking Underground Station,Hammersmith & City,tube,Transport for London,False,29,outbound
+Stratford Underground Station,Jubilee,tube,Transport for London,False,1,inbound
+West Ham Underground Station,Jubilee,tube,Transport for London,False,2,inbound
+Canning Town Underground Station,Jubilee,tube,Transport for London,False,3,inbound
+North Greenwich Underground Station,Jubilee,tube,Transport for London,False,4,inbound
+Canary Wharf Underground Station,Jubilee,tube,Transport for London,False,5,inbound
+Canada Water Underground Station,Jubilee,tube,Transport for London,False,6,inbound
+Bermondsey Underground Station,Jubilee,tube,Transport for London,False,7,inbound
+London Bridge Underground Station,Jubilee,tube,Transport for London,False,8,inbound
+Southwark Underground Station,Jubilee,tube,Transport for London,False,9,inbound
+Waterloo Underground Station,Jubilee,tube,Transport for London,False,10,inbound
+Westminster Underground Station,Jubilee,tube,Transport for London,False,11,inbound
+Green Park Underground Station,Jubilee,tube,Transport for London,False,12,inbound
+Bond Street Underground Station,Jubilee,tube,Transport for London,False,13,inbound
+Baker Street Underground Station,Jubilee,tube,Transport for London,False,14,inbound
+St. John's Wood Underground Station,Jubilee,tube,Transport for London,False,15,inbound
+Swiss Cottage Underground Station,Jubilee,tube,Transport for London,False,16,inbound
+Finchley Road Underground Station,Jubilee,tube,Transport for London,False,17,inbound
+West Hampstead Underground Station,Jubilee,tube,Transport for London,False,18,inbound
+Kilburn Underground Station,Jubilee,tube,Transport for London,False,19,inbound
+Willesden Green Underground Station,Jubilee,tube,Transport for London,False,20,inbound
+Dollis Hill Underground Station,Jubilee,tube,Transport for London,False,21,inbound
+Neasden Underground Station,Jubilee,tube,Transport for London,False,22,inbound
+Wembley Park Underground Station,Jubilee,tube,Transport for London,False,23,inbound
+Kingsbury Underground Station,Jubilee,tube,Transport for London,False,24,inbound
+Queensbury Underground Station,Jubilee,tube,Transport for London,False,25,inbound
+Canons Park Underground Station,Jubilee,tube,Transport for London,False,26,inbound
+Stanmore Underground Station,Jubilee,tube,Transport for London,False,27,inbound
+Stanmore Underground Station,Jubilee,tube,Transport for London,False,1,outbound
+Canons Park Underground Station,Jubilee,tube,Transport for London,False,2,outbound
+Queensbury Underground Station,Jubilee,tube,Transport for London,False,3,outbound
+Kingsbury Underground Station,Jubilee,tube,Transport for London,False,4,outbound
+Wembley Park Underground Station,Jubilee,tube,Transport for London,False,5,outbound
+Neasden Underground Station,Jubilee,tube,Transport for London,False,6,outbound
+Dollis Hill Underground Station,Jubilee,tube,Transport for London,False,7,outbound
+Willesden Green Underground Station,Jubilee,tube,Transport for London,False,8,outbound
+Kilburn Underground Station,Jubilee,tube,Transport for London,False,9,outbound
+West Hampstead Underground Station,Jubilee,tube,Transport for London,False,10,outbound
+Finchley Road Underground Station,Jubilee,tube,Transport for London,False,11,outbound
+Swiss Cottage Underground Station,Jubilee,tube,Transport for London,False,12,outbound
+St. John's Wood Underground Station,Jubilee,tube,Transport for London,False,13,outbound
+Baker Street Underground Station,Jubilee,tube,Transport for London,False,14,outbound
+Bond Street Underground Station,Jubilee,tube,Transport for London,False,15,outbound
+Green Park Underground Station,Jubilee,tube,Transport for London,False,16,outbound
+Westminster Underground Station,Jubilee,tube,Transport for London,False,17,outbound
+Waterloo Underground Station,Jubilee,tube,Transport for London,False,18,outbound
+Southwark Underground Station,Jubilee,tube,Transport for London,False,19,outbound
+London Bridge Underground Station,Jubilee,tube,Transport for London,False,20,outbound
+Bermondsey Underground Station,Jubilee,tube,Transport for London,False,21,outbound
+Canada Water Underground Station,Jubilee,tube,Transport for London,False,22,outbound
+Canary Wharf Underground Station,Jubilee,tube,Transport for London,False,23,outbound
+North Greenwich Underground Station,Jubilee,tube,Transport for London,False,24,outbound
+Canning Town Underground Station,Jubilee,tube,Transport for London,False,25,outbound
+West Ham Underground Station,Jubilee,tube,Transport for London,False,26,outbound
+Stratford Underground Station,Jubilee,tube,Transport for London,False,27,outbound
+Amersham Underground Station,Metropolitan,tube,Transport for London,False,1,outbound
+Chalfont & Latimer Underground Station,Metropolitan,tube,Transport for London,False,2,outbound
+Chalfont & Latimer Underground Station,Metropolitan,tube,Transport for London,False,1,outbound
+Chorleywood Underground Station,Metropolitan,tube,Transport for London,False,2,outbound
+Rickmansworth Underground Station,Metropolitan,tube,Transport for London,False,3,outbound
+Moor Park Underground Station,Metropolitan,tube,Transport for London,False,4,outbound
+Moor Park Underground Station,Metropolitan,tube,Transport for London,False,1,outbound
+Northwood Underground Station,Metropolitan,tube,Transport for London,False,2,outbound
+Northwood Hills Underground Station,Metropolitan,tube,Transport for London,False,3,outbound
+Pinner Underground Station,Metropolitan,tube,Transport for London,False,4,outbound
+North Harrow Underground Station,Metropolitan,tube,Transport for London,False,5,outbound
+Harrow-on-the-Hill Underground Station,Metropolitan,tube,Transport for London,False,6,outbound
+Harrow-on-the-Hill Underground Station,Metropolitan,tube,Transport for London,False,1,outbound
+Northwick Park Underground Station,Metropolitan,tube,Transport for London,False,2,outbound
+Preston Road Underground Station,Metropolitan,tube,Transport for London,False,3,outbound
+Wembley Park Underground Station,Metropolitan,tube,Transport for London,False,4,outbound
+Finchley Road Underground Station,Metropolitan,tube,Transport for London,False,1,outbound
+Baker Street Underground Station,Metropolitan,tube,Transport for London,False,2,outbound
+Great Portland Street Underground Station,Metropolitan,tube,Transport for London,False,3,outbound
+Euston Square Underground Station,Metropolitan,tube,Transport for London,False,4,outbound
+King's Cross St. Pancras Underground Station,Metropolitan,tube,Transport for London,False,5,outbound
+Farringdon Underground Station,Metropolitan,tube,Transport for London,False,6,outbound
+Barbican Underground Station,Metropolitan,tube,Transport for London,False,7,outbound
+Moorgate Underground Station,Metropolitan,tube,Transport for London,False,8,outbound
+Liverpool Street Underground Station,Metropolitan,tube,Transport for London,False,9,outbound
+Aldgate Underground Station,Metropolitan,tube,Transport for London,False,10,outbound
+Wembley Park Underground Station,Metropolitan,tube,Transport for London,False,1,outbound
+Willesden Green Underground Station,Metropolitan,tube,Transport for London,False,2,outbound
+Finchley Road Underground Station,Metropolitan,tube,Transport for London,False,3,outbound
+Aldgate Underground Station,Metropolitan,tube,Transport for London,False,1,inbound
+Liverpool Street Underground Station,Metropolitan,tube,Transport for London,False,2,inbound
+Moorgate Underground Station,Metropolitan,tube,Transport for London,False,3,inbound
+Barbican Underground Station,Metropolitan,tube,Transport for London,False,4,inbound
+Farringdon Underground Station,Metropolitan,tube,Transport for London,False,5,inbound
+King's Cross St. Pancras Underground Station,Metropolitan,tube,Transport for London,False,6,inbound
+Euston Square Underground Station,Metropolitan,tube,Transport for London,False,7,inbound
+Great Portland Street Underground Station,Metropolitan,tube,Transport for London,False,8,inbound
+Baker Street Underground Station,Metropolitan,tube,Transport for London,False,9,inbound
+Finchley Road Underground Station,Metropolitan,tube,Transport for London,False,10,inbound
+Wembley Park Underground Station,Metropolitan,tube,Transport for London,False,11,inbound
+Preston Road Underground Station,Metropolitan,tube,Transport for London,False,12,inbound
+Northwick Park Underground Station,Metropolitan,tube,Transport for London,False,13,inbound
+Harrow-on-the-Hill Underground Station,Metropolitan,tube,Transport for London,False,14,inbound
+Harrow-on-the-Hill Underground Station,Metropolitan,tube,Transport for London,False,1,inbound
+North Harrow Underground Station,Metropolitan,tube,Transport for London,False,2,inbound
+Pinner Underground Station,Metropolitan,tube,Transport for London,False,3,inbound
+Northwood Hills Underground Station,Metropolitan,tube,Transport for London,False,4,inbound
+Northwood Underground Station,Metropolitan,tube,Transport for London,False,5,inbound
+Moor Park Underground Station,Metropolitan,tube,Transport for London,False,6,inbound
+Moor Park Underground Station,Metropolitan,tube,Transport for London,False,1,inbound
+Rickmansworth Underground Station,Metropolitan,tube,Transport for London,False,2,inbound
+Chorleywood Underground Station,Metropolitan,tube,Transport for London,False,3,inbound
+Chalfont & Latimer Underground Station,Metropolitan,tube,Transport for London,False,4,inbound
+Chalfont & Latimer Underground Station,Metropolitan,tube,Transport for London,False,1,inbound
+Chesham Underground Station,Metropolitan,tube,Transport for London,False,2,inbound
+Chalfont & Latimer Underground Station,Metropolitan,tube,Transport for London,False,1,inbound
+Amersham Underground Station,Metropolitan,tube,Transport for London,False,2,inbound
+Wembley Park Underground Station,Metropolitan,tube,Transport for London,False,1,outbound
+Finchley Road Underground Station,Metropolitan,tube,Transport for London,False,2,outbound
+Chesham Underground Station,Metropolitan,tube,Transport for London,False,1,outbound
+Chalfont & Latimer Underground Station,Metropolitan,tube,Transport for London,False,2,outbound
+Harrow-on-the-Hill Underground Station,Metropolitan,tube,Transport for London,False,1,inbound
+West Harrow Underground Station,Metropolitan,tube,Transport for London,False,2,inbound
+Rayners Lane Underground Station,Metropolitan,tube,Transport for London,False,3,inbound
+Eastcote Underground Station,Metropolitan,tube,Transport for London,False,4,inbound
+Ruislip Manor Underground Station,Metropolitan,tube,Transport for London,False,5,inbound
+Ruislip Underground Station,Metropolitan,tube,Transport for London,False,6,inbound
+Ickenham Underground Station,Metropolitan,tube,Transport for London,False,7,inbound
+Hillingdon Underground Station,Metropolitan,tube,Transport for London,False,8,inbound
+Uxbridge Underground Station,Metropolitan,tube,Transport for London,False,9,inbound
+Uxbridge Underground Station,Metropolitan,tube,Transport for London,False,1,outbound
+Hillingdon Underground Station,Metropolitan,tube,Transport for London,False,2,outbound
+Ickenham Underground Station,Metropolitan,tube,Transport for London,False,3,outbound
+Ruislip Underground Station,Metropolitan,tube,Transport for London,False,4,outbound
+Ruislip Manor Underground Station,Metropolitan,tube,Transport for London,False,5,outbound
+Eastcote Underground Station,Metropolitan,tube,Transport for London,False,6,outbound
+Rayners Lane Underground Station,Metropolitan,tube,Transport for London,False,7,outbound
+West Harrow Underground Station,Metropolitan,tube,Transport for London,False,8,outbound
+Harrow-on-the-Hill Underground Station,Metropolitan,tube,Transport for London,False,9,outbound
+Moor Park Underground Station,Metropolitan,tube,Transport for London,False,1,inbound
+Croxley Underground Station,Metropolitan,tube,Transport for London,False,2,inbound
+Watford Underground Station,Metropolitan,tube,Transport for London,False,3,inbound
+Watford Underground Station,Metropolitan,tube,Transport for London,False,1,outbound
+Croxley Underground Station,Metropolitan,tube,Transport for London,False,2,outbound
+Moor Park Underground Station,Metropolitan,tube,Transport for London,False,3,outbound
+High Barnet Underground Station,Northern,tube,Transport for London,False,1,inbound
+Totteridge & Whetstone Underground Station,Northern,tube,Transport for London,False,2,inbound
+Woodside Park Underground Station,Northern,tube,Transport for London,False,3,inbound
+West Finchley Underground Station,Northern,tube,Transport for London,False,4,inbound
+Finchley Central Underground Station,Northern,tube,Transport for London,False,5,inbound
+Finchley Central Underground Station,Northern,tube,Transport for London,False,1,inbound
+East Finchley Underground Station,Northern,tube,Transport for London,False,2,inbound
+Highgate Underground Station,Northern,tube,Transport for London,False,3,inbound
+Archway Underground Station,Northern,tube,Transport for London,False,4,inbound
+Tufnell Park Underground Station,Northern,tube,Transport for London,False,5,inbound
+Kentish Town Underground Station,Northern,tube,Transport for London,False,6,inbound
+Camden Town Underground Station,Northern,tube,Transport for London,False,7,inbound
+Camden Town Underground Station,Northern,tube,Transport for London,False,1,inbound
+Mornington Crescent Underground Station,Northern,tube,Transport for London,False,2,inbound
+Euston Underground Station,Northern,tube,Transport for London,False,3,inbound
+Euston Underground Station,Northern,tube,Transport for London,False,1,inbound
+Warren Street Underground Station,Northern,tube,Transport for London,False,2,inbound
+Goodge Street Underground Station,Northern,tube,Transport for London,False,3,inbound
+Tottenham Court Road Underground Station,Northern,tube,Transport for London,False,4,inbound
+Leicester Square Underground Station,Northern,tube,Transport for London,False,5,inbound
+Charing Cross Underground Station,Northern,tube,Transport for London,False,6,inbound
+Embankment Underground Station,Northern,tube,Transport for London,False,7,inbound
+Waterloo Underground Station,Northern,tube,Transport for London,False,8,inbound
+Kennington Underground Station,Northern,tube,Transport for London,False,9,inbound
+Kennington Underground Station,Northern,tube,Transport for London,False,1,inbound
+Oval Underground Station,Northern,tube,Transport for London,False,2,inbound
+Stockwell Underground Station,Northern,tube,Transport for London,False,3,inbound
+Clapham North Underground Station,Northern,tube,Transport for London,False,4,inbound
+Clapham Common Underground Station,Northern,tube,Transport for London,False,5,inbound
+Clapham South Underground Station,Northern,tube,Transport for London,False,6,inbound
+Balham Underground Station,Northern,tube,Transport for London,False,7,inbound
+Tooting Bec Underground Station,Northern,tube,Transport for London,False,8,inbound
+Tooting Broadway Underground Station,Northern,tube,Transport for London,False,9,inbound
+Colliers Wood Underground Station,Northern,tube,Transport for London,False,10,inbound
+South Wimbledon Underground Station,Northern,tube,Transport for London,False,11,inbound
+Morden Underground Station,Northern,tube,Transport for London,False,12,inbound
+Camden Town Underground Station,Northern,tube,Transport for London,False,1,inbound
+Euston Underground Station,Northern,tube,Transport for London,False,2,inbound
+Euston Underground Station,Northern,tube,Transport for London,False,1,inbound
+King's Cross St. Pancras Underground Station,Northern,tube,Transport for London,False,2,inbound
+Angel Underground Station,Northern,tube,Transport for London,False,3,inbound
+Old Street Underground Station,Northern,tube,Transport for London,False,4,inbound
+Moorgate Underground Station,Northern,tube,Transport for London,False,5,inbound
+Bank Underground Station,Northern,tube,Transport for London,False,6,inbound
+London Bridge Underground Station,Northern,tube,Transport for London,False,7,inbound
+Borough Underground Station,Northern,tube,Transport for London,False,8,inbound
+Elephant & Castle Underground Station,Northern,tube,Transport for London,False,9,inbound
+Kennington Underground Station,Northern,tube,Transport for London,False,10,inbound
+Morden Underground Station,Northern,tube,Transport for London,False,1,outbound
+South Wimbledon Underground Station,Northern,tube,Transport for London,False,2,outbound
+Colliers Wood Underground Station,Northern,tube,Transport for London,False,3,outbound
+Tooting Broadway Underground Station,Northern,tube,Transport for London,False,4,outbound
+Tooting Bec Underground Station,Northern,tube,Transport for London,False,5,outbound
+Balham Underground Station,Northern,tube,Transport for London,False,6,outbound
+Clapham South Underground Station,Northern,tube,Transport for London,False,7,outbound
+Clapham Common Underground Station,Northern,tube,Transport for London,False,8,outbound
+Clapham North Underground Station,Northern,tube,Transport for London,False,9,outbound
+Stockwell Underground Station,Northern,tube,Transport for London,False,10,outbound
+Oval Underground Station,Northern,tube,Transport for London,False,11,outbound
+Kennington Underground Station,Northern,tube,Transport for London,False,12,outbound
+Kennington Underground Station,Northern,tube,Transport for London,False,1,outbound
+Waterloo Underground Station,Northern,tube,Transport for London,False,2,outbound
+Embankment Underground Station,Northern,tube,Transport for London,False,3,outbound
+Charing Cross Underground Station,Northern,tube,Transport for London,False,4,outbound
+Leicester Square Underground Station,Northern,tube,Transport for London,False,5,outbound
+Tottenham Court Road Underground Station,Northern,tube,Transport for London,False,6,outbound
+Goodge Street Underground Station,Northern,tube,Transport for London,False,7,outbound
+Warren Street Underground Station,Northern,tube,Transport for London,False,8,outbound
+Euston Underground Station,Northern,tube,Transport for London,False,9,outbound
+Euston Underground Station,Northern,tube,Transport for London,False,1,outbound
+Mornington Crescent Underground Station,Northern,tube,Transport for London,False,2,outbound
+Camden Town Underground Station,Northern,tube,Transport for London,False,3,outbound
+Camden Town Underground Station,Northern,tube,Transport for London,False,1,outbound
+Kentish Town Underground Station,Northern,tube,Transport for London,False,2,outbound
+Tufnell Park Underground Station,Northern,tube,Transport for London,False,3,outbound
+Archway Underground Station,Northern,tube,Transport for London,False,4,outbound
+Highgate Underground Station,Northern,tube,Transport for London,False,5,outbound
+East Finchley Underground Station,Northern,tube,Transport for London,False,6,outbound
+Finchley Central Underground Station,Northern,tube,Transport for London,False,7,outbound
+Finchley Central Underground Station,Northern,tube,Transport for London,False,1,outbound
+West Finchley Underground Station,Northern,tube,Transport for London,False,2,outbound
+Woodside Park Underground Station,Northern,tube,Transport for London,False,3,outbound
+Totteridge & Whetstone Underground Station,Northern,tube,Transport for London,False,4,outbound
+High Barnet Underground Station,Northern,tube,Transport for London,False,5,outbound
+Kennington Underground Station,Northern,tube,Transport for London,False,1,outbound
+Elephant & Castle Underground Station,Northern,tube,Transport for London,False,2,outbound
+Borough Underground Station,Northern,tube,Transport for London,False,3,outbound
+London Bridge Underground Station,Northern,tube,Transport for London,False,4,outbound
+Bank Underground Station,Northern,tube,Transport for London,False,5,outbound
+Moorgate Underground Station,Northern,tube,Transport for London,False,6,outbound
+Old Street Underground Station,Northern,tube,Transport for London,False,7,outbound
+Angel Underground Station,Northern,tube,Transport for London,False,8,outbound
+King's Cross St. Pancras Underground Station,Northern,tube,Transport for London,False,9,outbound
+Euston Underground Station,Northern,tube,Transport for London,False,10,outbound
+Euston Underground Station,Northern,tube,Transport for London,False,1,outbound
+Camden Town Underground Station,Northern,tube,Transport for London,False,2,outbound
+Edgware Underground Station,Northern,tube,Transport for London,False,1,inbound
+Burnt Oak Underground Station,Northern,tube,Transport for London,False,2,inbound
+Colindale Underground Station,Northern,tube,Transport for London,False,3,inbound
+Hendon Central Underground Station,Northern,tube,Transport for London,False,4,inbound
+Brent Cross Underground Station,Northern,tube,Transport for London,False,5,inbound
+Golders Green Underground Station,Northern,tube,Transport for London,False,6,inbound
+Hampstead Underground Station,Northern,tube,Transport for London,False,7,inbound
+Belsize Park Underground Station,Northern,tube,Transport for London,False,8,inbound
+Chalk Farm Underground Station,Northern,tube,Transport for London,False,9,inbound
+Camden Town Underground Station,Northern,tube,Transport for London,False,10,inbound
+Camden Town Underground Station,Northern,tube,Transport for London,False,1,outbound
+Chalk Farm Underground Station,Northern,tube,Transport for London,False,2,outbound
+Belsize Park Underground Station,Northern,tube,Transport for London,False,3,outbound
+Hampstead Underground Station,Northern,tube,Transport for London,False,4,outbound
+Golders Green Underground Station,Northern,tube,Transport for London,False,5,outbound
+Brent Cross Underground Station,Northern,tube,Transport for London,False,6,outbound
+Hendon Central Underground Station,Northern,tube,Transport for London,False,7,outbound
+Colindale Underground Station,Northern,tube,Transport for London,False,8,outbound
+Burnt Oak Underground Station,Northern,tube,Transport for London,False,9,outbound
+Edgware Underground Station,Northern,tube,Transport for London,False,10,outbound
+Mill Hill East Underground Station,Northern,tube,Transport for London,False,1,inbound
+Finchley Central Underground Station,Northern,tube,Transport for London,False,2,inbound
+Finchley Central Underground Station,Northern,tube,Transport for London,False,1,outbound
+Mill Hill East Underground Station,Northern,tube,Transport for London,False,2,outbound
+Kennington Underground Station,Northern,tube,Transport for London,False,1,inbound
+Nine Elms Underground Station,Northern,tube,Transport for London,False,2,inbound
+Battersea Power Station Underground Station,Northern,tube,Transport for London,False,3,inbound
+Battersea Power Station Underground Station,Northern,tube,Transport for London,False,1,outbound
+Nine Elms Underground Station,Northern,tube,Transport for London,False,2,outbound
+Kennington Underground Station,Northern,tube,Transport for London,False,3,outbound
+Cockfosters Underground Station,Piccadilly,tube,Transport for London,False,1,inbound
+Oakwood Underground Station,Piccadilly,tube,Transport for London,False,2,inbound
+Southgate Underground Station,Piccadilly,tube,Transport for London,False,3,inbound
+Arnos Grove Underground Station,Piccadilly,tube,Transport for London,False,4,inbound
+Bounds Green Underground Station,Piccadilly,tube,Transport for London,False,5,inbound
+Wood Green Underground Station,Piccadilly,tube,Transport for London,False,6,inbound
+Turnpike Lane Underground Station,Piccadilly,tube,Transport for London,False,7,inbound
+Manor House Underground Station,Piccadilly,tube,Transport for London,False,8,inbound
+Finsbury Park Underground Station,Piccadilly,tube,Transport for London,False,9,inbound
+Arsenal Underground Station,Piccadilly,tube,Transport for London,False,10,inbound
+Holloway Road Underground Station,Piccadilly,tube,Transport for London,False,11,inbound
+Caledonian Road Underground Station,Piccadilly,tube,Transport for London,False,12,inbound
+King's Cross St. Pancras Underground Station,Piccadilly,tube,Transport for London,False,13,inbound
+Russell Square Underground Station,Piccadilly,tube,Transport for London,False,14,inbound
+Holborn Underground Station,Piccadilly,tube,Transport for London,False,15,inbound
+Covent Garden Underground Station,Piccadilly,tube,Transport for London,False,16,inbound
+Leicester Square Underground Station,Piccadilly,tube,Transport for London,False,17,inbound
+Piccadilly Circus Underground Station,Piccadilly,tube,Transport for London,False,18,inbound
+Green Park Underground Station,Piccadilly,tube,Transport for London,False,19,inbound
+Hyde Park Corner Underground Station,Piccadilly,tube,Transport for London,False,20,inbound
+Knightsbridge Underground Station,Piccadilly,tube,Transport for London,False,21,inbound
+South Kensington Underground Station,Piccadilly,tube,Transport for London,False,22,inbound
+Gloucester Road Underground Station,Piccadilly,tube,Transport for London,False,23,inbound
+Earl's Court Underground Station,Piccadilly,tube,Transport for London,False,24,inbound
+Barons Court Underground Station,Piccadilly,tube,Transport for London,False,25,inbound
+Hammersmith (Dist&Picc Line) Underground Station,Piccadilly,tube,Transport for London,False,26,inbound
+Turnham Green Underground Station,Piccadilly,tube,Transport for London,False,27,inbound
+Acton Town Underground Station,Piccadilly,tube,Transport for London,False,28,inbound
+Acton Town Underground Station,Piccadilly,tube,Transport for London,False,1,inbound
+Ealing Common Underground Station,Piccadilly,tube,Transport for London,False,2,inbound
+North Ealing Underground Station,Piccadilly,tube,Transport for London,False,3,inbound
+Park Royal Underground Station,Piccadilly,tube,Transport for London,False,4,inbound
+Alperton Underground Station,Piccadilly,tube,Transport for London,False,5,inbound
+Sudbury Town Underground Station,Piccadilly,tube,Transport for London,False,6,inbound
+Sudbury Hill Underground Station,Piccadilly,tube,Transport for London,False,7,inbound
+South Harrow Underground Station,Piccadilly,tube,Transport for London,False,8,inbound
+Rayners Lane Underground Station,Piccadilly,tube,Transport for London,False,9,inbound
+Eastcote Underground Station,Piccadilly,tube,Transport for London,False,10,inbound
+Ruislip Manor Underground Station,Piccadilly,tube,Transport for London,False,11,inbound
+Ruislip Underground Station,Piccadilly,tube,Transport for London,False,12,inbound
+Ickenham Underground Station,Piccadilly,tube,Transport for London,False,13,inbound
+Hillingdon Underground Station,Piccadilly,tube,Transport for London,False,14,inbound
+Uxbridge Underground Station,Piccadilly,tube,Transport for London,False,15,inbound
+Uxbridge Underground Station,Piccadilly,tube,Transport for London,False,1,outbound
+Hillingdon Underground Station,Piccadilly,tube,Transport for London,False,2,outbound
+Ickenham Underground Station,Piccadilly,tube,Transport for London,False,3,outbound
+Ruislip Underground Station,Piccadilly,tube,Transport for London,False,4,outbound
+Ruislip Manor Underground Station,Piccadilly,tube,Transport for London,False,5,outbound
+Eastcote Underground Station,Piccadilly,tube,Transport for London,False,6,outbound
+Rayners Lane Underground Station,Piccadilly,tube,Transport for London,False,7,outbound
+South Harrow Underground Station,Piccadilly,tube,Transport for London,False,8,outbound
+Sudbury Hill Underground Station,Piccadilly,tube,Transport for London,False,9,outbound
+Sudbury Town Underground Station,Piccadilly,tube,Transport for London,False,10,outbound
+Alperton Underground Station,Piccadilly,tube,Transport for London,False,11,outbound
+Park Royal Underground Station,Piccadilly,tube,Transport for London,False,12,outbound
+North Ealing Underground Station,Piccadilly,tube,Transport for London,False,13,outbound
+Ealing Common Underground Station,Piccadilly,tube,Transport for London,False,14,outbound
+Acton Town Underground Station,Piccadilly,tube,Transport for London,False,15,outbound
+Acton Town Underground Station,Piccadilly,tube,Transport for London,False,1,outbound
+Turnham Green Underground Station,Piccadilly,tube,Transport for London,False,2,outbound
+Hammersmith (Dist&Picc Line) Underground Station,Piccadilly,tube,Transport for London,False,3,outbound
+Barons Court Underground Station,Piccadilly,tube,Transport for London,False,4,outbound
+Earl's Court Underground Station,Piccadilly,tube,Transport for London,False,5,outbound
+Gloucester Road Underground Station,Piccadilly,tube,Transport for London,False,6,outbound
+South Kensington Underground Station,Piccadilly,tube,Transport for London,False,7,outbound
+Knightsbridge Underground Station,Piccadilly,tube,Transport for London,False,8,outbound
+Hyde Park Corner Underground Station,Piccadilly,tube,Transport for London,False,9,outbound
+Green Park Underground Station,Piccadilly,tube,Transport for London,False,10,outbound
+Piccadilly Circus Underground Station,Piccadilly,tube,Transport for London,False,11,outbound
+Leicester Square Underground Station,Piccadilly,tube,Transport for London,False,12,outbound
+Covent Garden Underground Station,Piccadilly,tube,Transport for London,False,13,outbound
+Holborn Underground Station,Piccadilly,tube,Transport for London,False,14,outbound
+Russell Square Underground Station,Piccadilly,tube,Transport for London,False,15,outbound
+King's Cross St. Pancras Underground Station,Piccadilly,tube,Transport for London,False,16,outbound
+Caledonian Road Underground Station,Piccadilly,tube,Transport for London,False,17,outbound
+Holloway Road Underground Station,Piccadilly,tube,Transport for London,False,18,outbound
+Arsenal Underground Station,Piccadilly,tube,Transport for London,False,19,outbound
+Finsbury Park Underground Station,Piccadilly,tube,Transport for London,False,20,outbound
+Manor House Underground Station,Piccadilly,tube,Transport for London,False,21,outbound
+Turnpike Lane Underground Station,Piccadilly,tube,Transport for London,False,22,outbound
+Wood Green Underground Station,Piccadilly,tube,Transport for London,False,23,outbound
+Bounds Green Underground Station,Piccadilly,tube,Transport for London,False,24,outbound
+Arnos Grove Underground Station,Piccadilly,tube,Transport for London,False,25,outbound
+Southgate Underground Station,Piccadilly,tube,Transport for London,False,26,outbound
+Oakwood Underground Station,Piccadilly,tube,Transport for London,False,27,outbound
+Cockfosters Underground Station,Piccadilly,tube,Transport for London,False,28,outbound
+Acton Town Underground Station,Piccadilly,tube,Transport for London,False,1,inbound
+South Ealing Underground Station,Piccadilly,tube,Transport for London,False,2,inbound
+Northfields Underground Station,Piccadilly,tube,Transport for London,False,3,inbound
+Boston Manor Underground Station,Piccadilly,tube,Transport for London,False,4,inbound
+Osterley Underground Station,Piccadilly,tube,Transport for London,False,5,inbound
+Hounslow East Underground Station,Piccadilly,tube,Transport for London,False,6,inbound
+Hounslow Central Underground Station,Piccadilly,tube,Transport for London,False,7,inbound
+Hounslow West Underground Station,Piccadilly,tube,Transport for London,False,8,inbound
+Hatton Cross Underground Station,Piccadilly,tube,Transport for London,False,9,inbound
+Hatton Cross Underground Station,Piccadilly,tube,Transport for London,False,1,inbound
+Heathrow Terminals 2 & 3 Underground Station,Piccadilly,tube,Transport for London,False,2,inbound
+Heathrow Terminal 5 Underground Station,Piccadilly,tube,Transport for London,False,3,inbound
+Heathrow Terminal 4 Underground Station,Piccadilly,tube,Transport for London,False,1,outbound
+Heathrow Terminals 2 & 3 Underground Station,Piccadilly,tube,Transport for London,False,2,outbound
+Heathrow Terminals 2 & 3 Underground Station,Piccadilly,tube,Transport for London,False,1,outbound
+Hatton Cross Underground Station,Piccadilly,tube,Transport for London,False,2,outbound
+Hounslow West Underground Station,Piccadilly,tube,Transport for London,False,3,outbound
+Hounslow Central Underground Station,Piccadilly,tube,Transport for London,False,4,outbound
+Hounslow East Underground Station,Piccadilly,tube,Transport for London,False,5,outbound
+Osterley Underground Station,Piccadilly,tube,Transport for London,False,6,outbound
+Boston Manor Underground Station,Piccadilly,tube,Transport for London,False,7,outbound
+Northfields Underground Station,Piccadilly,tube,Transport for London,False,8,outbound
+South Ealing Underground Station,Piccadilly,tube,Transport for London,False,9,outbound
+Acton Town Underground Station,Piccadilly,tube,Transport for London,False,10,outbound
+Heathrow Terminal 5 Underground Station,Piccadilly,tube,Transport for London,False,1,outbound
+Heathrow Terminals 2 & 3 Underground Station,Piccadilly,tube,Transport for London,False,2,outbound
+Hatton Cross Underground Station,Piccadilly,tube,Transport for London,False,1,inbound
+Heathrow Terminal 4 Underground Station,Piccadilly,tube,Transport for London,False,2,inbound
+Walthamstow Central Underground Station,Victoria,tube,Transport for London,False,1,inbound
+Blackhorse Road Underground Station,Victoria,tube,Transport for London,False,2,inbound
+Tottenham Hale Underground Station,Victoria,tube,Transport for London,False,3,inbound
+Seven Sisters Underground Station,Victoria,tube,Transport for London,False,4,inbound
+Finsbury Park Underground Station,Victoria,tube,Transport for London,False,5,inbound
+Highbury & Islington Underground Station,Victoria,tube,Transport for London,False,6,inbound
+King's Cross St. Pancras Underground Station,Victoria,tube,Transport for London,False,7,inbound
+Euston Underground Station,Victoria,tube,Transport for London,False,8,inbound
+Warren Street Underground Station,Victoria,tube,Transport for London,False,9,inbound
+Oxford Circus Underground Station,Victoria,tube,Transport for London,False,10,inbound
+Green Park Underground Station,Victoria,tube,Transport for London,False,11,inbound
+Victoria Underground Station,Victoria,tube,Transport for London,False,12,inbound
+Pimlico Underground Station,Victoria,tube,Transport for London,False,13,inbound
+Vauxhall Underground Station,Victoria,tube,Transport for London,False,14,inbound
+Stockwell Underground Station,Victoria,tube,Transport for London,False,15,inbound
+Brixton Underground Station,Victoria,tube,Transport for London,False,16,inbound
+Brixton Underground Station,Victoria,tube,Transport for London,False,1,outbound
+Stockwell Underground Station,Victoria,tube,Transport for London,False,2,outbound
+Vauxhall Underground Station,Victoria,tube,Transport for London,False,3,outbound
+Pimlico Underground Station,Victoria,tube,Transport for London,False,4,outbound
+Victoria Underground Station,Victoria,tube,Transport for London,False,5,outbound
+Green Park Underground Station,Victoria,tube,Transport for London,False,6,outbound
+Oxford Circus Underground Station,Victoria,tube,Transport for London,False,7,outbound
+Warren Street Underground Station,Victoria,tube,Transport for London,False,8,outbound
+Euston Underground Station,Victoria,tube,Transport for London,False,9,outbound
+King's Cross St. Pancras Underground Station,Victoria,tube,Transport for London,False,10,outbound
+Highbury & Islington Underground Station,Victoria,tube,Transport for London,False,11,outbound
+Finsbury Park Underground Station,Victoria,tube,Transport for London,False,12,outbound
+Seven Sisters Underground Station,Victoria,tube,Transport for London,False,13,outbound
+Tottenham Hale Underground Station,Victoria,tube,Transport for London,False,14,outbound
+Blackhorse Road Underground Station,Victoria,tube,Transport for London,False,15,outbound
+Walthamstow Central Underground Station,Victoria,tube,Transport for London,False,16,outbound
+Bank Underground Station,Waterloo & City,tube,Transport for London,False,1,inbound
+Waterloo Underground Station,Waterloo & City,tube,Transport for London,False,2,inbound
+Waterloo Underground Station,Waterloo & City,tube,Transport for London,False,1,outbound
+Bank Underground Station,Waterloo & City,tube,Transport for London,False,2,outbound
+Upminster Rail Station,Liberty,overground,Transport for London,False,1,inbound
+Emerson Park Rail Station,Liberty,overground,Transport for London,False,2,inbound
+Romford Rail Station,Liberty,overground,Transport for London,False,3,inbound
+Romford Rail Station,Liberty,overground,Transport for London,False,1,outbound
+Emerson Park Rail Station,Liberty,overground,Transport for London,False,2,outbound
+Upminster Rail Station,Liberty,overground,Transport for London,False,3,outbound
+Watford Junction Rail Station,Lioness,overground,Transport for London,False,1,inbound
+Watford High Street Rail Station,Lioness,overground,Transport for London,False,2,inbound
+Bushey Rail Station,Lioness,overground,Transport for London,False,3,inbound
+Carpenders Park Rail Station,Lioness,overground,Transport for London,False,4,inbound
+Hatch End Rail Station,Lioness,overground,Transport for London,False,5,inbound
+Headstone Lane Rail Station,Lioness,overground,Transport for London,False,6,inbound
+Harrow & Wealdstone Rail Station,Lioness,overground,Transport for London,False,7,inbound
+Kenton Rail Station,Lioness,overground,Transport for London,False,8,inbound
+South Kenton Rail Station,Lioness,overground,Transport for London,False,9,inbound
+North Wembley Rail Station,Lioness,overground,Transport for London,False,10,inbound
+Wembley Central Rail Station,Lioness,overground,Transport for London,False,11,inbound
+Stonebridge Park Rail Station,Lioness,overground,Transport for London,False,12,inbound
+Harlesden Rail Station,Lioness,overground,Transport for London,False,13,inbound
+Willesden Junction Rail Station,Lioness,overground,Transport for London,False,14,inbound
+Kensal Green Rail Station,Lioness,overground,Transport for London,False,15,inbound
+Queens Park (London) Rail Station,Lioness,overground,Transport for London,False,16,inbound
+Kilburn High Road Rail Station,Lioness,overground,Transport for London,False,17,inbound
+South Hampstead Rail Station,Lioness,overground,Transport for London,False,18,inbound
+London Euston Rail Station,Lioness,overground,Transport for London,False,19,inbound
+London Euston Rail Station,Lioness,overground,Transport for London,False,1,outbound
+South Hampstead Rail Station,Lioness,overground,Transport for London,False,2,outbound
+Kilburn High Road Rail Station,Lioness,overground,Transport for London,False,3,outbound
+Queens Park (London) Rail Station,Lioness,overground,Transport for London,False,4,outbound
+Kensal Green Rail Station,Lioness,overground,Transport for London,False,5,outbound
+Willesden Junction Rail Station,Lioness,overground,Transport for London,False,6,outbound
+Harlesden Rail Station,Lioness,overground,Transport for London,False,7,outbound
+Stonebridge Park Rail Station,Lioness,overground,Transport for London,False,8,outbound
+Wembley Central Rail Station,Lioness,overground,Transport for London,False,9,outbound
+North Wembley Rail Station,Lioness,overground,Transport for London,False,10,outbound
+South Kenton Rail Station,Lioness,overground,Transport for London,False,11,outbound
+Kenton Rail Station,Lioness,overground,Transport for London,False,12,outbound
+Harrow & Wealdstone Rail Station,Lioness,overground,Transport for London,False,13,outbound
+Headstone Lane Rail Station,Lioness,overground,Transport for London,False,14,outbound
+Hatch End Rail Station,Lioness,overground,Transport for London,False,15,outbound
+Carpenders Park Rail Station,Lioness,overground,Transport for London,False,16,outbound
+Bushey Rail Station,Lioness,overground,Transport for London,False,17,outbound
+Watford High Street Rail Station,Lioness,overground,Transport for London,False,18,outbound
+Watford Junction Rail Station,Lioness,overground,Transport for London,False,19,outbound
+Richmond (London) Rail Station,Mildmay,overground,Transport for London,False,1,inbound
+Kew Gardens Rail Station,Mildmay,overground,Transport for London,False,2,inbound
+Gunnersbury Rail Station,Mildmay,overground,Transport for London,False,3,inbound
+South Acton Rail Station,Mildmay,overground,Transport for London,False,4,inbound
+Acton Central Rail Station,Mildmay,overground,Transport for London,False,5,inbound
+Willesden Junction Rail Station,Mildmay,overground,Transport for London,False,6,inbound
+Willesden Junction Rail Station,Mildmay,overground,Transport for London,False,1,inbound
+Kensal Rise Rail Station,Mildmay,overground,Transport for London,False,2,inbound
+Brondesbury Park Rail Station,Mildmay,overground,Transport for London,False,3,inbound
+Brondesbury Rail Station,Mildmay,overground,Transport for London,False,4,inbound
+West Hampstead Rail Station,Mildmay,overground,Transport for London,False,5,inbound
+Finchley Road & Frognal Rail Station,Mildmay,overground,Transport for London,False,6,inbound
+Hampstead Heath Rail Station,Mildmay,overground,Transport for London,False,7,inbound
+Gospel Oak Rail Station,Mildmay,overground,Transport for London,False,8,inbound
+Kentish Town West Rail Station,Mildmay,overground,Transport for London,False,9,inbound
+Camden Road Rail Station,Mildmay,overground,Transport for London,False,10,inbound
+Caledonian Road & Barnsbury Rail Station,Mildmay,overground,Transport for London,False,11,inbound
+Highbury & Islington Rail Station,Mildmay,overground,Transport for London,False,12,inbound
+Canonbury Rail Station,Mildmay,overground,Transport for London,False,13,inbound
+Dalston Kingsland Rail Station,Mildmay,overground,Transport for London,False,14,inbound
+Hackney Central Rail Station,Mildmay,overground,Transport for London,False,15,inbound
+Homerton Rail Station,Mildmay,overground,Transport for London,False,16,inbound
+Hackney Wick Rail Station,Mildmay,overground,Transport for London,False,17,inbound
+Stratford (London) Rail Station,Mildmay,overground,Transport for London,False,18,inbound
+Clapham Junction Rail Station,Mildmay,overground,Transport for London,False,1,inbound
+Imperial Wharf Rail Station,Mildmay,overground,Transport for London,False,2,inbound
+West Brompton Rail Station,Mildmay,overground,Transport for London,False,3,inbound
+Kensington (Olympia) Rail Station,Mildmay,overground,Transport for London,False,4,inbound
+Shepherds Bush Rail Station,Mildmay,overground,Transport for London,False,5,inbound
+Willesden Junction Rail Station,Mildmay,overground,Transport for London,False,6,inbound
+Stratford (London) Rail Station,Mildmay,overground,Transport for London,False,1,outbound
+Hackney Wick Rail Station,Mildmay,overground,Transport for London,False,2,outbound
+Homerton Rail Station,Mildmay,overground,Transport for London,False,3,outbound
+Hackney Central Rail Station,Mildmay,overground,Transport for London,False,4,outbound
+Dalston Kingsland Rail Station,Mildmay,overground,Transport for London,False,5,outbound
+Canonbury Rail Station,Mildmay,overground,Transport for London,False,6,outbound
+Highbury & Islington Rail Station,Mildmay,overground,Transport for London,False,7,outbound
+Caledonian Road & Barnsbury Rail Station,Mildmay,overground,Transport for London,False,8,outbound
+Camden Road Rail Station,Mildmay,overground,Transport for London,False,9,outbound
+Kentish Town West Rail Station,Mildmay,overground,Transport for London,False,10,outbound
+Gospel Oak Rail Station,Mildmay,overground,Transport for London,False,11,outbound
+Hampstead Heath Rail Station,Mildmay,overground,Transport for London,False,12,outbound
+Finchley Road & Frognal Rail Station,Mildmay,overground,Transport for London,False,13,outbound
+West Hampstead Rail Station,Mildmay,overground,Transport for London,False,14,outbound
+Brondesbury Rail Station,Mildmay,overground,Transport for London,False,15,outbound
+Brondesbury Park Rail Station,Mildmay,overground,Transport for London,False,16,outbound
+Kensal Rise Rail Station,Mildmay,overground,Transport for London,False,17,outbound
+Willesden Junction Rail Station,Mildmay,overground,Transport for London,False,18,outbound
+Willesden Junction Rail Station,Mildmay,overground,Transport for London,False,1,outbound
+Acton Central Rail Station,Mildmay,overground,Transport for London,False,2,outbound
+South Acton Rail Station,Mildmay,overground,Transport for London,False,3,outbound
+Gunnersbury Rail Station,Mildmay,overground,Transport for London,False,4,outbound
+Kew Gardens Rail Station,Mildmay,overground,Transport for London,False,5,outbound
+Richmond (London) Rail Station,Mildmay,overground,Transport for London,False,6,outbound
+Willesden Junction Rail Station,Mildmay,overground,Transport for London,False,1,outbound
+Shepherds Bush Rail Station,Mildmay,overground,Transport for London,False,2,outbound
+Kensington (Olympia) Rail Station,Mildmay,overground,Transport for London,False,3,outbound
+West Brompton Rail Station,Mildmay,overground,Transport for London,False,4,outbound
+Imperial Wharf Rail Station,Mildmay,overground,Transport for London,False,5,outbound
+Clapham Junction Rail Station,Mildmay,overground,Transport for London,False,6,outbound
+Barking Riverside,Suffragette,overground,Transport for London,False,1,inbound
+Barking Rail Station,Suffragette,overground,Transport for London,False,2,inbound
+Woodgrange Park Rail Station,Suffragette,overground,Transport for London,False,3,inbound
+Wanstead Park Rail Station,Suffragette,overground,Transport for London,False,4,inbound
+Leytonstone High Road Rail Station,Suffragette,overground,Transport for London,False,5,inbound
+Leyton Midland Road Rail Station,Suffragette,overground,Transport for London,False,6,inbound
+Walthamstow Queens Road Rail Station,Suffragette,overground,Transport for London,False,7,inbound
+Blackhorse Road Rail Station,Suffragette,overground,Transport for London,False,8,inbound
+South Tottenham Rail Station,Suffragette,overground,Transport for London,False,9,inbound
+Harringay Green Lanes Rail Station,Suffragette,overground,Transport for London,False,10,inbound
+Crouch Hill Rail Station,Suffragette,overground,Transport for London,False,11,inbound
+Upper Holloway Rail Station,Suffragette,overground,Transport for London,False,12,inbound
+Gospel Oak Rail Station,Suffragette,overground,Transport for London,False,13,inbound
+Gospel Oak Rail Station,Suffragette,overground,Transport for London,False,1,outbound
+Upper Holloway Rail Station,Suffragette,overground,Transport for London,False,2,outbound
+Crouch Hill Rail Station,Suffragette,overground,Transport for London,False,3,outbound
+Harringay Green Lanes Rail Station,Suffragette,overground,Transport for London,False,4,outbound
+South Tottenham Rail Station,Suffragette,overground,Transport for London,False,5,outbound
+Blackhorse Road Rail Station,Suffragette,overground,Transport for London,False,6,outbound
+Walthamstow Queens Road Rail Station,Suffragette,overground,Transport for London,False,7,outbound
+Leyton Midland Road Rail Station,Suffragette,overground,Transport for London,False,8,outbound
+Leytonstone High Road Rail Station,Suffragette,overground,Transport for London,False,9,outbound
+Wanstead Park Rail Station,Suffragette,overground,Transport for London,False,10,outbound
+Woodgrange Park Rail Station,Suffragette,overground,Transport for London,False,11,outbound
+Barking Rail Station,Suffragette,overground,Transport for London,False,12,outbound
+Barking Riverside,Suffragette,overground,Transport for London,False,13,outbound
+Cheshunt Rail Station,Weaver,overground,Transport for London,False,1,inbound
+Theobalds Grove Rail Station,Weaver,overground,Transport for London,False,2,inbound
+Turkey Street Rail Station,Weaver,overground,Transport for London,False,3,inbound
+Southbury Rail Station,Weaver,overground,Transport for London,False,4,inbound
+Edmonton Green Rail Station,Weaver,overground,Transport for London,False,5,inbound
+Edmonton Green Rail Station,Weaver,overground,Transport for London,False,1,inbound
+Silver Street Rail Station,Weaver,overground,Transport for London,False,2,inbound
+White Hart Lane Rail Station,Weaver,overground,Transport for London,False,3,inbound
+Bruce Grove Rail Station,Weaver,overground,Transport for London,False,4,inbound
+Seven Sisters Rail Station,Weaver,overground,Transport for London,False,5,inbound
+Stamford Hill Rail Station,Weaver,overground,Transport for London,False,6,inbound
+Stoke Newington Rail Station,Weaver,overground,Transport for London,False,7,inbound
+Rectory Road Rail Station,Weaver,overground,Transport for London,False,8,inbound
+Hackney Downs Rail Station,Weaver,overground,Transport for London,False,9,inbound
+Hackney Downs Rail Station,Weaver,overground,Transport for London,False,1,inbound
+London Fields Rail Station,Weaver,overground,Transport for London,False,2,inbound
+Cambridge Heath (London) Rail Station,Weaver,overground,Transport for London,False,3,inbound
+Bethnal Green Rail Station,Weaver,overground,Transport for London,False,4,inbound
+London Liverpool Street Rail Station,Weaver,overground,Transport for London,False,5,inbound
+London Liverpool Street Rail Station,Weaver,overground,Transport for London,False,1,outbound
+Bethnal Green Rail Station,Weaver,overground,Transport for London,False,2,outbound
+Cambridge Heath (London) Rail Station,Weaver,overground,Transport for London,False,3,outbound
+London Fields Rail Station,Weaver,overground,Transport for London,False,4,outbound
+Hackney Downs Rail Station,Weaver,overground,Transport for London,False,5,outbound
+Hackney Downs Rail Station,Weaver,overground,Transport for London,False,1,outbound
+Rectory Road Rail Station,Weaver,overground,Transport for London,False,2,outbound
+Stoke Newington Rail Station,Weaver,overground,Transport for London,False,3,outbound
+Stamford Hill Rail Station,Weaver,overground,Transport for London,False,4,outbound
+Seven Sisters Rail Station,Weaver,overground,Transport for London,False,5,outbound
+Bruce Grove Rail Station,Weaver,overground,Transport for London,False,6,outbound
+White Hart Lane Rail Station,Weaver,overground,Transport for London,False,7,outbound
+Silver Street Rail Station,Weaver,overground,Transport for London,False,8,outbound
+Edmonton Green Rail Station,Weaver,overground,Transport for London,False,9,outbound
+Edmonton Green Rail Station,Weaver,overground,Transport for London,False,1,outbound
+Southbury Rail Station,Weaver,overground,Transport for London,False,2,outbound
+Turkey Street Rail Station,Weaver,overground,Transport for London,False,3,outbound
+Theobalds Grove Rail Station,Weaver,overground,Transport for London,False,4,outbound
+Cheshunt Rail Station,Weaver,overground,Transport for London,False,5,outbound
+Enfield Town Rail Station,Weaver,overground,Transport for London,False,1,inbound
+Bush Hill Park Rail Station,Weaver,overground,Transport for London,False,2,inbound
+Edmonton Green Rail Station,Weaver,overground,Transport for London,False,3,inbound
+Edmonton Green Rail Station,Weaver,overground,Transport for London,False,1,outbound
+Bush Hill Park Rail Station,Weaver,overground,Transport for London,False,2,outbound
+Enfield Town Rail Station,Weaver,overground,Transport for London,False,3,outbound
+Chingford Rail Station,Weaver,overground,Transport for London,False,1,inbound
+Highams Park Rail Station,Weaver,overground,Transport for London,False,2,inbound
+Wood Street Rail Station,Weaver,overground,Transport for London,False,3,inbound
+Walthamstow Central Rail Station,Weaver,overground,Transport for London,False,4,inbound
+St James Street (London) Rail Station,Weaver,overground,Transport for London,False,5,inbound
+Clapton Rail Station,Weaver,overground,Transport for London,False,6,inbound
+Hackney Downs Rail Station,Weaver,overground,Transport for London,False,7,inbound
+Hackney Downs Rail Station,Weaver,overground,Transport for London,False,1,outbound
+Clapton Rail Station,Weaver,overground,Transport for London,False,2,outbound
+St James Street (London) Rail Station,Weaver,overground,Transport for London,False,3,outbound
+Walthamstow Central Rail Station,Weaver,overground,Transport for London,False,4,outbound
+Wood Street Rail Station,Weaver,overground,Transport for London,False,5,outbound
+Highams Park Rail Station,Weaver,overground,Transport for London,False,6,outbound
+Chingford Rail Station,Weaver,overground,Transport for London,False,7,outbound
+West Croydon Rail Station,Windrush,overground,Transport for London,False,1,inbound
+Norwood Junction Rail Station,Windrush,overground,Transport for London,False,2,inbound
+Anerley Rail Station,Windrush,overground,Transport for London,False,3,inbound
+Penge West Rail Station,Windrush,overground,Transport for London,False,4,inbound
+Sydenham Rail Station,Windrush,overground,Transport for London,False,5,inbound
+Sydenham Rail Station,Windrush,overground,Transport for London,False,1,inbound
+Forest Hill Rail Station,Windrush,overground,Transport for London,False,2,inbound
+Honor Oak Park Rail Station,Windrush,overground,Transport for London,False,3,inbound
+Brockley Rail Station,Windrush,overground,Transport for London,False,4,inbound
+New Cross Gate Rail Station,Windrush,overground,Transport for London,False,5,inbound
+Surrey Quays Rail Station,Windrush,overground,Transport for London,False,6,inbound
+Surrey Quays Rail Station,Windrush,overground,Transport for London,False,1,inbound
+Canada Water Rail Station,Windrush,overground,Transport for London,False,2,inbound
+Rotherhithe Rail Station,Windrush,overground,Transport for London,False,3,inbound
+Wapping Rail Station,Windrush,overground,Transport for London,False,4,inbound
+Shadwell Rail Station,Windrush,overground,Transport for London,False,5,inbound
+Whitechapel Rail Station,Windrush,overground,Transport for London,False,6,inbound
+Shoreditch High Street Rail Station,Windrush,overground,Transport for London,False,7,inbound
+Hoxton Rail Station,Windrush,overground,Transport for London,False,8,inbound
+Haggerston Rail Station,Windrush,overground,Transport for London,False,9,inbound
+Dalston Junction Rail Station,Windrush,overground,Transport for London,False,10,inbound
+Canonbury Rail Station,Windrush,overground,Transport for London,False,11,inbound
+Highbury & Islington Rail Station,Windrush,overground,Transport for London,False,12,inbound
+Highbury & Islington Rail Station,Windrush,overground,Transport for London,False,1,outbound
+Canonbury Rail Station,Windrush,overground,Transport for London,False,2,outbound
+Dalston Junction Rail Station,Windrush,overground,Transport for London,False,3,outbound
+Haggerston Rail Station,Windrush,overground,Transport for London,False,4,outbound
+Hoxton Rail Station,Windrush,overground,Transport for London,False,5,outbound
+Shoreditch High Street Rail Station,Windrush,overground,Transport for London,False,6,outbound
+Whitechapel Rail Station,Windrush,overground,Transport for London,False,7,outbound
+Shadwell Rail Station,Windrush,overground,Transport for London,False,8,outbound
+Wapping Rail Station,Windrush,overground,Transport for London,False,9,outbound
+Rotherhithe Rail Station,Windrush,overground,Transport for London,False,10,outbound
+Canada Water Rail Station,Windrush,overground,Transport for London,False,11,outbound
+Surrey Quays Rail Station,Windrush,overground,Transport for London,False,12,outbound
+Surrey Quays Rail Station,Windrush,overground,Transport for London,False,1,outbound
+New Cross Gate Rail Station,Windrush,overground,Transport for London,False,2,outbound
+Brockley Rail Station,Windrush,overground,Transport for London,False,3,outbound
+Honor Oak Park Rail Station,Windrush,overground,Transport for London,False,4,outbound
+Forest Hill Rail Station,Windrush,overground,Transport for London,False,5,outbound
+Sydenham Rail Station,Windrush,overground,Transport for London,False,6,outbound
+Sydenham Rail Station,Windrush,overground,Transport for London,False,1,outbound
+Penge West Rail Station,Windrush,overground,Transport for London,False,2,outbound
+Anerley Rail Station,Windrush,overground,Transport for London,False,3,outbound
+Norwood Junction Rail Station,Windrush,overground,Transport for London,False,4,outbound
+West Croydon Rail Station,Windrush,overground,Transport for London,False,5,outbound
+Clapham Junction Rail Station,Windrush,overground,Transport for London,False,1,inbound
+Wandsworth Road Rail Station,Windrush,overground,Transport for London,False,2,inbound
+Clapham High Street Rail Station,Windrush,overground,Transport for London,False,3,inbound
+Denmark Hill Rail Station,Windrush,overground,Transport for London,False,4,inbound
+Peckham Rye Rail Station,Windrush,overground,Transport for London,False,5,inbound
+Queens Road Peckham Rail Station,Windrush,overground,Transport for London,False,6,inbound
+Surrey Quays Rail Station,Windrush,overground,Transport for London,False,7,inbound
+Crystal Palace Rail Station,Windrush,overground,Transport for London,False,1,inbound
+Sydenham Rail Station,Windrush,overground,Transport for London,False,2,inbound
+Surrey Quays Rail Station,Windrush,overground,Transport for London,False,1,outbound
+Queens Road Peckham Rail Station,Windrush,overground,Transport for London,False,2,outbound
+Peckham Rye Rail Station,Windrush,overground,Transport for London,False,3,outbound
+Denmark Hill Rail Station,Windrush,overground,Transport for London,False,4,outbound
+Clapham High Street Rail Station,Windrush,overground,Transport for London,False,5,outbound
+Wandsworth Road Rail Station,Windrush,overground,Transport for London,False,6,outbound
+Clapham Junction Rail Station,Windrush,overground,Transport for London,False,7,outbound
+Sydenham Rail Station,Windrush,overground,Transport for London,False,1,outbound
+Crystal Palace Rail Station,Windrush,overground,Transport for London,False,2,outbound
+New Cross ELL Rail Station,Windrush,overground,Transport for London,False,1,inbound
+Surrey Quays Rail Station,Windrush,overground,Transport for London,False,2,inbound
+Surrey Quays Rail Station,Windrush,overground,Transport for London,False,1,outbound
+New Cross ELL Rail Station,Windrush,overground,Transport for London,False,2,outbound
+Lewisham DLR Station,DLR,dlr,Transport for London,False,1,inbound
+Elverson Road DLR Station,DLR,dlr,Transport for London,False,2,inbound
+Deptford Bridge DLR Station,DLR,dlr,Transport for London,False,3,inbound
+Greenwich DLR Station,DLR,dlr,Transport for London,False,4,inbound
+Cutty Sark (for Maritime Greenwich) DLR Station,DLR,dlr,Transport for London,False,5,inbound
+Island Gardens DLR Station,DLR,dlr,Transport for London,False,6,inbound
+Mudchute DLR Station,DLR,dlr,Transport for London,False,7,inbound
+Crossharbour DLR Station,DLR,dlr,Transport for London,False,8,inbound
+South Quay DLR Station,DLR,dlr,Transport for London,False,9,inbound
+Heron Quays DLR Station,DLR,dlr,Transport for London,False,10,inbound
+Canary Wharf DLR Station,DLR,dlr,Transport for London,False,11,inbound
+West India Quay DLR Station,DLR,dlr,Transport for London,False,12,inbound
+West India Quay DLR Station,DLR,dlr,Transport for London,False,1,inbound
+Poplar DLR Station,DLR,dlr,Transport for London,False,2,inbound
+Poplar DLR Station,DLR,dlr,Transport for London,False,1,inbound
+All Saints DLR Station,DLR,dlr,Transport for London,False,2,inbound
+Langdon Park DLR Station,DLR,dlr,Transport for London,False,3,inbound
+Devons Road DLR Station,DLR,dlr,Transport for London,False,4,inbound
+Bow Church DLR Station,DLR,dlr,Transport for London,False,5,inbound
+Pudding Mill Lane DLR Station,DLR,dlr,Transport for London,False,6,inbound
+Stratford DLR Station,DLR,dlr,Transport for London,False,7,inbound
+West India Quay DLR Station,DLR,dlr,Transport for London,False,1,inbound
+Westferry DLR Station,DLR,dlr,Transport for London,False,2,inbound
+Westferry DLR Station,DLR,dlr,Transport for London,False,1,inbound
+Limehouse DLR Station,DLR,dlr,Transport for London,False,2,inbound
+Shadwell DLR Station,DLR,dlr,Transport for London,False,3,inbound
+Shadwell DLR Station,DLR,dlr,Transport for London,False,1,inbound
+Bank DLR Station,DLR,dlr,Transport for London,False,2,inbound
+Shadwell DLR Station,DLR,dlr,Transport for London,False,1,inbound
+Tower Gateway DLR Station,DLR,dlr,Transport for London,False,2,inbound
+Beckton DLR Station,DLR,dlr,Transport for London,False,1,inbound
+Gallions Reach DLR Station,DLR,dlr,Transport for London,False,2,inbound
+Cyprus DLR Station,DLR,dlr,Transport for London,False,3,inbound
+Beckton Park DLR Station,DLR,dlr,Transport for London,False,4,inbound
+Royal Albert DLR Station,DLR,dlr,Transport for London,False,5,inbound
+Prince Regent DLR Station,DLR,dlr,Transport for London,False,6,inbound
+Custom House (for ExCel) DLR Station,DLR,dlr,Transport for London,False,7,inbound
+Royal Victoria DLR Station,DLR,dlr,Transport for London,False,8,inbound
+Canning Town DLR Station,DLR,dlr,Transport for London,False,9,inbound
+Canning Town DLR Station,DLR,dlr,Transport for London,False,1,inbound
+East India DLR Station,DLR,dlr,Transport for London,False,2,inbound
+Blackwall DLR Station,DLR,dlr,Transport for London,False,3,inbound
+Poplar DLR Station,DLR,dlr,Transport for London,False,4,inbound
+Poplar DLR Station,DLR,dlr,Transport for London,False,1,inbound
+Westferry DLR Station,DLR,dlr,Transport for London,False,2,inbound
+Tower Gateway DLR Station,DLR,dlr,Transport for London,False,1,outbound
+Shadwell DLR Station,DLR,dlr,Transport for London,False,2,outbound
+Shadwell DLR Station,DLR,dlr,Transport for London,False,1,outbound
+Limehouse DLR Station,DLR,dlr,Transport for London,False,2,outbound
+Westferry DLR Station,DLR,dlr,Transport for London,False,3,outbound
+Westferry DLR Station,DLR,dlr,Transport for London,False,1,outbound
+Poplar DLR Station,DLR,dlr,Transport for London,False,2,outbound
+Poplar DLR Station,DLR,dlr,Transport for London,False,1,outbound
+Blackwall DLR Station,DLR,dlr,Transport for London,False,2,outbound
+East India DLR Station,DLR,dlr,Transport for London,False,3,outbound
+Canning Town DLR Station,DLR,dlr,Transport for London,False,4,outbound
+Canning Town DLR Station,DLR,dlr,Transport for London,False,1,outbound
+Royal Victoria DLR Station,DLR,dlr,Transport for London,False,2,outbound
+Custom House (for ExCel) DLR Station,DLR,dlr,Transport for London,False,3,outbound
+Prince Regent DLR Station,DLR,dlr,Transport for London,False,4,outbound
+Royal Albert DLR Station,DLR,dlr,Transport for London,False,5,outbound
+Beckton Park DLR Station,DLR,dlr,Transport for London,False,6,outbound
+Cyprus DLR Station,DLR,dlr,Transport for London,False,7,outbound
+Gallions Reach DLR Station,DLR,dlr,Transport for London,False,8,outbound
+Beckton DLR Station,DLR,dlr,Transport for London,False,9,outbound
+Westferry DLR Station,DLR,dlr,Transport for London,False,1,outbound
+Canary Wharf DLR Station,DLR,dlr,Transport for London,False,2,outbound
+Canary Wharf DLR Station,DLR,dlr,Transport for London,False,1,outbound
+Heron Quays DLR Station,DLR,dlr,Transport for London,False,2,outbound
+South Quay DLR Station,DLR,dlr,Transport for London,False,3,outbound
+Crossharbour DLR Station,DLR,dlr,Transport for London,False,4,outbound
+Mudchute DLR Station,DLR,dlr,Transport for London,False,5,outbound
+Island Gardens DLR Station,DLR,dlr,Transport for London,False,6,outbound
+Cutty Sark (for Maritime Greenwich) DLR Station,DLR,dlr,Transport for London,False,7,outbound
+Greenwich DLR Station,DLR,dlr,Transport for London,False,8,outbound
+Deptford Bridge DLR Station,DLR,dlr,Transport for London,False,9,outbound
+Elverson Road DLR Station,DLR,dlr,Transport for London,False,10,outbound
+Lewisham DLR Station,DLR,dlr,Transport for London,False,11,outbound
+Bank DLR Station,DLR,dlr,Transport for London,False,1,outbound
+Shadwell DLR Station,DLR,dlr,Transport for London,False,2,outbound
+Woolwich Arsenal DLR Station,DLR,dlr,Transport for London,False,1,inbound
+King George V DLR Station,DLR,dlr,Transport for London,False,2,inbound
+London City Airport DLR Station,DLR,dlr,Transport for London,False,3,inbound
+Pontoon Dock DLR Station,DLR,dlr,Transport for London,False,4,inbound
+West Silvertown DLR Station,DLR,dlr,Transport for London,False,5,inbound
+Canning Town DLR Station,DLR,dlr,Transport for London,False,6,inbound
+Canning Town DLR Station,DLR,dlr,Transport for London,False,1,outbound
+West Silvertown DLR Station,DLR,dlr,Transport for London,False,2,outbound
+Pontoon Dock DLR Station,DLR,dlr,Transport for London,False,3,outbound
+London City Airport DLR Station,DLR,dlr,Transport for London,False,4,outbound
+King George V DLR Station,DLR,dlr,Transport for London,False,5,outbound
+Woolwich Arsenal DLR Station,DLR,dlr,Transport for London,False,6,outbound
+Canning Town DLR Station,DLR,dlr,Transport for London,False,1,inbound
+Star Lane DLR Station,DLR,dlr,Transport for London,False,2,inbound
+West Ham DLR Station,DLR,dlr,Transport for London,False,3,inbound
+Abbey Road DLR Station,DLR,dlr,Transport for London,False,4,inbound
+Stratford High Street DLR Station,DLR,dlr,Transport for London,False,5,inbound
+Stratford DLR Station,DLR,dlr,Transport for London,False,6,inbound
+Stratford DLR Station,DLR,dlr,Transport for London,False,1,inbound
+Stratford International DLR Station,DLR,dlr,Transport for London,False,2,inbound
+Stratford International DLR Station,DLR,dlr,Transport for London,False,1,outbound
+Stratford DLR Station,DLR,dlr,Transport for London,False,2,outbound
+Stratford DLR Station,DLR,dlr,Transport for London,False,1,outbound
+Stratford High Street DLR Station,DLR,dlr,Transport for London,False,2,outbound
+Abbey Road DLR Station,DLR,dlr,Transport for London,False,3,outbound
+West Ham DLR Station,DLR,dlr,Transport for London,False,4,outbound
+Star Lane DLR Station,DLR,dlr,Transport for London,False,5,outbound
+Canning Town DLR Station,DLR,dlr,Transport for London,False,6,outbound
+Stratford DLR Station,DLR,dlr,Transport for London,False,1,outbound
+Pudding Mill Lane DLR Station,DLR,dlr,Transport for London,False,2,outbound
+Bow Church DLR Station,DLR,dlr,Transport for London,False,3,outbound
+Devons Road DLR Station,DLR,dlr,Transport for London,False,4,outbound
+Langdon Park DLR Station,DLR,dlr,Transport for London,False,5,outbound
+All Saints DLR Station,DLR,dlr,Transport for London,False,6,outbound
+Poplar DLR Station,DLR,dlr,Transport for London,False,7,outbound
+Poplar DLR Station,DLR,dlr,Transport for London,False,1,outbound
+West India Quay DLR Station,DLR,dlr,Transport for London,False,2,outbound
+Canary Wharf DLR Station,DLR,dlr,Transport for London,False,3,outbound
+Heathrow Terminal 4 Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,1,inbound
+Heathrow Terminals 2 & 3 Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,2,inbound
+Heathrow Terminals 2 & 3 Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,1,inbound
+Hayes & Harlington Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,2,inbound
+Hayes & Harlington Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,1,inbound
+Southall Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,2,inbound
+Hanwell Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,3,inbound
+West Ealing Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,4,inbound
+Ealing Broadway Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,5,inbound
+Acton Main Line Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,6,inbound
+Acton Main Line Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,1,inbound
+Paddington,Elizabeth line,elizabeth-line,Transport for London,False,2,inbound
+Paddington,Elizabeth line,elizabeth-line,Transport for London,False,1,inbound
+Bond Street,Elizabeth line,elizabeth-line,Transport for London,False,2,inbound
+Tottenham Court Road,Elizabeth line,elizabeth-line,Transport for London,False,3,inbound
+Farringdon,Elizabeth line,elizabeth-line,Transport for London,False,4,inbound
+Liverpool Street,Elizabeth line,elizabeth-line,Transport for London,False,5,inbound
+Whitechapel,Elizabeth line,elizabeth-line,Transport for London,False,6,inbound
+Whitechapel,Elizabeth line,elizabeth-line,Transport for London,False,1,inbound
+Stratford (London) Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,2,inbound
+Stratford (London) Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,1,inbound
+Maryland Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,2,inbound
+Forest Gate Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,3,inbound
+Manor Park Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,4,inbound
+Ilford Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,5,inbound
+Seven Kings Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,6,inbound
+Goodmayes Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,7,inbound
+Chadwell Heath Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,8,inbound
+Romford Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,9,inbound
+Gidea Park Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,10,inbound
+Harold Wood Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,11,inbound
+Brentwood Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,12,inbound
+Shenfield Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,13,inbound
+Heathrow Terminal 5 Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,1,inbound
+Heathrow Terminals 2 & 3 Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,2,inbound
+Shenfield Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,1,outbound
+Brentwood Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,2,outbound
+Harold Wood Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,3,outbound
+Gidea Park Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,4,outbound
+Romford Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,5,outbound
+Chadwell Heath Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,6,outbound
+Goodmayes Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,7,outbound
+Seven Kings Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,8,outbound
+Ilford Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,9,outbound
+Manor Park Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,10,outbound
+Forest Gate Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,11,outbound
+Maryland Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,12,outbound
+Stratford (London) Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,13,outbound
+Stratford (London) Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,1,outbound
+Whitechapel,Elizabeth line,elizabeth-line,Transport for London,False,2,outbound
+Whitechapel,Elizabeth line,elizabeth-line,Transport for London,False,1,outbound
+Liverpool Street,Elizabeth line,elizabeth-line,Transport for London,False,2,outbound
+Farringdon,Elizabeth line,elizabeth-line,Transport for London,False,3,outbound
+Tottenham Court Road,Elizabeth line,elizabeth-line,Transport for London,False,4,outbound
+Bond Street,Elizabeth line,elizabeth-line,Transport for London,False,5,outbound
+Paddington,Elizabeth line,elizabeth-line,Transport for London,False,6,outbound
+Paddington,Elizabeth line,elizabeth-line,Transport for London,False,1,outbound
+Acton Main Line Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,2,outbound
+Acton Main Line Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,1,outbound
+Ealing Broadway Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,2,outbound
+West Ealing Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,3,outbound
+Hanwell Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,4,outbound
+Southall Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,5,outbound
+Hayes & Harlington Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,6,outbound
+Hayes & Harlington Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,1,outbound
+Heathrow Terminals 2 & 3 Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,2,outbound
+Heathrow Terminals 2 & 3 Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,1,outbound
+Heathrow Terminal 4 Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,2,outbound
+Heathrow Terminals 2 & 3 Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,1,outbound
+Heathrow Terminal 5 Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,2,outbound
+Whitechapel,Elizabeth line,elizabeth-line,Transport for London,False,1,inbound
+Canary Wharf,Elizabeth line,elizabeth-line,Transport for London,False,2,inbound
+Custom House Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,3,inbound
+Woolwich,Elizabeth line,elizabeth-line,Transport for London,False,4,inbound
+Abbey Wood,Elizabeth line,elizabeth-line,Transport for London,False,5,inbound
+Reading Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,1,inbound
+Twyford Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,2,inbound
+Maidenhead Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,3,inbound
+Taplow Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,4,inbound
+Burnham (Berks) Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,5,inbound
+Slough Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,6,inbound
+Langley (Berks) Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,7,inbound
+Iver Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,8,inbound
+West Drayton Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,9,inbound
+Hayes & Harlington Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,10,inbound
+Hayes & Harlington Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,1,outbound
+West Drayton Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,2,outbound
+Iver Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,3,outbound
+Langley (Berks) Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,4,outbound
+Slough Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,5,outbound
+Burnham (Berks) Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,6,outbound
+Taplow Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,7,outbound
+Maidenhead Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,8,outbound
+Twyford Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,9,outbound
+Reading Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,10,outbound
+Abbey Wood,Elizabeth line,elizabeth-line,Transport for London,False,1,outbound
+Woolwich,Elizabeth line,elizabeth-line,Transport for London,False,2,outbound
+Custom House Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,3,outbound
+Canary Wharf,Elizabeth line,elizabeth-line,Transport for London,False,4,outbound
+Whitechapel,Elizabeth line,elizabeth-line,Transport for London,False,5,outbound
+Acton Main Line Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,1,inbound
+London Paddington Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,2,inbound
+London Paddington Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,1,outbound
+Acton Main Line Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,2,outbound
+London Liverpool Street Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,1,inbound
+Stratford (London) Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,2,inbound
+Stratford (London) Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,1,outbound
+London Liverpool Street Rail Station,Elizabeth line,elizabeth-line,Transport for London,False,2,outbound

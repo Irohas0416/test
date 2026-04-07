@@ -1,0 +1,12 @@
+langchain
+langchain_community
+langchain-google-genai
+pydantic 
+pandas
+requests
+beautifulsoup4
+rdflib
+chromadb
+json-toon
+google-genai
+pypdf

@@ -1,0 +1,8 @@
+python -m tfl_api.stations --modes tode --output stations
+python -m tfl_api.zones --modes tode --input data/stations --output stations
+
+
+
+python -m tfl_api.network --modes tode --output network_data.csv
+
+python -m tfl_api.status --modes tode --output service_status.csv

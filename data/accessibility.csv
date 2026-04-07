@@ -1,0 +1,10 @@
+station_name,is_step_free_street_to_train,feature_description
+Bank,False,No step-free access to/from the Waterloo & City line from Monday 13 April until mid-May.
+Harrow & Wealdstone,False,Lifts are owned and maintained by Network Rail; check Journey Planner for current status.
+Hendon Central,False,No step-free access until Friday 27 March.
+Hounslow East,False,No step-free access to/from the eastbound Piccadilly line on Monday 1 June.
+Langdon Park,False,Both lifts that serve the footbridge will be out of service until spring 2026.
+Wembley Central,False,No step-free access to the southbound Southern Railway platform.
+Wembley Park,True,"No lift service between the street and ticket hall until autumn 2026, but step-free access is available via the Bridge Road entrance/exit."
+West Silvertown,False,No step-free access to/from platform 1 until April 2026.
+Woolwich Arsenal,False,No step-free access until further notice.

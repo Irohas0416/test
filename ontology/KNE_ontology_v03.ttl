@@ -1,0 +1,1084 @@
+@prefix : <http://example.org/lpt-ontology#> .
+@prefix tm: <https://w3id.org/transmodel/commons#> .
+@prefix lpt: <http://example.org/lpt-ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@base <http://example.org/lpt-ontology> .
+
+<http://example.org/lpt-ontology> rdf:type owl:Ontology ;
+                                   rdfs:comment "A CQ-driven ontology for a London public transport knowledge graph, enhanced with full OWL 2 TBox axioms (v0.3). Covers stations, lines, branches, termini, interchanges, fare zones, accessibility, service status, closures, fares, buses, and journey planning. Extends Transmodel Ontology (https://w3id.org/transmodel/commons#) and Schema.org (http://schema.org/)." ;
+                                   rdfs:label "London Public Transport Ontology" ;
+                                   rdfs:seeAlso schema: ,
+                                                tm: ;
+                                   owl:versionInfo "0.3" .
+
+
+#################################################################
+#    Datatypes
+#################################################################
+
+xsd:date rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  affectsSegment
+lpt:affectsSegment rdf:type owl:ObjectProperty ;
+                   rdfs:domain lpt:DisruptionEvent ;
+                   rdfs:range lpt:RouteSegment ;
+                   rdfs:comment "Indicates which segment is affected by a disruption." ;
+                   rdfs:label "affectsSegment" .
+
+
+###  appliesFromZone — Functional: each fare has exactly one origin zone
+lpt:appliesFromZone rdf:type owl:ObjectProperty ,
+                             owl:FunctionalProperty ;
+                    rdfs:domain lpt:Fare ;
+                    rdfs:range lpt:FareZone ;
+                    rdfs:comment "Start fare zone for a fare rule or record." ;
+                    rdfs:label "appliesFromZone" .
+
+
+###  appliesToProduct — Functional: each fare targets exactly one product
+lpt:appliesToProduct rdf:type owl:ObjectProperty ,
+                              owl:FunctionalProperty ;
+                     rdfs:domain lpt:Fare ;
+                     rdfs:range lpt:FareProduct ;
+                     rdfs:comment "Fare product to which a fare record applies." ;
+                     rdfs:label "appliesToProduct" .
+
+
+###  appliesToZone — Functional: each fare has exactly one destination zone
+lpt:appliesToZone rdf:type owl:ObjectProperty ,
+                           owl:FunctionalProperty ;
+                  rdfs:domain lpt:Fare ;
+                  rdfs:range lpt:FareZone ;
+                  rdfs:comment "End fare zone for a fare rule or record." ;
+                  rdfs:label "appliesToZone" .
+
+
+###  connectsToService
+lpt:connectsToService rdf:type owl:ObjectProperty ;
+                      rdfs:domain lpt:Station ;
+                      rdfs:range lpt:RailService ;
+                      rdfs:comment "Links a station to a rail service directly available from it." ;
+                      rdfs:label "connectsToService" .
+
+
+###  endsAt — Functional: each segment/journey has exactly one end point
+lpt:endsAt rdf:type owl:ObjectProperty ,
+                    owl:FunctionalProperty ;
+           rdfs:domain lpt:TransportEntity ;
+           rdfs:range lpt:Station ;
+           rdfs:comment "The ending station of a route segment or journey option." ;
+           rdfs:label "endsAt" .
+
+
+###  hasAccessibilityFeature
+lpt:hasAccessibilityFeature rdf:type owl:ObjectProperty ;
+                            rdfs:domain lpt:Station ;
+                            rdfs:range lpt:AccessibilityFeature ;
+                            rdfs:comment "Links a station to an accessibility feature." ;
+                            rdfs:label "hasAccessibilityFeature" .
+
+
+###  hasBranch — Inverse of branchOfLine
+lpt:hasBranch rdf:type owl:ObjectProperty ;
+              rdfs:domain lpt:Line ;
+              rdfs:range lpt:Branch ;
+              owl:inverseOf lpt:branchOfLine ;
+              rdfs:comment "Associates a line with one of its branches." ;
+              rdfs:label "hasBranch" .
+
+
+###  branchOfLine (NEW) — Functional inverse of hasBranch; each branch belongs to exactly one line
+lpt:branchOfLine rdf:type owl:ObjectProperty ,
+                          owl:FunctionalProperty ;
+                 rdfs:domain lpt:Branch ;
+                 rdfs:range lpt:Line ;
+                 rdfs:comment "Relates a branch back to the line it belongs to. Inverse of hasBranch." ;
+                 rdfs:label "branchOfLine" .
+
+
+###  hasClosureEvent
+lpt:hasClosureEvent rdf:type owl:ObjectProperty ;
+                    rdfs:domain lpt:Station ;
+                    rdfs:range lpt:ClosureEvent ;
+                    rdfs:comment "Associates a station with a closure event." ;
+                    rdfs:label "hasClosureEvent" .
+
+
+###  hasConnection
+lpt:hasConnection rdf:type owl:ObjectProperty ;
+                  rdfs:domain lpt:Station ;
+                  rdfs:range lpt:Connection ;
+                  rdfs:comment "Associates a station with a specific connection object." ;
+                  rdfs:label "hasConnection" .
+
+
+###  hasDirectConnectionTo — Symmetric: if A connects to B then B connects to A
+lpt:hasDirectConnectionTo rdf:type owl:ObjectProperty ,
+                                   owl:SymmetricProperty ;
+                          rdfs:domain lpt:Station ;
+                          rdfs:range lpt:Station ;
+                          rdfs:comment "Represents a direct connection from one station to another. Symmetric." ;
+                          rdfs:label "hasDirectConnectionTo" .
+
+
+###  hasDirectNationalRailConnection — Symmetric subproperty
+lpt:hasDirectNationalRailConnection rdf:type owl:ObjectProperty ,
+                                             owl:SymmetricProperty ;
+                                    rdfs:subPropertyOf lpt:hasDirectConnectionTo ;
+                                    rdfs:comment "A direct connection specifically involving National Rail interchange." ;
+                                    rdfs:label "hasDirectNationalRailConnection" .
+
+
+###  hasIntermediateStation
+lpt:hasIntermediateStation rdf:type owl:ObjectProperty ;
+                           rdfs:domain lpt:JourneyOption ;
+                           rdfs:range lpt:Station ;
+                           rdfs:comment "Lists intermediate stations on a journey option." ;
+                           rdfs:label "hasIntermediateStation" .
+
+
+###  hasMode — Functional: each service pattern has exactly one primary mode
+lpt:hasMode rdf:type owl:ObjectProperty ,
+                     owl:FunctionalProperty ;
+            rdfs:domain lpt:ServicePattern ;
+            rdfs:range lpt:TransportMode ;
+            rdfs:comment "States the transport mode of a service pattern." ;
+            rdfs:label "hasMode" .
+
+
+###  hasStatus — Functional: one current status per service pattern
+lpt:hasStatus rdf:type owl:ObjectProperty ,
+                       owl:FunctionalProperty ;
+              rdfs:domain lpt:ServicePattern ;
+              rdfs:range lpt:ServiceStatus ;
+              rdfs:comment "Links a service pattern to its current or recent status." ;
+              rdfs:label "hasStatus" .
+
+
+###  hasStepFreeStreetToTrainFeature — subproperty of hasAccessibilityFeature
+lpt:hasStepFreeStreetToTrainFeature rdf:type owl:ObjectProperty ;
+                                    rdfs:subPropertyOf lpt:hasAccessibilityFeature ;
+                                    rdfs:comment "A step-free street-to-train accessibility feature." ;
+                                    rdfs:label "hasStepFreeStreetToTrainFeature" .
+
+
+###  hasStop
+lpt:hasStop rdf:type owl:ObjectProperty ;
+            rdfs:domain lpt:ServicePattern ;
+            rdfs:range lpt:Place ;
+            rdfs:comment "Associates a service pattern with its ordered stops or stations." ;
+            rdfs:label "hasStop" .
+
+
+###  hasTerminus
+lpt:hasTerminus rdf:type owl:ObjectProperty ;
+                rdfs:domain lpt:Branch ;
+                rdfs:range lpt:TerminusStation ;
+                rdfs:comment "Associates a branch with its physical terminus station." ;
+                rdfs:label "hasTerminus" .
+
+
+###  interchangesWith
+lpt:interchangesWith rdf:type owl:ObjectProperty ;
+                     rdfs:domain lpt:Station ;
+                     rdfs:range lpt:ServicePattern ;
+                     rdfs:comment "Indicates that interchange with a service is available at a station." ;
+                     rdfs:label "interchangesWith" .
+
+
+###  locatedInZone
+lpt:locatedInZone rdf:type owl:ObjectProperty ;
+                  rdfs:domain lpt:Place ;
+                  rdfs:range lpt:FareZone ;
+                  rdfs:comment "Places a station, stop, or hub in a fare zone. A place may span multiple zones." ;
+                  rdfs:label "locatedInZone" .
+
+
+###  nextStation — Inverse of previousStation
+lpt:nextStation rdf:type owl:ObjectProperty ;
+                rdfs:domain lpt:Station ;
+                rdfs:range lpt:Station ;
+                owl:inverseOf lpt:previousStation ;
+                rdfs:comment "Links a station to the next station in a given line direction." ;
+                rdfs:label "nextStation" .
+
+
+###  onLine
+lpt:onLine rdf:type owl:ObjectProperty ;
+           rdfs:domain lpt:TransportEntity ;
+           rdfs:range lpt:Line ;
+           rdfs:comment "Associates an entity with a line." ;
+           rdfs:label "onLine" .
+
+
+###  operatedBy — Inverse of operates
+lpt:operatedBy rdf:type owl:ObjectProperty ;
+               rdfs:domain lpt:ServicePattern ;
+               rdfs:range lpt:Operator ;
+               owl:inverseOf lpt:operates ;
+               rdfs:comment "Links a service pattern to its operator." ;
+               rdfs:label "operatedBy" .
+
+
+###  operates (NEW) — Inverse of operatedBy
+lpt:operates rdf:type owl:ObjectProperty ;
+             rdfs:domain lpt:Operator ;
+             rdfs:range lpt:ServicePattern ;
+             rdfs:comment "Links an operator to the service patterns it operates." ;
+             rdfs:label "operates" .
+
+
+###  partOfBranch
+lpt:partOfBranch rdf:type owl:ObjectProperty ;
+                 rdfs:domain lpt:TransportEntity ;
+                 rdfs:range lpt:Branch ;
+                 rdfs:comment "Indicates that an entity is part of a specific branch." ;
+                 rdfs:label "partOfBranch" .
+
+
+###  passesThroughHub
+lpt:passesThroughHub rdf:type owl:ObjectProperty ;
+                     rdfs:domain lpt:BusRoute ;
+                     rdfs:range lpt:Hub ;
+                     rdfs:comment "Indicates that a bus route passes through a given hub." ;
+                     rdfs:label "passesThroughHub" .
+
+
+###  previousStation
+lpt:previousStation rdf:type owl:ObjectProperty ;
+                    rdfs:domain lpt:Station ;
+                    rdfs:range lpt:Station ;
+                    rdfs:comment "Links a station to the previous station in a given line direction." ;
+                    rdfs:label "previousStation" .
+
+
+###  requiresChangeAt
+lpt:requiresChangeAt rdf:type owl:ObjectProperty ;
+                     rdfs:domain lpt:JourneyOption ;
+                     rdfs:range lpt:Station ;
+                     rdfs:comment "Indicates a station where a line change is required." ;
+                     rdfs:label "requiresChangeAt" .
+
+
+###  servedBy
+lpt:servedBy rdf:type owl:ObjectProperty ;
+             rdfs:domain lpt:Place ;
+             rdfs:range lpt:ServicePattern ;
+             rdfs:comment "Relates a station, stop, or hub to a service pattern that serves it." ;
+             rdfs:label "servedBy" .
+
+
+###  servedByBusRoute — range narrowed to BusRoute
+lpt:servedByBusRoute rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf lpt:servedBy ;
+                     rdfs:range lpt:BusRoute ;
+                     rdfs:comment "Relates a place to a bus route that serves it." ;
+                     rdfs:label "servedByBusRoute" .
+
+
+###  servedByDLR
+lpt:servedByDLR rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf lpt:servedBy ;
+                rdfs:comment "Relates a place to the DLR service that serves it." ;
+                rdfs:label "servedByDLR" .
+
+
+###  servedByElizabethLine
+lpt:servedByElizabethLine rdf:type owl:ObjectProperty ;
+                          rdfs:subPropertyOf lpt:servedBy ;
+                          rdfs:comment "Relates a place to the Elizabeth Line service that serves it." ;
+                          rdfs:label "servedByElizabethLine" .
+
+
+###  servedByOvergroundLine
+lpt:servedByOvergroundLine rdf:type owl:ObjectProperty ;
+                           rdfs:subPropertyOf lpt:servedBy ;
+                           rdfs:comment "Relates a place to an Overground line that serves it." ;
+                           rdfs:label "servedByOvergroundLine" .
+
+
+###  servedByUndergroundLine
+lpt:servedByUndergroundLine rdf:type owl:ObjectProperty ;
+                            rdfs:subPropertyOf lpt:servedBy ;
+                            rdfs:comment "Relates a place to an Underground line that serves it." ;
+                            rdfs:label "servedByUndergroundLine" .
+
+
+###  servesArea
+lpt:servesArea rdf:type owl:ObjectProperty ;
+               rdfs:domain lpt:BusRoute ;
+               rdfs:range lpt:Place ;
+               rdfs:comment "Relates a bus route to an area or place it serves." ;
+               rdfs:label "servesArea" .
+
+
+###  startsAt — Functional: each segment/journey has exactly one start
+lpt:startsAt rdf:type owl:ObjectProperty ,
+                      owl:FunctionalProperty ;
+             rdfs:domain lpt:TransportEntity ;
+             rdfs:range lpt:Station ;
+             rdfs:comment "The starting station of a route segment or journey option." ;
+             rdfs:label "startsAt" .
+
+
+###  usesService
+lpt:usesService rdf:type owl:ObjectProperty ;
+                rdfs:domain lpt:JourneyOption ;
+                rdfs:range lpt:ServicePattern ;
+                rdfs:comment "Indicates which services are used by a journey option." ;
+                rdfs:label "usesService" .
+
+
+###  validDuring
+lpt:validDuring rdf:type owl:ObjectProperty ;
+                rdfs:domain lpt:TransportEntity ;
+                rdfs:range lpt:OperatingPeriod ;
+                rdfs:comment "Relates an entity such as a fare or service status to an operating period." ;
+                rdfs:label "validDuring" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  closureReason — Functional
+lpt:closureReason rdf:type owl:DatatypeProperty ,
+                           owl:FunctionalProperty ;
+                  rdfs:domain lpt:ClosureEvent ;
+                  rdfs:range xsd:string ;
+                  rdfs:comment "The stated reason for closure." ;
+                  rdfs:label "closureReason" .
+
+
+###  currency — Functional
+lpt:currency rdf:type owl:DatatypeProperty ,
+                      owl:FunctionalProperty ;
+             rdfs:domain lpt:Fare ;
+             rdfs:range xsd:string ;
+             rdfs:comment "Currency code or label." ;
+             rdfs:label "currency" .
+
+
+###  directionName
+lpt:directionName rdf:type owl:DatatypeProperty ;
+                  rdfs:domain lpt:TransportEntity ;
+                  rdfs:range xsd:string ;
+                  rdfs:comment "Direction label such as eastbound or northbound." ;
+                  rdfs:label "directionName" .
+
+
+###  endDate — Functional
+lpt:endDate rdf:type owl:DatatypeProperty ,
+                     owl:FunctionalProperty ;
+            rdfs:domain lpt:TransportEntity ;
+            rdfs:range xsd:date ;
+            rdfs:comment "End date for a period or event." ;
+            rdfs:label "endDate" .
+
+
+###  fareAmount — Functional
+lpt:fareAmount rdf:type owl:DatatypeProperty ,
+                        owl:FunctionalProperty ;
+               rdfs:domain lpt:Fare ;
+               rdfs:range xsd:decimal ;
+               rdfs:comment "Fare amount." ;
+               rdfs:label "fareAmount" .
+
+
+###  frequencyMinutes — Functional
+lpt:frequencyMinutes rdf:type owl:DatatypeProperty ,
+                              owl:FunctionalProperty ;
+                     rdfs:domain lpt:FrequencyRecord ;
+                     rdfs:range xsd:decimal ;
+                     rdfs:comment "Frequency expressed in minutes." ;
+                     rdfs:label "frequencyMinutes" .
+
+
+###  isStepFreeStreetToTrain — Functional
+lpt:isStepFreeStreetToTrain rdf:type owl:DatatypeProperty ,
+                                     owl:FunctionalProperty ;
+                            rdfs:domain lpt:StepFreeAccess ;
+                            rdfs:range xsd:boolean ;
+                            rdfs:comment "Whether a station offers step-free access from street to train." ;
+                            rdfs:label "isStepFreeStreetToTrain" .
+
+
+###  lineName — Functional
+lpt:lineName rdf:type owl:DatatypeProperty ,
+                      owl:FunctionalProperty ;
+             rdfs:domain lpt:Line ;
+             rdfs:range xsd:string ;
+             rdfs:comment "Human-readable line name." ;
+             rdfs:label "lineName" .
+
+
+###  operatingHoursText — Functional
+lpt:operatingHoursText rdf:type owl:DatatypeProperty ,
+                                owl:FunctionalProperty ;
+                       rdfs:domain lpt:OperatingPeriod ;
+                       rdfs:range xsd:string ;
+                       rdfs:comment "A textual description of operating hours." ;
+                       rdfs:label "operatingHoursText" .
+
+
+###  operatorName — Functional, subproperty of schema:name
+lpt:operatorName rdf:type owl:DatatypeProperty ,
+                          owl:FunctionalProperty ;
+                 rdfs:subPropertyOf schema:name ;
+                 rdfs:domain lpt:Operator ;
+                 rdfs:range xsd:string ;
+                 rdfs:comment "Human-readable operator name." ;
+                 rdfs:label "operatorName" .
+
+
+###  peakLabel — Functional
+lpt:peakLabel rdf:type owl:DatatypeProperty ,
+                       owl:FunctionalProperty ;
+              rdfs:domain lpt:FareProduct ;
+              rdfs:range xsd:string ;
+              rdfs:comment "A peak or off-peak label for a fare product." ;
+              rdfs:label "peakLabel" .
+
+
+###  routeNumber — Functional
+lpt:routeNumber rdf:type owl:DatatypeProperty ,
+                         owl:FunctionalProperty ;
+                rdfs:domain lpt:BusRoute ;
+                rdfs:range xsd:string ;
+                rdfs:comment "Route number or code for a bus route." ;
+                rdfs:label "routeNumber" .
+
+
+###  severityLevel — Functional
+lpt:severityLevel rdf:type owl:DatatypeProperty ,
+                           owl:FunctionalProperty ;
+                  rdfs:domain lpt:ServiceStatus ;
+                  rdfs:range xsd:integer ;
+                  rdfs:comment "Severity level of the service status." ;
+                  rdfs:label "severityLevel" .
+
+
+###  startDate — Functional, equivalent to schema:startDate
+lpt:startDate rdf:type owl:DatatypeProperty ,
+                       owl:FunctionalProperty ;
+              owl:equivalentProperty schema:startDate ;
+              rdfs:domain lpt:TransportEntity ;
+              rdfs:range xsd:date ;
+              rdfs:comment "Start date for a period or event. Semantically equivalent to schema:startDate." ;
+              rdfs:label "startDate" .
+
+
+###  stationName — Functional, subproperty of schema:name
+lpt:stationName rdf:type owl:DatatypeProperty ,
+                         owl:FunctionalProperty ;
+                rdfs:subPropertyOf schema:name ;
+                rdfs:domain lpt:Station ;
+                rdfs:range xsd:string ;
+                rdfs:comment "Human-readable station name." ;
+                rdfs:label "stationName" .
+
+
+###  statusText — Functional
+lpt:statusText rdf:type owl:DatatypeProperty ,
+                        owl:FunctionalProperty ;
+               rdfs:domain lpt:ServiceStatus ;
+               rdfs:range xsd:string ;
+               rdfs:comment "Textual description of service status." ;
+               rdfs:label "statusText" .
+
+
+###  zoneNumber — Functional
+lpt:zoneNumber rdf:type owl:DatatypeProperty ,
+                        owl:FunctionalProperty ;
+               rdfs:domain lpt:FareZone ;
+               rdfs:range xsd:integer ;
+               rdfs:comment "Fare zone number." ;
+               rdfs:label "zoneNumber" .
+
+
+###  [EXTERNAL] schema:name
+schema:name rdf:type owl:DatatypeProperty ;
+            rdfs:comment "[EXTERNAL — Schema.org] The name of the item." ;
+            rdfs:isDefinedBy schema: ;
+            rdfs:label "schema:name" ;
+            rdfs:seeAlso <https://schema.org/name> .
+
+
+###  [EXTERNAL] schema:startDate
+schema:startDate rdf:type owl:DatatypeProperty ;
+                 rdfs:comment "[EXTERNAL — Schema.org] The start date and time of the item. Equivalent to lpt:startDate." ;
+                 rdfs:isDefinedBy schema: ;
+                 rdfs:label "schema:startDate" ;
+                 rdfs:seeAlso <https://schema.org/startDate> .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  AccessibilityFeature
+lpt:AccessibilityFeature rdf:type owl:Class ;
+                         rdfs:comment "A feature describing accessibility provision." ;
+                         rdfs:label "AccessibilityFeature" .
+
+
+###  AccessibleStation — DEFINED CLASS (equivalentClass)
+###  ≡ Station ⊓ ∃hasAccessibilityFeature.AccessibilityFeature
+lpt:AccessibleStation rdf:type owl:Class ;
+                      owl:equivalentClass [ owl:intersectionOf ( lpt:Station
+                                                                  [ rdf:type owl:Restriction ;
+                                                                    owl:onProperty lpt:hasAccessibilityFeature ;
+                                                                    owl:someValuesFrom lpt:AccessibilityFeature
+                                                                  ]
+                                                                ) ;
+                                            rdf:type owl:Class
+                                          ] ;
+                      rdfs:comment "A station with at least one accessibility feature. Equivalent to: Station and (hasAccessibilityFeature some AccessibilityFeature)." ;
+                      rdfs:label "AccessibleStation" .
+
+
+###  Branch — must belong to exactly one Line and have at least one terminus
+lpt:Branch rdf:type owl:Class ;
+           rdfs:subClassOf lpt:TransportEntity ;
+           rdfs:subClassOf [ rdf:type owl:Restriction ;
+                             owl:onProperty lpt:branchOfLine ;
+                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                             owl:onClass lpt:Line
+                           ] ;
+           rdfs:subClassOf [ rdf:type owl:Restriction ;
+                             owl:onProperty lpt:hasTerminus ;
+                             owl:someValuesFrom lpt:TerminusStation
+                           ] ;
+           rdfs:comment "A branch of a line. Belongs to exactly one line and has at least one terminus." ;
+           rdfs:label "Branch" .
+
+
+###  BusRoute — must have mode Bus and a route number
+lpt:BusRoute rdf:type owl:Class ;
+             rdfs:subClassOf lpt:ServicePattern ;
+             rdfs:subClassOf [ rdf:type owl:Restriction ;
+                               owl:onProperty lpt:hasMode ;
+                               owl:hasValue lpt:Bus
+                             ] ;
+             rdfs:subClassOf [ rdf:type owl:Restriction ;
+                               owl:onProperty lpt:routeNumber ;
+                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onDataRange xsd:string
+                             ] ;
+             rdfs:comment "A scheduled bus route. Transport mode is always Bus." ;
+             rdfs:label "BusRoute" .
+
+
+###  ClosureEvent — must have a reason and a start date
+lpt:ClosureEvent rdf:type owl:Class ;
+                 rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                   owl:onProperty lpt:closureReason ;
+                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                   owl:onDataRange xsd:string
+                                 ] ;
+                 rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                   owl:onProperty lpt:startDate ;
+                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                   owl:onDataRange xsd:date
+                                 ] ;
+                 rdfs:comment "A station closure event. Must have a reason and a start date." ;
+                 rdfs:label "ClosureEvent" .
+
+
+###  Connection
+lpt:Connection rdf:type owl:Class ;
+               rdfs:comment "A direct interchange or connection relationship." ;
+               rdfs:label "Connection" .
+
+
+###  DisruptionEvent — must affect at least one segment
+lpt:DisruptionEvent rdf:type owl:Class ;
+                    rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                      owl:onProperty lpt:affectsSegment ;
+                                      owl:someValuesFrom lpt:RouteSegment
+                                    ] ;
+                    rdfs:comment "A disruption event affecting operations. Must affect at least one route segment." ;
+                    rdfs:label "DisruptionEvent" .
+
+
+###  Fare — must have origin zone, dest zone, product, amount, currency
+lpt:Fare rdf:type owl:Class ;
+         rdfs:subClassOf [ rdf:type owl:Restriction ;
+                           owl:onProperty lpt:appliesFromZone ;
+                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                           owl:onClass lpt:FareZone
+                         ] ;
+         rdfs:subClassOf [ rdf:type owl:Restriction ;
+                           owl:onProperty lpt:appliesToZone ;
+                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                           owl:onClass lpt:FareZone
+                         ] ;
+         rdfs:subClassOf [ rdf:type owl:Restriction ;
+                           owl:onProperty lpt:appliesToProduct ;
+                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                           owl:onClass lpt:FareProduct
+                         ] ;
+         rdfs:subClassOf [ rdf:type owl:Restriction ;
+                           owl:onProperty lpt:fareAmount ;
+                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                           owl:onDataRange xsd:decimal
+                         ] ;
+         rdfs:subClassOf [ rdf:type owl:Restriction ;
+                           owl:onProperty lpt:currency ;
+                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                           owl:onDataRange xsd:string
+                         ] ;
+         rdfs:comment "A fare record. Has exactly one origin zone, destination zone, product, amount, and currency." ;
+         rdfs:label "Fare" .
+
+
+###  FareProduct
+lpt:FareProduct rdf:type owl:Class ;
+                rdfs:comment "A fare product such as Oyster adult peak." ;
+                rdfs:label "FareProduct" .
+
+
+###  FareZone — identified by zone number (owl:hasKey)
+lpt:FareZone rdf:type owl:Class ;
+             rdfs:subClassOf [ rdf:type owl:Restriction ;
+                               owl:onProperty lpt:zoneNumber ;
+                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onDataRange xsd:integer
+                             ] ;
+             owl:hasKey ( lpt:zoneNumber ) ;
+             rdfs:comment "A fare zone. Uniquely identified by its zone number." ;
+             rdfs:label "FareZone" .
+
+
+###  FrequencyRecord — must have exactly one frequency value
+lpt:FrequencyRecord rdf:type owl:Class ;
+                    rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                      owl:onProperty lpt:frequencyMinutes ;
+                                      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                      owl:onDataRange xsd:decimal
+                                    ] ;
+                    rdfs:comment "A record describing service frequency." ;
+                    rdfs:label "FrequencyRecord" .
+
+
+###  Hub
+lpt:Hub rdf:type owl:Class ;
+        rdfs:subClassOf lpt:Place ;
+        rdfs:comment "A transport hub or interchange area." ;
+        rdfs:label "Hub" .
+
+
+###  InterchangeStation — DEFINED CLASS (equivalentClass)
+###  ≡ Station ⊓ ≥2 servedBy.ServicePattern
+lpt:InterchangeStation rdf:type owl:Class ;
+                       owl:equivalentClass [ owl:intersectionOf ( lpt:Station
+                                                                   [ rdf:type owl:Restriction ;
+                                                                     owl:onProperty lpt:servedBy ;
+                                                                     owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger ;
+                                                                     owl:onClass lpt:ServicePattern
+                                                                   ]
+                                                                 ) ;
+                                             rdf:type owl:Class
+                                           ] ;
+                       rdfs:comment "A station served by at least two distinct service patterns. Equivalent to: Station and (servedBy min 2 ServicePattern)." ;
+                       rdfs:label "InterchangeStation" .
+
+
+###  JourneyOption — must have one start, one end, and use at least one service
+lpt:JourneyOption rdf:type owl:Class ;
+                  rdfs:subClassOf lpt:TransportEntity ;
+                  rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                    owl:onProperty lpt:startsAt ;
+                                    owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                    owl:onClass lpt:Station
+                                  ] ;
+                  rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                    owl:onProperty lpt:endsAt ;
+                                    owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                    owl:onClass lpt:Station
+                                  ] ;
+                  rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                    owl:onProperty lpt:usesService ;
+                                    owl:someValuesFrom lpt:ServicePattern
+                                  ] ;
+                  rdfs:comment "A possible route option for a journey. Has one start, one end, and uses at least one service." ;
+                  rdfs:label "JourneyOption" .
+
+
+###  Line — must have exactly one name and one mode; key is lineName
+lpt:Line rdf:type owl:Class ;
+         rdfs:subClassOf lpt:ServicePattern ,
+                          tm:Line ;
+         rdfs:subClassOf [ rdf:type owl:Restriction ;
+                           owl:onProperty lpt:lineName ;
+                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                           owl:onDataRange xsd:string
+                         ] ;
+         rdfs:subClassOf [ rdf:type owl:Restriction ;
+                           owl:onProperty lpt:hasMode ;
+                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                           owl:onClass lpt:TransportMode
+                         ] ;
+         owl:hasKey ( lpt:lineName ) ;
+         rdfs:comment "A named line such as the Jubilee Line. Uniquely identified by line name." ;
+         rdfs:label "Line" .
+
+
+###  LineChange — must occur at exactly one station
+lpt:LineChange rdf:type owl:Class ;
+               rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                  owl:onProperty lpt:requiresChangeAt ;
+                                  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onClass lpt:Station
+                                ] ;
+               rdfs:comment "A change between services as part of a journey. Occurs at exactly one station." ;
+               rdfs:label "LineChange" .
+
+
+###  OperatingPeriod
+lpt:OperatingPeriod rdf:type owl:Class ;
+                    rdfs:comment "An operating period such as Sunday off-peak or weekday peak." ;
+                    rdfs:label "OperatingPeriod" .
+
+
+###  Operator — EQUIVALENT to tm:Operator; identified by name
+lpt:Operator rdf:type owl:Class ;
+             owl:equivalentClass tm:Operator ;
+             rdfs:subClassOf [ rdf:type owl:Restriction ;
+                               owl:onProperty lpt:operatorName ;
+                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onDataRange xsd:string
+                             ] ;
+             rdfs:subClassOf [ rdf:type owl:Restriction ;
+                               owl:onProperty lpt:operates ;
+                               owl:someValuesFrom lpt:ServicePattern
+                             ] ;
+             owl:hasKey ( lpt:operatorName ) ;
+             rdfs:comment "An operator managing transport services. Equivalent to tm:Operator. Identified by operator name." ;
+             rdfs:label "Operator" .
+
+
+###  PermanentClosure
+lpt:PermanentClosure rdf:type owl:Class ;
+                     rdfs:subClassOf lpt:ClosureEvent ;
+                     rdfs:comment "A closure event that is permanent." ;
+                     rdfs:label "PermanentClosure" .
+
+
+###  Place — EQUIVALENT to schema:Place
+lpt:Place rdf:type owl:Class ;
+          owl:equivalentClass schema:Place ;
+          rdfs:comment "A place relevant to the transport network. Equivalent to schema:Place." ;
+          rdfs:label "Place" .
+
+
+###  RailService
+lpt:RailService rdf:type owl:Class ;
+                rdfs:subClassOf lpt:ServicePattern ;
+                rdfs:comment "A rail service, including National Rail or similar services." ;
+                rdfs:label "RailService" .
+
+
+###  RouteSegment — must have exactly one start and one end
+lpt:RouteSegment rdf:type owl:Class ;
+                 rdfs:subClassOf lpt:TransportEntity ;
+                 rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                   owl:onProperty lpt:startsAt ;
+                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                   owl:onClass lpt:Station
+                                 ] ;
+                 rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                   owl:onProperty lpt:endsAt ;
+                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                   owl:onClass lpt:Station
+                                 ] ;
+                 rdfs:comment "A directed segment of a route between two stations." ;
+                 rdfs:label "RouteSegment" .
+
+
+###  ServicePattern — must have exactly one mode
+lpt:ServicePattern rdf:type owl:Class ;
+                   rdfs:subClassOf lpt:TransportEntity ;
+                   rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                     owl:onProperty lpt:hasMode ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass lpt:TransportMode
+                                   ] ;
+                   rdfs:comment "A transport service pattern. Must have exactly one transport mode." ;
+                   rdfs:label "ServicePattern" .
+
+
+###  ServiceStatus — must have severity and text
+lpt:ServiceStatus rdf:type owl:Class ;
+                  rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                    owl:onProperty lpt:severityLevel ;
+                                    owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                    owl:onDataRange xsd:integer
+                                  ] ;
+                  rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                    owl:onProperty lpt:statusText ;
+                                    owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                    owl:onDataRange xsd:string
+                                  ] ;
+                  rdfs:comment "Operational status of a service. Must have a severity level and status text." ;
+                  rdfs:label "ServiceStatus" .
+
+
+###  SevereDelay
+lpt:SevereDelay rdf:type owl:Class ;
+                rdfs:subClassOf lpt:DisruptionEvent ;
+                rdfs:comment "A disruption event representing severe delay." ;
+                rdfs:label "SevereDelay" .
+
+
+###  Station — must have name, at least one zone; key is stationName
+lpt:Station rdf:type owl:Class ;
+            rdfs:subClassOf lpt:Place ,
+                             tm:StopPlace ;
+            rdfs:subClassOf [ rdf:type owl:Restriction ;
+                              owl:onProperty lpt:stationName ;
+                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                              owl:onDataRange xsd:string
+                            ] ;
+            rdfs:subClassOf [ rdf:type owl:Restriction ;
+                              owl:onProperty lpt:locatedInZone ;
+                              owl:someValuesFrom lpt:FareZone
+                            ] ;
+            owl:hasKey ( lpt:stationName ) ;
+            rdfs:comment "A rail or metro station. Has exactly one name and is in at least one fare zone." ;
+            rdfs:label "Station" .
+
+
+###  StepFreeAccess — must declare street-to-train boolean
+lpt:StepFreeAccess rdf:type owl:Class ;
+                   rdfs:subClassOf lpt:AccessibilityFeature ;
+                   rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                     owl:onProperty lpt:isStepFreeStreetToTrain ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onDataRange xsd:boolean
+                                   ] ;
+                   rdfs:comment "A step-free access feature. Must declare street-to-train availability." ;
+                   rdfs:label "StepFreeAccess" .
+
+
+###  Stop
+lpt:Stop rdf:type owl:Class ;
+         rdfs:subClassOf lpt:Place ;
+         rdfs:comment "A stop point, especially for bus services." ;
+         rdfs:label "Stop" .
+
+
+###  TemporaryClosure — must have an end date
+lpt:TemporaryClosure rdf:type owl:Class ;
+                     rdfs:subClassOf lpt:ClosureEvent ;
+                     rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                       owl:onProperty lpt:endDate ;
+                                       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                       owl:onDataRange xsd:date
+                                     ] ;
+                     rdfs:comment "A temporary closure event. Must have an end date." ;
+                     rdfs:label "TemporaryClosure" .
+
+
+###  TerminusStation — DEFINED CLASS (equivalentClass)
+###  ≡ Station ⊓ ∃inverse(hasTerminus).Branch
+lpt:TerminusStation rdf:type owl:Class ;
+                    owl:equivalentClass [ owl:intersectionOf ( lpt:Station
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty [ owl:inverseOf lpt:hasTerminus ] ;
+                                                                 owl:someValuesFrom lpt:Branch
+                                                               ]
+                                                             ) ;
+                                          rdf:type owl:Class
+                                        ] ;
+                    rdfs:comment "A station that is the terminus of at least one branch. Equivalent to: Station and (inverse(hasTerminus) some Branch)." ;
+                    rdfs:label "TerminusStation" .
+
+
+###  TransportEntity
+lpt:TransportEntity rdf:type owl:Class ;
+                    rdfs:comment "Top-level class for transport-related entities." ;
+                    rdfs:label "TransportEntity" .
+
+
+###  TransportMode
+lpt:TransportMode rdf:type owl:Class ;
+                  rdfs:comment "A transport mode such as Underground, Overground, DLR, Elizabeth Line, Bus, or National Rail." ;
+                  rdfs:label "TransportMode" .
+
+
+###  [EXTERNAL] schema:Place — equivalent to lpt:Place
+schema:Place rdf:type owl:Class ;
+             rdfs:comment "[EXTERNAL — Schema.org] Entities that have a somewhat fixed, physical extension." ;
+             rdfs:isDefinedBy schema: ;
+             rdfs:label "schema:Place" ;
+             rdfs:seeAlso <https://schema.org/Place> .
+
+
+###  [EXTERNAL] tm:Line
+tm:Line rdf:type owl:Class ;
+        rdfs:comment "[EXTERNAL — Transmodel] A group of routes known to the public by a similar name or number." ;
+        rdfs:isDefinedBy tm: ;
+        rdfs:label "tm:Line" ;
+        rdfs:seeAlso <https://oeg-upm.github.io/snap-docs/> .
+
+
+###  [EXTERNAL] tm:Operator — equivalent to lpt:Operator
+tm:Operator rdf:type owl:Class ;
+            rdfs:comment "[EXTERNAL — Transmodel] A company providing public transport services." ;
+            rdfs:isDefinedBy tm: ;
+            rdfs:label "tm:Operator" ;
+            rdfs:seeAlso <https://oeg-upm.github.io/snap-docs/> .
+
+
+###  [EXTERNAL] tm:StopPlace
+tm:StopPlace rdf:type owl:Class ;
+             rdfs:comment "[EXTERNAL — Transmodel] A place where vehicles may stop and passengers may board." ;
+             rdfs:isDefinedBy tm: ;
+             rdfs:label "tm:StopPlace" ;
+             rdfs:seeAlso <https://oeg-upm.github.io/snap-docs/> .
+
+
+#################################################################
+#    Disjointness Axioms
+#################################################################
+
+### Place subtypes are mutually exclusive
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( lpt:Station
+                lpt:Stop
+                lpt:Hub )
+] .
+
+### ServicePattern subtypes are mutually exclusive
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( lpt:Line
+                lpt:BusRoute
+                lpt:RailService )
+] .
+
+### Closure types are mutually exclusive
+lpt:TemporaryClosure owl:disjointWith lpt:PermanentClosure .
+
+### Core domain classes are pairwise disjoint (no individual can be both a Place and a Fare, etc.)
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( lpt:Place
+                lpt:ServicePattern
+                lpt:Fare
+                lpt:FareZone
+                lpt:FareProduct
+                lpt:ClosureEvent
+                lpt:DisruptionEvent
+                lpt:Connection
+                lpt:JourneyOption
+                lpt:LineChange
+                lpt:AccessibilityFeature
+                lpt:ServiceStatus
+                lpt:OperatingPeriod
+                lpt:TransportMode
+                lpt:FrequencyRecord
+                lpt:Operator
+                lpt:Branch
+                lpt:RouteSegment )
+] .
+
+
+#################################################################
+#    Individual Distinctness
+#################################################################
+
+### All TransportMode individuals are pairwise distinct
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( lpt:Bus
+                        lpt:DLR
+                        lpt:ElizabethLineMode
+                        lpt:NationalRail
+                        lpt:Overground
+                        lpt:Underground )
+] .
+
+### All FareZone individuals are pairwise distinct
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( lpt:Zone1
+                        lpt:Zone2
+                        lpt:Zone3
+                        lpt:Zone4
+                        lpt:Zone5
+                        lpt:Zone6 )
+] .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+lpt:Bus rdf:type owl:NamedIndividual ,
+                 lpt:TransportMode ;
+        rdfs:label "Bus" .
+
+lpt:DLR rdf:type owl:NamedIndividual ,
+                 lpt:TransportMode ;
+        rdfs:label "DLR" .
+
+lpt:ElizabethLineMode rdf:type owl:NamedIndividual ,
+                               lpt:TransportMode ;
+                      rdfs:label "ElizabethLineMode" .
+
+lpt:NationalRail rdf:type owl:NamedIndividual ,
+                          lpt:TransportMode ;
+                 rdfs:label "NationalRail" .
+
+lpt:Overground rdf:type owl:NamedIndividual ,
+                        lpt:TransportMode ;
+               rdfs:label "Overground" .
+
+lpt:Underground rdf:type owl:NamedIndividual ,
+                         lpt:TransportMode ;
+                rdfs:label "Underground" .
+
+lpt:Zone1 rdf:type owl:NamedIndividual ,
+                   lpt:FareZone ;
+          lpt:zoneNumber 1 ;
+          rdfs:label "Zone1" .
+
+lpt:Zone2 rdf:type owl:NamedIndividual ,
+                   lpt:FareZone ;
+          lpt:zoneNumber 2 ;
+          rdfs:label "Zone2" .
+
+lpt:Zone3 rdf:type owl:NamedIndividual ,
+                   lpt:FareZone ;
+          lpt:zoneNumber 3 ;
+          rdfs:label "Zone3" .
+
+lpt:Zone4 rdf:type owl:NamedIndividual ,
+                   lpt:FareZone ;
+          lpt:zoneNumber 4 ;
+          rdfs:label "Zone4" .
+
+lpt:Zone5 rdf:type owl:NamedIndividual ,
+                   lpt:FareZone ;
+          lpt:zoneNumber 5 ;
+          rdfs:label "Zone5" .
+
+lpt:Zone6 rdf:type owl:NamedIndividual ,
+                   lpt:FareZone ;
+          lpt:zoneNumber 6 ;
+          rdfs:label "Zone6" .
+
+lpt:cqCoverageNote rdf:type owl:NamedIndividual ;
+                   rdfs:comment "This ontology was shaped by competency questions about: Zone 1 Jubilee stations; Victoria direct interchanges; bus routes between Elephant & Castle and Aldwych; step-free access; Central line zones and intersections; Zone 6 non-TfL operators; Temple to Canary Wharf journey planning; Underground/Overground shared stations; Zone 2 DLR stations and Underground links; Northern line branches and termini; plus LLM-augmented questions on District/Circle overlap, Piccadilly accessibility, Victoria line order, King's Cross St Pancras line adjacency, exact-two-line interchanges, and Jubilee intermediate stations." ;
+                   rdfs:label "CQ coverage note" .
+
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
